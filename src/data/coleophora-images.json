@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Coleophora discordella",
+	"type": "E",
+    "images": [
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Discordella",
+		"url": "http://www.lepiforum.de/lepidopterenforum/lepiwiki/pics/peter_buchner_gross/PB_discordella_Coleophora_KR2572_2012-05-11_06-24_1bsSo_Lotus-corniculatus_IMG_1269.jpg",
+		"type": "natural",
+	  },
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Discordella",
+		"url": "http://www.lepiforum.de/bh/personen/wolfgang_stark/WS_discordella_Coleophora_KR2572_B12mm-2012-05-18_Oberweiden_B13093_m0192.jpg",
+		"type": "collection",
+	  }
+	]
+  },
+  {
+    "name": "Coleophora pyrrhulipennella",
+	"type": "E",
+    "images": [
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Pyrrhulipennella",
+		"url": "http://www.lepiforum.de/lepidopterenforum/lepiwiki/pics/heidrun_melzer3/pyrrhulipennella_coleophora_2012_06_14_f1.jpg",
+		"type": "natural",
+	  },
+	  {
+	    "source": "http://www2.nrm.se/en/svenska_fjarilar/c/coleophora_pyrrhulipennella.html",
+		"url": "http://www2.nrm.se/en/svenska_fjarilar/c/images/coleophora_pyrrhulipennella_male.gif",
+		"type": "collection",
+	  }
+	]
+  },
+  {
+    "name": "Coleophora vibicigerella",
+	"type": "E",
+    "images": [
+	  {
+	    "source": "http://www.artportalen.se/Image/1429268",
+		"url": "http://www.artportalen.se/MediaLibrary/2015/7/9713aa46-a561-454c-ab15-95b9c2b7f053_image.jpg",
+		"type": "natural",
+	  },
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Vibicigerella",
+		"url": "http://www.lepiforum.de/lepidopterenforum/lepiwiki/pics/wolfgang_stark/WS_vibicigerella_Coleophora_KR2619_B16mm-2011-06-05_Oberloiben_B10641.jpg",
+		"type": "collection",
+	  }
+	]
+  },
+  {
+    "name": "Coleophora conspicuella",
+	"type": "E",
+    "images": [
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Conspicuella",
+		"url": "http://www.lepiforum.de/lepidopterenforum/lepiwiki/pics/heidrun_melzer3/conspicuella_coleophora_Maua_2011_07_02_f1.jpg",
+		"type": "natural",
+	  },
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Conspicuella",
+		"url": "http://www.lepiforum.de/bh/personen/peter_buchner/PB_conspicuella_Coleophora_KR2620_B18mm-2012-05-18_08-01_SpB_Centaurea-jacea.jpg",
+		"type": "collection",
+	  }
+	]
+  },
+  {
+    "name": "Coleophora vulnerariae",
+	"type": "E",
+    "images": [
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Vulnerariae",
+		"url": "http://www.lepiforum.de/lepidopterenforum/lepiwiki/pics/peter_buchner2/PB_vulnerariae_Coleophora_KR2664_2007-06-09_23dsSo.jpg",
+		"type": "natural",
+	  },
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Vulnerariae",
+		"url": "http://www.lepiforum.de/lepidopterenforum/lepiwiki/pics/peter_buchner_belege/PB_vulnerariae_Coleophora_KR2664_B13mm-2008-05-30_Sp_m.jpg",
+		"type": "collection",
+	  }
+	]
+  },
+  {
+    "name": "Coleophora parthenogenella",
+	"type": "E",
+    "images": [
+	  {
+	    "source": "http://www.artportalen.se/Image/1420147",
+		"url": "http://www.artportalen.se/MediaLibrary/2015/7/6d8f2079-b58f-49a9-803c-b6593108627b_image.jpg",
+		"type": "natural",
+	  },
+	  {
+	    "source": "http://www2.nrm.se/en/svenska_fjarilar/c/coleophora_parthenogenella.html",
+		"url": "http://www2.nrm.se/en/svenska_fjarilar/c/images/coleophora_parthenogenella_male.gif",
+		"type": "collection",
+	  }
+	]
+  },
+  {
+    "name": "Coleophora genistae",
+	"type": "E",
+    "images": [
+	  {
+	    "source": "http://www.artportalen.se/Image/516487",
+		"url": "http://www.artportalen.se/MediaLibrary/bugs/2008/large/85686.jpg",
+		"type": "natural",
+	  },
+	  {
+	    "source": "http://www.lepiforum.de/lepiwiki.pl?Coleophora_Genistae",
+		"url": "http://www.lepiforum.de/lepidopterenforum/lepiwiki/pics/peter_buchner_belege/PB_genistae_Coleophora_KR2564_B11mm-1xxx-xx-xx_wMV17770.jpg",
+		"type": "collection",
+	  }
+	]
+  },  
+  {
+    "name": "Coleophora svenssoni",
+	"type": "E",
+    "images": []
+  },
+  {
+    "name": "Coleophora onobrychiella",
+	"type": "E",
+    "images": []
+  },
+  {
+    "name": "Coleophora colutella",
+	"type": "E",
+    "images": []
+  },
+  {
+    "name": "Coleophora gallipennella",
+	"type": "E",
+    "images": []
+  },
+]

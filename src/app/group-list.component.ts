@@ -1,0 +1,34 @@
+import {Component, Input} from 'angular2/core';
+import {ROUTER_DIRECTIVES} from 'angular2/router';
+import {Group} from './group';
+import {GroupDetailComponent} from './group-detail.component';
+import {GroupService} from './group.service';
+
+@Component({
+  selector: 'group-list',
+  styles: [`
+    .done-true {
+      text-decoration: line-through;
+      color: grey;
+    }`
+  ],
+  template: `
+	  <div class="row">	  
+		<div *ngFor="#group of groups" class="col-xs-6">
+			<a [routerLink]="['GroupDetail', {id: group.id }]">
+				<img src="{{group.image}}" class="img-responsive img-thumbnail" />
+			</a>
+			<p class="text-center"><small><strong>{{group.name}}</strong> {{group.description}}</small></p>
+		</div>	  
+	  </div>`,
+  directives: [ROUTER_DIRECTIVES],
+  providers: [GroupService]
+})
+export class GroupListComponent {
+  private groups:Group[] = [];
+  
+  constructor(private _service: GroupService){ 
+	this.groups = _service.getAllGroups();
+  }  
+  
+}
