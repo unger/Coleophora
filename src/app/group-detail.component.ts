@@ -19,14 +19,21 @@ import {TaxonService} from './taxon.service';
 			Group {{id}} - ({{taxons.length}} species)
 		</div>
 		<div class="col-xs-12">
-			<ul>
+			<ul class="list-unstyled">
 				<li *ngFor="#taxon of taxons">
-					<em>{{taxon.latin}}</em> - {{taxon.name}}
+					<div *ngIf="taxon.hasImage">
+						<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
+							<em>{{taxon.latin}}</em> - {{taxon.name}}
+						</a>
+					</div>
+					<div *ngIf="!taxon.hasImage">
+						<em>{{taxon.latin}}</em> - {{taxon.name}}
+					</div>
 				</li>
 			</ul>
 		</div>
 		<div *ngFor="#item of taxonImages" class="col-xs-12 col-md-6 col-lg-4">
-			<a [routerLink]="['TaxonDetail', {id: item.latin }]">
+			<a [routerLink]="['TaxonDetail', {id: item.slug }]">
 				<img src="{{item.image}}" class="img-responsive img-thumbnail" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
 			</a>
 			<p class="text-center">

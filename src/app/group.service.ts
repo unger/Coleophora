@@ -43,7 +43,7 @@ var GROUPS: Group[] = [
 	    id: 'F',
 	    name:'Grupp F',
 		description:'Streckad med ljusa sneda streck mot spetsen, med mörka fjäll', 
-		image:'img/coleophora_versurella_10_7997.jpg'
+		image:'img/coleophora_versurella-§1-10-7997.jpg'
 	  },
       {
 	    id: 'G',

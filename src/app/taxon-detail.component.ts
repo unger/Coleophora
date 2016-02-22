@@ -15,13 +15,14 @@ import {TaxonService} from './taxon.service';
   template: `
 	  <div class="row">	  
 	    <div class="col-xs-12">
-			{{id}}
+			<em>{{heading}}</em> ({{taxonImages.length}} pictures)
 		</div>
 
 		<div *ngFor="#item of taxonImages" class="col-xs-12 col-md-6 col-lg-4">
 			<img src="{{item.image}}" class="img-responsive img-thumbnail" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
 			<p class="text-center">
 				<small>
+					<span *ngIf="item.specimen">§{{item.specimen}}</span>
 					<em>{{item.latin}}</em> - {{item.name}}<br/>
 					{{item.date}}, {{item.site}} &copy; {{item.photographer}}
 				</small>
@@ -36,6 +37,7 @@ import {TaxonService} from './taxon.service';
 export class TaxonDetailComponent {
 
 	private taxonImages:TaxonImage[] = [];
+	private heading:string;
 
 	constructor(private _routeParams:RouteParams, private _service: TaxonService){ }
 
@@ -46,6 +48,10 @@ export class TaxonDetailComponent {
 	  this.id = id;
 	  
 	  this.taxonImages = this._service.getTaxonImagesForId(id);
+	  
+	  if (this.taxonImages.length > 0) {
+		this.heading = this.taxonImages[0].latin;
+	  }
 	}
 
 }
