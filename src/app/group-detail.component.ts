@@ -22,11 +22,13 @@ import {TaxonService} from './taxon.service';
 			<ul class="list-unstyled">
 				<li *ngFor="#taxon of taxons">
 					<div *ngIf="taxon.hasImage">
+						<!--<img src="http://www.lepidoptera.se/flight/{{taxon.slug}}.aspx"/>-->
 						<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
 							<em>{{taxon.latin}}</em> - {{taxon.name}}
 						</a>
 					</div>
 					<div *ngIf="!taxon.hasImage">
+						<!--<img src="http://www.lepidoptera.se/flight/{{taxon.slug}}.aspx"/>-->
 						<em>{{taxon.latin}}</em> - {{taxon.name}}
 					</div>
 				</li>

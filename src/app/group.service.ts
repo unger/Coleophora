@@ -37,7 +37,7 @@ var GROUPS: Group[] = [
 	    id: 'E',
 	    name:'Grupp E',
 		description:'Streckad utan sneda streck mot spetsen', 
-		image:'img/coleophora_parthenogenella.jpg'
+		image:'img/coleophora_parthenogenella-§7-15-4089.jpg'
 	  },
       {
 	    id: 'F',
