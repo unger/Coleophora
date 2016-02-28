@@ -19,7 +19,7 @@ interface Window {
   template: `
 	<div class="row">
 	  <div class="col-md-12">
-		<h2>Coleophora <small>Säckmalar</small></h2>
+		<h2>Coleophoridae <small>Säckmalar</small></h2>
 
 		<p>
 			<a [routerLink]="['Groups']" class="btn btn-primary">Grupper</a>

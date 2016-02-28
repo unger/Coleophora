@@ -1,5 +1,5 @@
 export interface TaxonImage {
-  group: string,
+  group: string[],
   name: string,
   latin: string,
   specimen: string,

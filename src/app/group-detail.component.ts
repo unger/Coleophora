@@ -40,8 +40,8 @@ import {TaxonService} from './taxon.service';
 			</a>
 			<p class="text-center">
 				<small>
-					<em>{{item.latin}}</em> - {{item.name}}<br/>
-					{{item.date}}, {{item.site}} &copy; {{item.photographer}}
+					<em>{{item.latin}}<span *ngIf="item.unsure">?</span></em> - {{item.name}}<span *ngIf="item.unsure">?</span><br/>
+					<!--{{item.date}}, {{item.site}} &copy; {{item.photographer}}-->
 				</small>
 			</p>
 		</div>

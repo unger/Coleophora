@@ -7,5 +7,10 @@ export interface Taxon {
   auctor: string,
   linkSv: string,
   linkEn: string,
-  hasImage: boolean
+  hasImage: boolean,
+  redlist: string,
+  distribution: string,
+  foodplants: any[],
+  imago: string,
+  similar: any[] 
 }
