@@ -16,7 +16,7 @@ import {TaxonService} from './taxon.service';
   template: `
 	  <div class="row">	  
 	    <div class="col-xs-12">
-			Group {{id}} - ({{taxons.length}} species)
+			Group {{id}} - ({{taxons.length}} arter)
 		</div>
 		<div class="col-xs-12">
 			<ul class="list-unstyled">

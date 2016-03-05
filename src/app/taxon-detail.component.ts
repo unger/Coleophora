@@ -36,22 +36,29 @@ import {TaxonService} from './taxon.service';
 			</dl>
 		</div>		
 
-		<div *ngFor="#item of taxonImages" class="col-xs-12 col-md-6 col-lg-4">
-			<div style="position: relative">
+		<div *ngFor="#item of taxonImages" class="col-xs-12">
+			<div>
 				<img src="{{item.image}}" class="img-responsive img-thumbnail" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
-				<div *ngIf="!item.unsure" style="position: absolute; top: 10px; left: 10px;" title="Artbestämd {{item.detYear}} av {{item.detBy}} via {{item.detMethod}}">
-					<span *ngIf="item.detMethod=='genprep'" class="glyphicon glyphicon-ok-sign" style="font-size: 25px; color: #449d44;"></span>
-					<span *ngIf="item.detMethod=='foto'" class="glyphicon glyphicon-exclamation-sign" style="font-size: 25px; color: #f0ad4e;"></span>
-				</div>
-				<div *ngIf="item.unsure" style="position: absolute; top: 10px; left: 10px;" title="Artförslag {{item.detYear}} av {{item.detBy}} via {{item.detMethod}}">
-					<span *ngIf="item.detMethod" class="glyphicon glyphicon-question-sign" style="font-size: 25px; color: #c9302c;"></span>
-				</div>
 			</div>
 			<p class="text-center">
 				<small>
 					<span *ngIf="item.specimen">§{{item.specimen}}</span>
 					<em>{{item.latin}}<span *ngIf="item.unsure">?</span></em> - {{item.name}}<span *ngIf="item.unsure">?</span><br/>
-					{{item.date}}, {{item.site}} &copy; {{item.photographer}}
+					{{item.date}}, {{item.site}} &copy; {{item.photographer}}<br/>
+
+					<template [ngIf]="item.detBy">
+					<span *ngIf="!item.unsure">
+						<span *ngIf="item.detMethod=='genprep'" class="glyphicon glyphicon-ok-sign" style="color: #449d44;"></span>
+						<span *ngIf="item.detMethod=='foto'" class="glyphicon glyphicon-exclamation-sign" style="color: #f0ad4e;"></span>
+						Artbestämd {{item.detYear}} av {{item.detBy}} via {{item.detMethod}}
+					</span>
+					<span *ngIf="item.unsure">
+						<span *ngIf="item.detMethod" class="glyphicon glyphicon-question-sign" style="color: #c9302c;"></span>
+						Artförslag {{item.detYear}} av {{item.detBy}} via {{item.detMethod}}
+					</span>
+					</template>
+
+
 				</small>
 			</p>
 		</div>

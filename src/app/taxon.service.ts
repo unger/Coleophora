@@ -4,7 +4,17 @@ import {Taxon} from './taxon';
 export class TaxonService {
 
   getAllTaxonImages() {
-    return TAXONIMAGES;
+    var _filteredTaxons: TaxonImage[] = [];
+	var addedTaxons = [];
+
+	for(var i = 0; i < TAXONIMAGES.length ; i++) {
+		if (addedTaxons[TAXONIMAGES[i].slug] == undefined) {
+			_filteredTaxons.push(TAXONIMAGES[i]);
+			addedTaxons[TAXONIMAGES[i].slug] = true;
+		}
+	}
+
+    return _filteredTaxons;
   }
 
   getTaxon(slug:string) {
@@ -1424,7 +1434,19 @@ var ALLTAXONS: Taxon[] = [
       auctor:'(Curtis, 1832)',
       hasImage:false,
       slugSv:'sötväpplingsäckmal',
-      slug:'coleophora_trifolii'
+      slug:'coleophora_trifolii',
+	  similar: [
+		{
+		  name:'Sen grönglanssäckmal',
+		  latin:'Coleophora alcyonipennella',
+		  difference: 'Mindre samt saknar gula fransar bakom ögonen'
+		},
+		{
+		  name:'Tidig grönglanssäckmal',
+		  latin:'Coleophora frischella',
+		  difference: 'Mindre samt saknar gula fransar bakom ögonen'
+		}
+	  ]	  
    },
    {
       artId:729,
@@ -1435,7 +1457,19 @@ var ALLTAXONS: Taxon[] = [
       auctor:'(Linnaeus, 1758)',
       hasImage:false,
       slugSv:'tidig_grönglanssäckmal',
-      slug:'coleophora_frischella'
+      slug:'coleophora_frischella',
+	  similar: [
+		{
+		  name:'Sen grönglanssäckmal',
+		  latin:'Coleophora alcyonipennella',
+		  difference: 'Oskiljaktiga på yttre karaktärer, genitalie kontroll krävs'
+		},
+		{
+		  name:'Sötväpplingsäckmal',
+		  latin:'Coleophora trifolii',
+		  difference: 'Något större samt gula fransar bakom ögat.'
+		}
+	  ]	  
    },
    {
       artId:730,
@@ -1446,7 +1480,19 @@ var ALLTAXONS: Taxon[] = [
       auctor:'(Kollar, 1832)',
       hasImage:false,
       slugSv:'sen_grönglanssäckmal',
-      slug:'coleophora_alcyonipennella'
+      slug:'coleophora_alcyonipennella',
+	  similar: [
+		{
+		  name:'Tidig grönglanssäckmal',
+		  latin:'Coleophora frischella',
+		  difference: 'Oskiljaktiga på yttre karaktärer, genitalie kontroll krävs'
+		},
+		{
+		  name:'Sötväpplingsäckmal',
+		  latin:'Coleophora trifolii',
+		  difference: 'Något större samt gula fransar bakom ögat.'
+		}
+	  ]	  
    },
    {
       artId:731,
@@ -1700,7 +1746,19 @@ var ALLTAXONS: Taxon[] = [
       auctor:'(Hübner, 1783)',
       hasImage:false,
       slugSv:'pudrad_hasselsäckmal',
-      slug:'coleophora_anatipennella'
+      slug:'coleophora_anatipennella',
+	  similar: [
+		{
+		  name:'Pudrad sälgsäckmal',
+		  latin:'Coleophora albidella',
+		  difference: ''
+		},
+		{
+		  name:'Vit eksäckmal',
+		  latin:'Coleophora kuehnella',
+		  difference: ''
+		}
+	  ]
    },
    {
       artId:747,
@@ -1711,7 +1769,19 @@ var ALLTAXONS: Taxon[] = [
       auctor:'(Denis \u0026 Schiffermüller, 1775)',
       hasImage:false,
       slugSv:'pudrad_sälgsäckmal',
-      slug:'coleophora_albidella'
+      slug:'coleophora_albidella',
+	  similar: [
+		{
+		  name:'Pudrad hasselsäckmal',
+		  latin:'Coleophora anatipennella',
+		  difference: ''
+		},
+		{
+		  name:'Vit eksäckmal',
+		  latin:'Coleophora kuehnella',
+		  difference: ''
+		}
+	  ]
    },
    {
       artId:748,
@@ -1722,7 +1792,29 @@ var ALLTAXONS: Taxon[] = [
       auctor:'(Goeze, 1783)',
       hasImage:false,
       slugSv:'vit_eksäckmal',
-      slug:'coleophora_kuehnella'
+      slug:'coleophora_kuehnella',
+	  similar: [
+		{
+		  name:'Brunstreckad eksäckmal',
+		  latin:'Coleophora ibipennella',
+		  difference: ''
+		},
+		{
+		  name:'Gulstreckad björksäckmal',
+		  latin:'Coleophora betulella',
+		  difference: ''
+		},
+		{
+		  name:'Pudrad sälgsäckmal',
+		  latin:'Coleophora albidella',
+		  difference: ''
+		},
+		{
+		  name:'Pudrad hasselsäckmal',
+		  latin:'Coleophora anatipennella',
+		  difference: ''
+		}
+	  ]
    },
    {
       artId:749,
@@ -1733,7 +1825,19 @@ var ALLTAXONS: Taxon[] = [
       auctor:'Zeller, 1849',
       hasImage:false,
       slugSv:'brunstreckad_eksäckmal',
-      slug:'coleophora_ibipennella'
+      slug:'coleophora_ibipennella',
+	  similar: [
+		{
+		  name:'Vit eksäckmal',
+		  latin:'Coleophora kuehnella',
+		  difference: ''
+		},
+		{
+		  name:'Gulstreckad björksäckmal',
+		  latin:'Coleophora betulella',
+		  difference: ''
+		},
+	  ]
    },
    {
       artId:750,
@@ -1744,7 +1848,19 @@ var ALLTAXONS: Taxon[] = [
       auctor:'Wocke, 1876',
       hasImage:false,
       slugSv:'gulstreckad_björksäckmal',
-      slug:'coleophora_betulella'
+      slug:'coleophora_betulella',
+	  similar: [
+		{
+		  name:'Brunstreckad eksäckmal',
+		  latin:'Coleophora ibipennella',
+		  difference: ''
+		},
+		{
+		  name:'Vit eksäckmal',
+		  latin:'Coleophora kuehnella',
+		  difference: ''
+		},
+	  ]
    },
    {
       artId:751,
