@@ -16,7 +16,7 @@ import {TaxonService} from './taxon.service';
 	    <div class="col-xs-12">
 			({{taxons.length}} arter)
 		</div>
-		<div *ngFor="#taxon of taxons" class="col-xs-12 col-md-6 col-lg-4">
+		<div *ngFor="#taxon of taxons" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 			<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
 				<img src="{{taxon.image}}" class="img-responsive img-thumbnail" alt="{{taxon.latin}} - {{taxon.name}} &copy; {{taxon.photographer}}" />
 			</a>
@@ -33,11 +33,22 @@ import {TaxonService} from './taxon.service';
 })
 export class TaxonListComponent {
 
-  taxons:TaxonImage[] = [];
+	id: string;
+	taxons:TaxonImage[] = [];
 
-  constructor(private _service: TaxonService){ 
-	this.taxons = _service.getAllTaxonImages();
-  }
+    constructor(private _routeParams:RouteParams, private _service: TaxonService) {
 
+	  let id = this._routeParams.get('id');
+	  this.id = id;
+	  
+		  if (id === "osäkra") {
+			this.taxons = _service.getUnsureTaxonImages();
+		  }
+		  else {
+			this.taxons = _service.getTaxonImages();
+		  }
+	  
+    }
+	
 }
 

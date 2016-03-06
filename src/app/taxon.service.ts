@@ -3,19 +3,37 @@ import {Taxon} from './taxon';
 
 export class TaxonService {
 
-  getAllTaxonImages() {
+  getTaxonImages() {
     var _filteredTaxons: TaxonImage[] = [];
 	var addedTaxons = [];
 
 	for(var i = 0; i < TAXONIMAGES.length ; i++) {
-		if (addedTaxons[TAXONIMAGES[i].slug] == undefined) {
-			_filteredTaxons.push(TAXONIMAGES[i]);
-			addedTaxons[TAXONIMAGES[i].slug] = true;
+		if (!TAXONIMAGES[i].unsure) {
+			if (addedTaxons[TAXONIMAGES[i].slug] == undefined) {
+				_filteredTaxons.push(TAXONIMAGES[i]);
+				addedTaxons[TAXONIMAGES[i].slug] = true;
+			}
 		}
 	}
 
     return _filteredTaxons;
   }
+  
+  getUnsureTaxonImages() {
+    var _filteredTaxons: TaxonImage[] = [];
+	var addedTaxons = [];
+
+	for(var i = 0; i < TAXONIMAGES.length ; i++) {
+		if (TAXONIMAGES[i].unsure) {
+			if (addedTaxons[TAXONIMAGES[i].slug] == undefined) {
+				_filteredTaxons.push(TAXONIMAGES[i]);
+				addedTaxons[TAXONIMAGES[i].slug] = true;
+			}
+		}
+	}
+
+    return _filteredTaxons;
+  }  
 
   getTaxon(slug:string) {
 	for(var i = 0; i < ALLTAXONS.length ; i++) {

@@ -23,7 +23,8 @@ interface Window {
 
 		<p>
 			<a [routerLink]="['Groups']" class="btn btn-primary">Grupper</a>
-			<a [routerLink]="['Taxons']" class="btn btn-primary">Arter</a>
+			<a [routerLink]="['Taxons', {id: 'säkra' }]" class="btn btn-primary">Arter</a>
+			<a [routerLink]="['Taxons', {id: 'osäkra' }]" class="btn btn-primary">Osäkra</a>
 		</p>
 		
       </div>
@@ -47,7 +48,7 @@ interface Window {
     component: GroupDetailComponent
   },
   {
-    path: '/taxons',
+    path: '/taxons/:id',
     name: 'Taxons',
     component: TaxonListComponent
   },
