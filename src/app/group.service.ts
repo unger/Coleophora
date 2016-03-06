@@ -13,7 +13,7 @@ var GROUPS: Group[] = [
 	    id: 'A',
 	    name:'Grupp A',
 		description:'Metallicfärgad', 
-		image:'img/coleophora_alcyonipennella.jpg'
+		image:'img/coleophora_alcyonipennella-§1-10-1842.jpg'
 	  },
       {
 	    id: 'B',

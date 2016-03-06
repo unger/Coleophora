@@ -28,12 +28,13 @@ import {TaxonService} from './taxon.service';
 		
 		<div class="col-xs-12" *ngIf="taxon.similar">
 			<h4>Liknande arter</h4>
-			<dl>
+			<ul class="list-unstyled">
 				<template ngFor #similar [ngForOf]="taxon.similar" #i="index">
-					<dt><em>{{similar.latin}}</em> - {{similar.name}}</dt>
-					<dd>{{similar.difference}}</dd>
+					<li>
+						<em>{{similar.latin}}</em> - {{similar.name}}<span *ngIf="similar.difference">: {{similar.difference}}</span>
+					</li>
 				</template>
-			</dl>
+			</ul>
 		</div>		
 
 		<div *ngFor="#item of taxonImages" class="col-xs-12">
@@ -48,9 +49,12 @@ import {TaxonService} from './taxon.service';
 
 					<template [ngIf]="item.detBy">
 					<span *ngIf="!item.unsure">
-						<span *ngIf="item.detMethod=='genprep'" class="glyphicon glyphicon-ok-sign" style="color: #449d44;"></span>
-						<span *ngIf="item.detMethod=='foto'" class="glyphicon glyphicon-exclamation-sign" style="color: #f0ad4e;"></span>
-						Artbestämd {{item.detYear}} av {{item.detBy}} via {{item.detMethod}}
+						<span *ngIf="item.detMethod!=='foto'" class="glyphicon glyphicon-ok-sign" style="color: #449d44;"></span>
+						<span *ngIf="item.detMethod==='foto'" class="glyphicon glyphicon-exclamation-sign" style="color: #f0ad4e;"></span>
+						Artbestämd {{item.detYear}} av {{item.detBy}} 
+						<template [ngIf]="item.detMethod">
+							via {{item.detMethod}}
+						</template>
 					</span>
 					<span *ngIf="item.unsure">
 						<span *ngIf="item.detMethod" class="glyphicon glyphicon-question-sign" style="color: #c9302c;"></span>
@@ -58,14 +62,12 @@ import {TaxonService} from './taxon.service';
 					</span>
 					</template>
 
-
 				</small>
 			</p>
 		</div>
 	  </div>
 	  
 	  `,
-
   providers: [TaxonService]
 })
 export class TaxonDetailComponent {
