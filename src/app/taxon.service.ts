@@ -1026,7 +1026,7 @@ var TAXONIMAGES: TaxonImage[] = [
 		image:'img/coleophora_kuehnella-§3-15-3460.jpg',
 		date: '2015-07-13',
 		site: 'Rådasjön, Vg',
-		unsure: true,
+		unsure: false,
 		specimen: 3,
 		detYear: 2015,
 		detBy: 'Magnus Unger',

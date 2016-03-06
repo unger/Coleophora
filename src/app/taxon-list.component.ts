@@ -33,20 +33,18 @@ import {TaxonService} from './taxon.service';
 })
 export class TaxonListComponent {
 
-	id: string;
 	taxons:TaxonImage[] = [];
 
     constructor(private _routeParams:RouteParams, private _service: TaxonService) {
 
-	  let id = this._routeParams.get('id');
-	  this.id = id;
+	  let id = decodeURI(this._routeParams.get('id'));
 	  
-		  if (id === "osäkra") {
-			this.taxons = _service.getUnsureTaxonImages();
-		  }
-		  else {
-			this.taxons = _service.getTaxonImages();
-		  }
+	  if (id === "osäkra") {
+		this.taxons = _service.getUnsureTaxonImages();
+	  }
+	  else {
+		this.taxons = _service.getTaxonImages();
+	  }
 	  
     }
 	
