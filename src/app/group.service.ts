@@ -19,19 +19,19 @@ var GROUPS: Group[] = [
 	    id: 'B',
 	    name:'Grupp B',
 		description:'Enfärgad', 
-		image:'img/coleophora_lusciniaepennella.jpg'
+		image:'img/coleophora_lusciniaepennella-§1-11-8837.jpg'
 	  },
       {
 	    id: 'C',
 	    name:'Grupp C',
 		description:'Enfärgad med ljus framkant', 
-		image:'img/coleophora_caespititiella.jpg',
+		image:'img/coleophora_caespititiella-§1-11-7435.jpg',
 	  },
       {
 	    id: 'D',
 	    name:'Grupp D',
 		description:'Svagt streckad ofta med ljus framkant', 
-		image:'img/coleophora_sternipennella.jpg'
+		image:'img/coleophora_sternipennella-§1-10-9487.jpg'
 	  },
       {
 	    id: 'E',
@@ -49,12 +49,12 @@ var GROUPS: Group[] = [
 	    id: 'G',
 	    name:'Grupp G',
 		description:'Streckad med ljusa sneda streck mot spetsen, utan mörka fjäll', 
-		image:'img/coleophora_therinella.jpg'
+		image:'img/coleophora_therinella-§1-10-7992.jpg'
 	  },
       {
 	    id: 'H',
 	    name:'Grupp H',
 		description:'Vit grundfärg', 
-		image:'img/coleophora_albidella.jpg'
+		image:'img/coleophora_albidella-§1-10-9960.jpg'
 	  },
   ];

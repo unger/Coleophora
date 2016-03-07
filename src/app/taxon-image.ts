@@ -1,4 +1,4 @@
-export interface TaxonImage {
+export class TaxonImage {
   group: string[],
   name: string,
   latin: string,

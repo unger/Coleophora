@@ -3,6 +3,33 @@ import {Taxon} from './taxon';
 
 export class TaxonService {
 
+  taxonImageDict: TaxonImage[] = [];
+
+  constructor() {
+      // Check which taxons has images
+	  for (var k = 0 ; k < TAXONIMAGES.length ; k++) {
+		if (this.taxonImageDict[TAXONIMAGES[k].latin] == undefined) {
+			this.taxonImageDict[TAXONIMAGES[k].latin] = TAXONIMAGES[k];
+		}
+	  }
+	  
+	  for(var i = 0 ; i < ALLTAXONS.length ; i++) {
+		if (this.taxonImageDict[ALLTAXONS[i].latin] !== undefined) {
+			ALLTAXONS[i].hasImage = true;
+		}
+		if (ALLTAXONS[i].similar !== undefined) {
+	      for (var k = 0 ; k < ALLTAXONS[i].similar.length ; k++) {
+			if (this.taxonImageDict[ALLTAXONS[i].similar[k].latin] !== undefined) {
+				ALLTAXONS[i].similar[k].hasImage = true;
+				ALLTAXONS[i].similar[k].slug = this.taxonImageDict[ALLTAXONS[i].similar[k].latin].slug;
+			}
+		  }
+		}
+
+	  }
+  }
+
+
   getTaxonImages() {
     var _filteredTaxons: TaxonImage[] = [];
 	var addedTaxons = [];
@@ -252,6 +279,22 @@ var TAXONIMAGES: TaxonImage[] = [
 		bildId: '12-4983'
 	  },
       {
+	    group:['B','H'],
+	    name:'Vattrad rönnsäckmal',
+		latin:'Coleophora hemerobiella', 
+		slug:'coleophora_hemerobiella', 
+		image:'img/coleophora_hemerobiella-§2-14-9290.jpg',
+		date: '2014-07-21',
+		site: 'Hornsjön, Öl',
+		unsure: false,
+		specimen: 2,
+		detYear: 2014,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '14-9290'
+	  },
+      {
 	    group:['B'],
 	    name:'Ribbad mållsäckmal',
 		latin:'Coleophora clypeiferella', 
@@ -304,12 +347,64 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Gul eksäckmal',
 		latin:'Coleophora lutipennella', 
 		slug:'coleophora_lutipennella', 
-		image:'img/coleophora_lutipennella.jpg',
+		image:'img/coleophora_lutipennella-§2-11-8933.jpg',
 		date: '2011-07-06',
 		site: 'Släp, Hl',
 		unsure: false,
+		specimen: 2,
+		detYear: 2011,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
 		photographer: 'Magnus Unger',
 		bildId: '11-8933'
+	  },
+	  {
+	    group:['B'],
+	    name:'Gul eksäckmal',
+		latin:'Coleophora lutipennella', 
+		slug:'coleophora_lutipennella', 
+		image:'img/coleophora_lutipennella-§3-11-8990.jpg',
+		date: '2011-07-06',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 3,
+		detYear: 2012,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
+		photographer: 'Magnus Unger',
+		bildId: '11-8990'
+	  },
+	  /*{
+	    group:['B'],
+	    name:'Gul eksäckmal',
+		latin:'Coleophora lutipennella', 
+		slug:'coleophora_lutipennella', 
+		image:'img/coleophora_lutipennella-§4-11-8998.jpg',
+		date: '2011-07-06',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 4,
+		detYear: 2012,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
+		photographer: 'Magnus Unger',
+		bildId: '11-8998'
+	  },*/
+	  {
+	    group:['B'],
+	    name:'Gul eksäckmal',
+		latin:'Coleophora lutipennella', 
+		slug:'coleophora_lutipennella', 
+		image:'img/coleophora_lutipennella-§1-11-8731.jpg',
+		date: '2011-07-04',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 1,
+		detYear: 2012,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
+		photographer: 'Magnus Unger',
+		bildId: '11-8731'
 	  },
 	  {
 	    group:['B'],
@@ -364,10 +459,14 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Videsäckmal',
 		latin:'Coleophora lusciniaepennella', 
 		slug:'coleophora_lusciniaepennella', 
-		image:'img/coleophora_lusciniaepennella.jpg',
+		image:'img/coleophora_lusciniaepennella-§1-11-8837.jpg',
 		date: '2011-07-04',
 		site: 'Släp, Hl',
 		unsure: false,
+		specimen: 1,
+		detYear: 2012,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '11-8837'
 	  },
@@ -375,11 +474,15 @@ var TAXONIMAGES: TaxonImage[] = [
 	    group:['B'],
 	    name:'Säckmal sp',
 		latin:'Coleophora sp', 
-		slug:'coleophora_sp_b', 
-		image:'img/coleophora_sp-2.jpg',
+		slug:'coleophora_sp_group_b', 
+		image:'img/coleophora_sp-§1-11-8232.jpg',
 		date: '2011-07-01',
 		site: 'Vargefjället, Boh',
 		unsure: true,
+		specimen: 1,
+		detYear: 2011,
+		detBy: '',
+		detMethod: '',
 		photographer: 'Magnus Unger',
 		bildId: '11-8232'
 	  },
@@ -388,10 +491,14 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Nyponsäckmal',
 		latin:'Coleophora gryphipennella', 
 		slug:'coleophora_gryphipennella', 
-		image:'img/coleophora_gryphipennella.jpg',
+		image:'img/coleophora_gryphipennella-§1-10-7941.jpg',
 		date: '2010-07-03',
 		site: 'Släp, Hl',
 		unsure: false,
+		specimen: 1,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '10-7941'
 	  }, 
@@ -401,10 +508,14 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Skarpringad tågsäckmal',
 		latin:'Coleophora caespititiella', 
 		slug:'coleophora_caespititiella', 
-		image:'img/coleophora_caespititiella.jpg',
+		image:'img/coleophora_caespititiella-§1-11-7435.jpg',
 		date: '2011-06-05',
 		site: 'Älje, Porsen, Boh',
 		unsure: false,
+		specimen: 1,
+		detYear: 2011,
+		detBy: 'Hans Petersson',
+		detMethod: '',
 		photographer: 'Magnus Unger',
 		bildId: '11-7435'
 	  },
@@ -413,23 +524,47 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Ljuskantad eksäckmal',
 		latin:'Coleophora flavipennella', 
 		slug:'coleophora_flavipennella', 
-		image:'img/coleophora_flavipennella.jpg',
+		image:'img/coleophora_flavipennella-§2-10-0481.jpg',
 		date: '2010-07-20',
 		site: 'Släp, Hl',
 		unsure: false,
+		specimen: 2,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '10-0481'
-	  }, 	  
+	  },
+	  {
+	    group:['C','B'],
+	    name:'Ljuskantad eksäckmal',
+		latin:'Coleophora flavipennella', 
+		slug:'coleophora_flavipennella', 
+		image:'img/coleophora_flavipennella-§1-10-0253.jpg',
+		date: '2010-07-20',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 1,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
+		photographer: 'Magnus Unger',
+		bildId: '10-0253'
+	  },
 
       {
 	    group:['D'],
 	    name:'Allmän mållsäckmal',
 		latin:'Coleophora sternipennella', 
 		slug:'coleophora_sternipennella', 
-		image:'img/coleophora_sternipennella.jpg',
+		image:'img/coleophora_sternipennella-§1-10-9487.jpg',
 		date: '2010-07-15',
 		site: 'Nidingen, Hl',
 		unsure: false,
+		specimen: 1,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '10-9487'
 	  },
@@ -438,10 +573,14 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Gulgrå mållsäckmal',
 		latin:'Coleophora saxicolella', 
 		slug:'coleophora_saxicolella', 
-		image:'img/coleophora_saxicolella.jpg',
+		image:'img/coleophora_saxicolella-§1-10-0820.jpg',
 		date: '2010-07-21',
 		site: 'Släp, Hl',
 		unsure: false,
+		specimen: 1,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '10-0820'
 	  },
@@ -450,22 +589,46 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Spetsvingad mållsäckmal',
 		latin:'Coleophora vestianella', 
 		slug:'coleophora_vestianella', 
-		image:'img/coleophora_vestianella.jpg',
+		image:'img/coleophora_vestianella-§2-14-7174.jpg',
 		date: '2014-07-09',
 		site: 'Nidingen, Hl',
 		unsure: false,
+		specimen: 2,
+		detYear: 2016,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '14-7174'
+	  },
+      {
+	    group:['D','F'],
+	    name:'Spetsvingad mållsäckmal',
+		latin:'Coleophora vestianella', 
+		slug:'coleophora_vestianella', 
+		image:'img/coleophora_vestianella-§1-10-9652.jpg',
+		date: '2010-07-16',
+		site: 'Nidingen, Hl',
+		unsure: false,
+		specimen: 1,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
+		photographer: 'Magnus Unger',
+		bildId: '10-9652'
 	  },
       {
 	    group:['D','F'],
 	    name:'Kustmållsäckmal',
 		latin:'Coleophora atriplicis', 
 		slug:'coleophora_atriplicis', 
-		image:'img/coleophora_atriplicis.jpg',
+		image:'img/coleophora_atriplicis-§1-10-8831.jpg',
 		date: '2010-07-11',
 		site: 'Nidingen, Hl',
 		unsure: false,
+		specimen: 1,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '10-8831'
 	  },
@@ -474,19 +637,55 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Allmän tågsäckmal',
 		latin:'Coleophora alticolella', 
 		slug:'coleophora_alticolella', 
-		image:'img/coleophora_alticolella.jpg',
+		image:'img/coleophora_alticolella-§3-10-7963.jpg',
 		date: '2010-07-03',
 		site: 'Släp, Hl',
 		unsure: false,
+		specimen: 3,
+		detYear: 2010,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
 		photographer: 'Magnus Unger',
 		bildId: '10-7963'
+	  },
+      {
+	    group:['D','C'],
+	    name:'Allmän tågsäckmal',
+		latin:'Coleophora alticolella', 
+		slug:'coleophora_alticolella', 
+		image:'img/coleophora_alticolella-§2-10-8020.jpg',
+		date: '2010-07-03',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 2,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
+		photographer: 'Magnus Unger',
+		bildId: '10-8020'
+	  },
+      {
+	    group:['D','C'],
+	    name:'Allmän tågsäckmal',
+		latin:'Coleophora alticolella', 
+		slug:'coleophora_alticolella', 
+		image:'img/coleophora_alticolella-§1-10-6480.jpg',
+		date: '2010-06-20',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 1,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
+		photographer: 'Magnus Unger',
+		bildId: '10-6480'
 	  },
       {
 	    group:['D','C'],
 	    name:'Vattenskräppesäckmal',
 		latin:'Coleophora hydrolapathella', 
 		slug:'coleophora_hydrolapathella', 
-		image:'img/coleophora_hydrolapathella.jpg',
+		image:'img/coleophora_hydrolapathella-§1-15-2861.jpg',
 		date: '2015-07-04',
 		site: 'Nidingen, Hl',
 		unsure: false,
@@ -648,7 +847,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Kilstreckad fältmalörtsäckmal',
 		latin:'Coleophora vibicigerella', 
 		slug:'coleophora_vibicigerella', 
-		image:'img/coleophora_vibicigerella.jpg',
+		image:'img/coleophora_vibicigerella-§1-14-9680.jpg',
 		date: '2014-07-22',
 		site: 'Gårdby Sandhed, Öl',
 		unsure: false,
@@ -731,7 +930,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Silverstreckad rölleksäckmal',
 		latin:'Coleophora argentula', 
 		slug:'coleophora_argentula', 
-		image:'img/coleophora_argentula.jpg',
+		image:'img/coleophora_argentula-§1-10-8835.jpg',
 		date: '2010-07-11',
 		site: 'Nidingen, Hl',
 		unsure: false,
@@ -811,7 +1010,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    group:['F'],
 	    name:'Säckmal sp',
 		latin:'Coleophora sp', 
-		slug:'coleophora_sp_f', 
+		slug:'coleophora_sp_group_f', 
 		specimen: 1,
 		image:'img/coleophora_sp-§1-10-8901.jpg',
 		date: '2010-07-11',
@@ -824,7 +1023,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    group:['F'],
 	    name:'Säckmal sp',
 		latin:'Coleophora sp', 
-		slug:'coleophora_sp_f', 
+		slug:'coleophora_sp_group_f', 
 		specimen: 1,
 		image:'img/coleophora_sp-§1-10-8899.jpg',
 		date: '2010-07-11',
@@ -837,7 +1036,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    group:['F'],
 	    name:'Säckmal sp',
 		latin:'Coleophora sp', 
-		slug:'coleophora_sp_f', 
+		slug:'coleophora_sp_group_f', 
 		specimen: 2,
 		image:'img/coleophora_sp-§2-14-7432.jpg',
 		date: '2014-07-10',
@@ -852,7 +1051,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Grå fältmalörtsäckmal',
 		latin:'Coleophora granulatella',
 		slug:'coleophora_granulatella', 
-		image:'img/trol_coleophora_granulatella.jpg',
+		image:'img/trol_coleophora_granulatella-§1-12-4995.jpg',
 		date: '2012-07-23',
 		site: 'Tofta, Gtl',
 		unsure: true,
@@ -868,7 +1067,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Grovfjällig fältmalörtsäckmal',
 		latin:'Coleophora succursella', 
 		slug:'coleophora_succursella', 
-		image:'img/trol_coleophora_succursella.jpg',
+		image:'img/trol_coleophora_succursella-§1-14-9934.jpg',
 		date: '2014-07-23',
 		site: 'Mensalvret, Öl',
 		unsure: true,
@@ -885,7 +1084,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Dubbellinjerad tistelsäckmal',
 		latin:'Coleophora therinella', 
 		slug:'coleophora_therinella', 
-		image:'img/coleophora_therinella.jpg',
+		image:'img/coleophora_therinella-§1-10-7992.jpg',
 		date: '2010-07-03',
 		site: 'Släp, Hl',
 		unsure: false,
@@ -901,10 +1100,14 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Linjerad tistelsäckmal',
 		latin:'Coleophora peribenanderi', 
 		slug:'coleophora_peribenanderi', 
-		image:'img/coleophora_peribenanderi.jpg',
+		image:'img/coleophora_peribenanderi-§1-14-7425.jpg',
 		date: '2014-07-10',
 		site: 'Nidingen, Hl',
 		unsure: false,
+		specimen: 1,
+		detYear: 2010,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '14-7425'
 	  },
@@ -945,7 +1148,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Vitsprötad gullrissäckmal',
 		latin:'Coleophora ramosella', 
 		slug:'coleophora_ramosella', 
-		image:'img/trol_coleophora_ramosella.jpg',
+		image:'img/trol_coleophora_ramosella-§1-14-5331.jpg',
 		date: '2014-06-08',
 		site: 'Lillhagens Sandlycka, Boh',
 		unsure: true,
@@ -961,7 +1164,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Gullinjerad tågsäckmal',
 		latin:'Coleophora taeniipennella', 
 		slug:'coleophora_taeniipennella', 
-		image:'img/coleophora_sp-1.jpg',
+		image:'img/trol_coleophora_taeniipennella-§1-10-6831.jpg',
 		date: '2010-06-25',
 		site: 'Rydal, Vg',
 		unsure: true,
@@ -979,10 +1182,14 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Pudrad sälgsäckmal',
 		latin:'Coleophora albidella', 
 		slug:'coleophora_albidella', 
-		image:'img/coleophora_albidella.jpg',
+		image:'img/coleophora_albidella-§1-10-9960.jpg',
 		date: '2010-07-19',
 		site: 'Släp, Hl',
 		unsure: false,
+		specimen: 1,
+		detYear: 2011,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'genprep',
 		photographer: 'Magnus Unger',
 		bildId: '10-9960'
 	  },
@@ -1560,7 +1767,7 @@ var ALLTAXONS: Taxon[] = [
 		{
 		  name:'Sen grönglanssäckmal',
 		  latin:'Coleophora alcyonipennella',
-		  difference: 'Oskiljaktiga på yttre karaktärer, genitalie kontroll krävs'
+		  difference: 'Oskiljaktig på yttre karaktärer, genitalie kontroll krävs'
 		},
 		{
 		  name:'Sötväpplingsäckmal',
@@ -1583,7 +1790,7 @@ var ALLTAXONS: Taxon[] = [
 		{
 		  name:'Tidig grönglanssäckmal',
 		  latin:'Coleophora frischella',
-		  difference: 'Oskiljaktiga på yttre karaktärer, genitalie kontroll krävs'
+		  difference: 'Oskiljaktig på yttre karaktärer, genitalie kontroll krävs'
 		},
 		{
 		  name:'Sötväpplingsäckmal',
@@ -2279,7 +2486,14 @@ var ALLTAXONS: Taxon[] = [
       auctor:'(Duponchel, 1843)',
       hasImage:false,
       slugSv:'gulgrå_mållsäckmal',
-      slug:'coleophora_saxicolella'
+      slug:'coleophora_saxicolella',
+	  similar: [
+		{
+		  name:'Allmän mållsäckmal',
+		  latin:'Coleophora sternipennella',
+		  difference: ''
+		},
+	  ]
    },
    {
       artId:781,
@@ -2301,7 +2515,14 @@ var ALLTAXONS: Taxon[] = [
       auctor:'(Zetterstedt, 1839)',
       hasImage:false,
       slugSv:'allmän_mållsäckmal',
-      slug:'coleophora_sternipennella'
+      slug:'coleophora_sternipennella',
+	  similar: [
+		{
+		  name:'Gulgrå mållsäckmal',
+		  latin:'Coleophora saxicolella',
+		  difference: ''
+		},
+	  ]
    },
    {
       artId:783,

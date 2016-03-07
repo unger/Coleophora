@@ -62,22 +62,6 @@ export class GroupDetailComponent {
 	  this.id = id;
 	  
 	  this.taxonImages = this._service.getTaxonImagesForGroup(id);
-	  var tempTaxons = this._service.getTaxonsForGroup(id);
-	  
-	  for(var i = 0 ; i < tempTaxons.length ; i++) {
-		for (var k = 0 ; k < this.taxonImages.length ; k++) {
-			if (this.taxonImages[k].latin == tempTaxons[i].latin) {
-				tempTaxons[i].hasImage = true;
-				break;
-			}
-		}
-	  }
-	  
-	  this.taxons = tempTaxons;
+	  this.taxons = this._service.getTaxonsForGroup(id);
 	}
-
-
-	ngOnInit() {
-	}
-
 }

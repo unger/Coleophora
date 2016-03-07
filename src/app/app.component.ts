@@ -5,6 +5,7 @@ import {TaxonListComponent} from './taxon-list.component';
 import {GroupListComponent} from './group-list.component';
 import {GroupDetailComponent} from './group-detail.component';
 import {TaxonDetailComponent} from './taxon-detail.component';
+import {CompareTaxonsComponent} from './compare-taxons.component';
 
 
 
@@ -56,6 +57,11 @@ interface Window {
     path: '/taxon/:id',
     name: 'TaxonDetail',
     component: TaxonDetailComponent
+  },
+  {
+    path: '/compare/:slug1/:slug2',
+    name: 'CompareTaxons',
+    component: CompareTaxonsComponent
   },
 ])
 export class AppComponent {

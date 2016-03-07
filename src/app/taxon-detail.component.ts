@@ -3,6 +3,7 @@ import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router
 import {TaxonImage} from './taxon-image';
 import {Taxon} from './taxon';
 import {TaxonService} from './taxon.service';
+import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 
 @Component({
   selector: 'taxon-detail',
@@ -31,43 +32,30 @@ import {TaxonService} from './taxon.service';
 			<ul class="list-unstyled">
 				<template ngFor #similar [ngForOf]="taxon.similar" #i="index">
 					<li>
-						<em>{{similar.latin}}</em> - {{similar.name}}<span *ngIf="similar.difference">: {{similar.difference}}</span>
+						<span *ngIf="similar.hasImage">
+							<a [routerLink]="['TaxonDetail', {id: similar.slug }]">
+								<em>{{similar.latin}}</em> - {{similar.name}}
+							</a>
+							<a [routerLink]="['CompareTaxons', {slug1: taxon.slug, slug2: similar.slug }]">
+								[Jämför]
+							</a>
+						</span>
+						<span *ngIf="!similar.hasImage">
+							<em>{{similar.latin}}</em> - {{similar.name}}
+						</span>
+						<span *ngIf="similar.difference">: {{similar.difference}}</span>
 					</li>
 				</template>
 			</ul>
 		</div>		
 
 		<div *ngFor="#item of taxonImages" class="col-xs-12">
-			<div>
-				<img src="{{item.image}}" class="img-responsive img-thumbnail" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
-			</div>
-			<p class="text-center">
-				<small>
-					<span *ngIf="item.specimen">§{{item.specimen}}</span>
-					<em>{{item.latin}}<span *ngIf="item.unsure">?</span></em> - {{item.name}}<span *ngIf="item.unsure">?</span><br/>
-					{{item.date}}, {{item.site}} &copy; {{item.photographer}}<br/>
-
-					<template [ngIf]="item.detBy">
-					<span *ngIf="!item.unsure">
-						<span *ngIf="item.detMethod!=='foto'" class="glyphicon glyphicon-ok-sign" style="color: #449d44;"></span>
-						<span *ngIf="item.detMethod==='foto'" class="glyphicon glyphicon-exclamation-sign" style="color: #f0ad4e;"></span>
-						Artbestämd {{item.detYear}} av {{item.detBy}} 
-						<template [ngIf]="item.detMethod">
-							via {{item.detMethod}}
-						</template>
-					</span>
-					<span *ngIf="item.unsure">
-						<span *ngIf="item.detMethod" class="glyphicon glyphicon-question-sign" style="color: #c9302c;"></span>
-						Artförslag {{item.detYear}} av {{item.detBy}} via {{item.detMethod}}
-					</span>
-					</template>
-
-				</small>
-			</p>
+			<taxon-image-detailed [item]="item"></taxon-image-detailed>
 		</div>
 	  </div>
 	  
 	  `,
+  directives: [ROUTER_DIRECTIVES,TaxonImageDetailedComponent],	  
   providers: [TaxonService]
 })
 export class TaxonDetailComponent {
