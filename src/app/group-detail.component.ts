@@ -1,4 +1,5 @@
 import {Component, Input} from 'angular2/core';
+import {Title} from 'angular2/platform/browser';
 import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 import {TaxonImage} from './taxon-image';
 import {Taxon} from './taxon';
@@ -16,7 +17,7 @@ import {TaxonService} from './taxon.service';
   template: `
 	  <div class="row">	  
 	    <div class="col-xs-12">
-			Group {{id}} - ({{taxons.length}} arter)
+			<h1>Group {{id}} - <small>{{taxons.length}} arter</small></h1>
 		</div>
 		<div class="col-xs-12">
 			<ul class="list-unstyled">
@@ -49,7 +50,7 @@ import {TaxonService} from './taxon.service';
 	  
 	  `,
   directives: [ROUTER_DIRECTIVES],
-  providers: [TaxonService]
+  providers: [TaxonService,Title]
 })
 export class GroupDetailComponent {
 
@@ -57,11 +58,13 @@ export class GroupDetailComponent {
 	private taxons:Taxon[] = [];
 	id: string;
 
-	constructor(private _routeParams:RouteParams, private _service: TaxonService){ 
-	  let id = this._routeParams.get('id');
+	constructor(_routeParams:RouteParams, _service: TaxonService, _title: Title){ 
+	  let id = _routeParams.get('id');
 	  this.id = id;
 	  
-	  this.taxonImages = this._service.getTaxonImagesForGroup(id);
-	  this.taxons = this._service.getTaxonsForGroup(id);
+	  this.taxonImages = _service.getTaxonImagesForGroup(id);
+	  this.taxons = _service.getTaxonsForGroup(id);
+	  
+	  _title.setTitle('Grupp ' + id + ' - Coleophoridae - Säckmalar');
 	}
 }

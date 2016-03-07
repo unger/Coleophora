@@ -18,19 +18,16 @@ interface Window {
 @Component({
   selector: 'coleophora-app',
   template: `
-	<div class="row">
-	  <div class="col-md-12">
-		<h2>Coleophoridae <small>Säckmalar</small></h2>
 
-		<p>
-			<a [routerLink]="['Groups']" class="btn btn-primary">Grupper</a>
-			<a [routerLink]="['Taxons', {id: 'säkra' }]" class="btn btn-primary">Arter</a>
-			<a [routerLink]="['Taxons', {id: 'osäkra' }]" class="btn btn-primary">Osäkra</a>
-		</p>
-		
-      </div>
-	</div>
-	
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+		<ul class="nav nav-pills">
+			<li><a [routerLink]="['Groups']">Grupper</a></li>
+			<li><a [routerLink]="['Taxons', {id: 'säkra' }]">Arter</a></li>
+			<li><a [routerLink]="['Taxons', {id: 'osäkra' }]">Osäkra</a></li>
+		</ul>
+	  </div>
+	</nav>
 	
 	<router-outlet></router-outlet>`,
   styles:['a { cursor: pointer; cursor: hand; }'],

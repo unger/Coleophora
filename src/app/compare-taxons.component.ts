@@ -1,4 +1,5 @@
 import {Component, Input} from 'angular2/core';
+import {Title} from 'angular2/platform/browser';
 import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 import {TaxonImage} from './taxon-image';
 import {Taxon} from './taxon';
@@ -8,7 +9,8 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 @Component({
   selector: 'taxon-detail',
   template: `
-	  <div class="row">	  
+
+	<div class="row">	  
 	    <div class="col-xs-6">
 			<div *ngFor="#item of taxonImages1">
 				<taxon-image-detailed [item]="item"></taxon-image-detailed>
@@ -22,7 +24,7 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 	  </div>
 	  `,
   directives: [ROUTER_DIRECTIVES,TaxonImageDetailedComponent],	  
-  providers: [TaxonService]
+  providers: [TaxonService,Title]
 })
 export class CompareTaxonsComponent {
 
@@ -32,23 +34,23 @@ export class CompareTaxonsComponent {
 	private taxonImages2:TaxonImage[] = [];
 
 	private heading:string;
-
-	constructor(private _routeParams:RouteParams, private _service: TaxonService){ }
-
 	slug1: string;
 	slug2: string;
 
-	ngOnInit() {
-	  let slug1 = this._routeParams.get('slug1');
+	constructor(_routeParams:RouteParams, _service: TaxonService, _title: Title){
+
+	  let slug1 = _routeParams.get('slug1');
 	  this.slug1 = slug1;
-	  let slug2 = this._routeParams.get('slug2');
+	  let slug2 = _routeParams.get('slug2');
 	  this.slug2 = slug2;
 	  
-	  this.taxon1 = this._service.getTaxon(slug1);
-	  this.taxon2 = this._service.getTaxon(slug2);
-	  this.taxonImages1 = this._service.getTaxonImagesForId(slug1);
-	  this.taxonImages2 = this._service.getTaxonImagesForId(slug2);
+	  this.taxon1 = _service.getTaxon(slug1);
+	  this.taxon2 = _service.getTaxon(slug2);
+	  this.taxonImages1 = _service.getTaxonImagesForId(slug1);
+	  this.taxonImages2 = _service.getTaxonImagesForId(slug2);
 
-    }
+	  _title.setTitle('Jämför ' + this.taxon1.latin + ' - ' + this.taxon1.name + ' vs ' + this.taxon2.latin + ' - ' + this.taxon2.name);
+	
+	}
 
 }

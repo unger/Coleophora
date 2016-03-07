@@ -1,4 +1,5 @@
 import {Component, Input} from 'angular2/core';
+import {Title} from 'angular2/platform/browser';
 import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 import {TaxonImage} from './taxon-image';
 import {Taxon} from './taxon';
@@ -17,7 +18,7 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 	  <div class="row">	  
 	    <div class="col-xs-12">
 			<template [ngIf]="taxon">
-				<h3><em>{{taxon.latin}}</em> <small>{{taxon.name}}</small></h3>
+				<h1><em>{{taxon.latin}}</em> <small>{{taxon.name}}</small></h1>
 			</template>
 			<p *ngIf="taxonImages.length > 1">
 				({{taxonImages.length}} bilder)
@@ -36,14 +37,19 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 							<a [routerLink]="['TaxonDetail', {id: similar.slug }]">
 								<em>{{similar.latin}}</em> - {{similar.name}}
 							</a>
-							<a [routerLink]="['CompareTaxons', {slug1: taxon.slug, slug2: similar.slug }]">
-								[Jämför]
-							</a>
 						</span>
 						<span *ngIf="!similar.hasImage">
 							<em>{{similar.latin}}</em> - {{similar.name}}
 						</span>
 						<span *ngIf="similar.difference">: {{similar.difference}}</span>
+						
+						<span *ngIf="similar.hasImage">
+							-
+							<a [routerLink]="['CompareTaxons', {slug1: taxon.slug, slug2: similar.slug }]">
+								jämför
+							</a>
+						</span>
+						
 					</li>
 				</template>
 			</ul>
@@ -56,24 +62,22 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 	  
 	  `,
   directives: [ROUTER_DIRECTIVES,TaxonImageDetailedComponent],	  
-  providers: [TaxonService]
+  providers: [TaxonService,Title]
 })
 export class TaxonDetailComponent {
 
 	private taxon: Taxon;
 	private taxonImages:TaxonImage[] = [];
 	private heading:string;
+	private id: string;
 
-	constructor(private _routeParams:RouteParams, private _service: TaxonService){ }
+	constructor(_routeParams:RouteParams, _service: TaxonService, _title: Title){
 
-	id: string;
-
-	ngOnInit() {
-	  let id = this._routeParams.get('id');
+	  let id = _routeParams.get('id');
 	  this.id = id;
 	  
-	  this.taxon = this._service.getTaxon(id);
-	  this.taxonImages = this._service.getTaxonImagesForId(id);
+	  this.taxon = _service.getTaxon(id);
+	  this.taxonImages = _service.getTaxonImagesForId(id);
 	  
 	  if (this.taxon == null && this.taxonImages.length > 0) {
 		this.taxon = {
@@ -81,8 +85,12 @@ export class TaxonDetailComponent {
 						name: this.taxonImages[0].name
 					 };
 	  }
-	  
 
+	  _title.setTitle(this.taxon.latin + ' - ' + this.taxon.name);
+	}
+
+
+	ngOnInit() {
     }
 
 }

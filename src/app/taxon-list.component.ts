@@ -1,4 +1,5 @@
 import {Component, Input} from 'angular2/core';
+import {Title} from 'angular2/platform/browser';
 import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 import {TaxonImage} from './taxon-image';
 import {TaxonService} from './taxon.service';
@@ -14,7 +15,15 @@ import {TaxonService} from './taxon.service';
   template: `
 	  <div class="row">	  
 	    <div class="col-xs-12">
-			({{taxons.length}} arter)
+			<h1>
+				<template [ngIf]="unsure">
+					Osäkra
+				</template>
+				<template [ngIf]="!unsure">
+					Bestämda
+				</template>
+				<small>{{taxons.length}} arter</small>
+			</h1>
 		</div>
 		<div *ngFor="#taxon of taxons" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 			<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
@@ -29,21 +38,25 @@ import {TaxonService} from './taxon.service';
 		</div>	  
 	  </div>`,
   directives: [ROUTER_DIRECTIVES],
-  providers: [TaxonService]
+  providers: [TaxonService,Title]
 })
 export class TaxonListComponent {
 
 	taxons:TaxonImage[] = [];
+	unsure: bool;
 
-    constructor(private _routeParams:RouteParams, private _service: TaxonService) {
+    constructor(private _routeParams:RouteParams, private _service: TaxonService, _title: Title) {
 
 	  let id = decodeURI(this._routeParams.get('id'));
 	  
 	  if (id === "osäkra") {
+		this.unsure = true;
 		this.taxons = _service.getUnsureTaxonImages();
+	    _title.setTitle('Osäkra arter - Coleophoridae - Säckmalar');
 	  }
 	  else {
 		this.taxons = _service.getTaxonImages();
+	    _title.setTitle('Alla arter - Coleophoridae - Säckmalar');
 	  }
 	  
     }
