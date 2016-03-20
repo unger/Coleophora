@@ -82,7 +82,19 @@ export class TaxonDetailComponent {
 	  if (this.taxon == null && this.taxonImages.length > 0) {
 		this.taxon = {
 						latin: this.taxonImages[0].latin,
-						name: this.taxonImages[0].name
+						name: this.taxonImages[0].name,
+                        artId: 0,
+                        dyntaxaId: 0,
+                        group: [],
+                        auctor: '',
+                        slugSv: '',
+                        slug: '',
+                        hasImage: true,
+                        redlist: '',
+                        distribution: '',
+                        foodplants: [],
+                        imago: '',
+                        similar: [],
 					 };
 	  }
 
@@ -92,5 +104,4 @@ export class TaxonDetailComponent {
 
 	ngOnInit() {
     }
-
 }
