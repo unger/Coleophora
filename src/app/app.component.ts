@@ -13,8 +13,6 @@ interface Window {
     ga: any;
 }
 
-
-
 @Component({
   selector: 'coleophora-app',
   template: `
