@@ -1330,8 +1330,6 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '15-3591'
 	  }
-
-	  
   ];
   
   

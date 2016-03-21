@@ -43,7 +43,7 @@ import {TaxonService} from './taxon.service';
 export class TaxonListComponent {
 
 	taxons:TaxonImage[] = [];
-	unsure: bool;
+	unsure: boolean;
 
     constructor(private _routeParams:RouteParams, private _service: TaxonService, _title: Title) {
 

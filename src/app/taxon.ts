@@ -8,9 +8,9 @@ export interface Taxon {
   slugSv: string,
   slug: string,
   hasImage: boolean,
-  redlist: string,
-  distribution: string,
-  foodplants: any[],
-  imago: string,
-  similar: any[] 
+  redlist?: string,
+  distribution?: string,
+  foodplants?: any[],
+  imago?: string,
+  similar?: any[] 
 }
