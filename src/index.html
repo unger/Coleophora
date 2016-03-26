@@ -16,45 +16,18 @@
 	
 	<!-- 1. Load libraries -->
     <!-- IE required polyfills, in this exact order -->
-    
-	
 	<script src="lib/es6-shim/es6-shim.min.js"></script>
     <script src="lib/systemjs/system-polyfills.js"></script>
+	<script src="lib/angular2/shims_for_IE.js"></script>
 
     <script src="lib/angular2/angular2-polyfills.min.js"></script>
     <script src="lib/systemjs/system.js"></script>
-    <script src="lib/typescript/typescript.js"></script>
     <script src="lib/rxjs/Rx.min.js"></script>
     <script src="lib/angular2/angular2.js"></script>
     <script src="lib/angular2/router.js"></script>
 	
-	<!--
-    <script src="lib/jquery/jquery-1.12.1.min.js"></script>
-    <script src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>-->
-
-	
-<!--
-    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
-
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/typescript/lib/typescript.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>	
-
-	<script src="node_modules/angular2/bundles/router.js"></script>
-	-->
     <!-- 2. Configure SystemJS -->
     <script>
-
-      System.config({
-        transpiler: 'typescript',
-        typescriptOptions: { emitDecoratorMetadata: true },
-        packages: {'app': {defaultExtension: 'ts'}}
-      });
-	  
-/*	  
 	  System.config({
         packages: {        
           app: {
@@ -62,7 +35,7 @@
             defaultExtension: 'js'
           }
         }
-      });*/
+      });
       System.import('app/main')
             .then(null, console.error.bind(console));
     </script>
@@ -74,8 +47,6 @@
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 	  ga('create', 'UA-6486963-2', 'auto');
-	  //ga('send', 'pageview');
-
 	</script>
   </head>
   <!-- 3. Display the application -->

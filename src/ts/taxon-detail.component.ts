@@ -2,7 +2,7 @@ import {Component, Input} from 'angular2/core';
 import {Title} from 'angular2/platform/browser';
 import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 import {TaxonImage} from './taxon-image';
-import {Taxon} from './taxon';
+import {Taxon, TaxonName} from './taxon';
 import {TaxonService} from './taxon.service';
 import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 
@@ -17,8 +17,8 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
   template: `
 	  <div class="row">	  
 	    <div class="col-xs-12">
-			<template [ngIf]="taxon">
-				<h1><em>{{taxon.latin}}</em> <small>{{taxon.name}}</small></h1>
+			<template [ngIf]="taxonName">
+				<h1><em>{{taxonName.latin}}</em> <small>{{taxonName.name}}</small></h1>
 			</template>
 			<p *ngIf="taxonImages.length > 1">
 				({{taxonImages.length}} bilder)
@@ -28,7 +28,7 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 			</p>
 		</div>
 		
-		<div class="col-xs-12" *ngIf="taxon.similar">
+		<div class="col-xs-12" *ngIf="taxon && taxon.similar">
 			<h4>Liknande arter</h4>
 			<ul class="list-unstyled">
 				<template ngFor #similar [ngForOf]="taxon.similar" #i="index">
@@ -67,6 +67,7 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 export class TaxonDetailComponent {
 
 	private taxon: Taxon;
+	private taxonName: TaxonName;
 	private taxonImages:TaxonImage[] = [];
 	private heading:string;
 	private id: string;
@@ -76,17 +77,17 @@ export class TaxonDetailComponent {
 	  let id = _routeParams.get('id');
 	  this.id = id;
 	  
-	  this.taxon = _service.getTaxon(id);
+	  this.taxonName = this.taxon =  _service.getTaxon(id);
 	  this.taxonImages = _service.getTaxonImagesForId(id);
 	  
-	  if (this.taxon == null && this.taxonImages.length > 0) {
-		this.taxon = {
+	  if (this.taxonName == null && this.taxonImages.length > 0) {
+		this.taxonName = {
 						latin: this.taxonImages[0].latin,
 						name: this.taxonImages[0].name
 					 };
 	  }
 
-	  _title.setTitle(this.taxon.latin + ' - ' + this.taxon.name);
+	  _title.setTitle(this.taxonName.latin + ' - ' + this.taxonName.name);
 	}
 
 

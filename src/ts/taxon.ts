@@ -1,9 +1,12 @@
-export interface Taxon {
+export interface TaxonName {
+  name: string,
+  latin: string,
+}
+
+export interface Taxon extends TaxonName {
   artId:number,
   dyntaxaId:number,
   group: string[],
-  name: string,
-  latin: string,
   auctor: string,
   slugSv: string,
   slug: string,
@@ -14,3 +17,4 @@ export interface Taxon {
   imago?: string,
   similar?: any[] 
 }
+
