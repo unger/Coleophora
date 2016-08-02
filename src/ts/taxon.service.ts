@@ -924,6 +924,22 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '14-9680'
 	  },
+      {
+	    group:['E'],
+	    name:'Kilstreckad klintsäckmal',
+		latin:'Coleophora conspicuella', 
+		slug:'coleophora_conspicuella', 
+		image:'img/coleophora_conspicuella-§1-16-1979.jpg',
+		date: '2016-07-23',
+		site: 'Tofta skjutfält, Gtl',
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-1979'
+	  },
 	  
       {
 	    group:['F'],
@@ -1347,6 +1363,38 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '10-6831'
 	  }, 
+      {
+	    group:['G'],
+	    name:'Solvändesäckmal',
+		latin:'Coleophora ochrea', 
+		slug:'coleophora_ochrea', 
+		image:'img/coleophora_ochrea-§1-16-1770.jpg',
+		date: '2016-07-23',
+		site: 'Tofta skjutfält, Gtl',
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-1770'
+	  }, 
+      {
+	    group:['G'],
+	    name:'Solvändesäckmal',
+		latin:'Coleophora ochrea', 
+		slug:'coleophora_ochrea', 
+		image:'img/coleophora_ochrea-§2-16-1987.jpg',
+		date: '2016-07-23',
+		site: 'Tofta skjutfält, Gtl',
+		unsure: false,
+		specimen: 2,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-1987'
+	  }, 
 	  
 	  
       {
@@ -1414,7 +1462,7 @@ var TAXONIMAGES: TaxonImage[] = [
 		bildId: '15-3460'
 	  },
       {
-	    group:['H','G'],
+	    group:['G','H'],
 	    name:'Gulstreckad björksäckmal',
 		latin:'Coleophora betulella', 
 		slug:'coleophora_betulella', 
@@ -1444,6 +1492,54 @@ var TAXONIMAGES: TaxonImage[] = [
 		detMethod: 'foto',
 		photographer: 'Magnus Unger',
 		bildId: '15-3591'
+	  },
+      {
+	    group:['G'],
+	    name:'Gulstreckad avenbokssäckmal',
+		latin:'Coleophora currucipennella', 
+		slug:'coleophora_currucipennella', 
+		image:'img/coleophora_currucipennella-§2-16-0511.jpg',
+		date: '2016-06-30',
+		site: 'Aboda klint, Sm',
+		unsure: false,
+		specimen: 2,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-0511'
+	  },
+      {
+	    group:['G'],
+	    name:'Gulstreckad avenbokssäckmal',
+		latin:'Coleophora currucipennella', 
+		slug:'coleophora_currucipennella', 
+		image:'img/coleophora_currucipennella-§1-16-0276.jpg',
+		date: '2016-06-30',
+		site: 'Grytsjön, Bäckebo, Sm',
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-0276'
+	  },
+      {
+	    group:['G'],
+	    name:'Gulstreckad avenbokssäckmal',
+		latin:'Coleophora currucipennella', 
+		slug:'coleophora_currucipennella', 
+		image:'img/coleophora_currucipennella-§1-16-0311.jpg',
+		date: '2016-06-30',
+		site: 'Grytsjön, Bäckebo, Sm',
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-0311'
 	  }
   ];
   
@@ -2317,7 +2413,7 @@ var ALLTAXONS: Taxon[] = [
    {
       artId:750,
       dyntaxaId:214486,
-      group: ['H','G','E'],
+      group: ['G','H','E'],
       name:'Gulstreckad björksäckmal',
       latin:'Coleophora betulella',
       auctor:'Wocke, 1876',
