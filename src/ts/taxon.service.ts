@@ -168,6 +168,22 @@ var TAXONIMAGES: TaxonImage[] = [
 	    name:'Sötväpplingsäckmal',
 		latin:'Coleophora trifolii', 
 		slug:'coleophora_trifolii', 
+		image:'img/coleophora_trifolii-§4-16-8339.jpg',
+		date: '2016-06-16',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 4,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-8339'
+	  },
+      {
+	    group:['A'],
+	    name:'Sötväpplingsäckmal',
+		latin:'Coleophora trifolii', 
+		slug:'coleophora_trifolii', 
 		image:'img/coleophora_trifolii-§2-11-8889.jpg',
 		date: '2011-07-04',
 		site: 'Släp, Hl',
@@ -244,6 +260,39 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '15-3015'
 	  },
+      {
+	    group:['A'],
+	    name:'Fjällsprötad grönglanssäckmal',
+		latin:'Coleophora deauratella', 
+		slug:'coleophora_deauratella', 
+		image:'img/coleophora_deauratella-§2-15-3078.jpg',
+		date: '2015-07-04',
+		site: 'Nidingen, Hl',
+		unsure: false,
+		specimen: 2,
+		detYear: 2015,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '15-3078'
+	  },
+      {
+	    group:['A'],
+	    name:'Fjällsprötad grönglanssäckmal',
+		latin:'Coleophora deauratella', 
+		slug:'coleophora_deauratella', 
+		image:'img/coleophora_deauratella-§3-16-6691.jpg',
+		date: '2016-05-30',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 3,
+		detYear: 2015,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-6691'
+	  },
+
       {
 	    group:['A'],
 	    name:'Klövergrönglanssäckmal',
@@ -809,6 +858,23 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '10-9743'
 	  },
+
+      {
+	    group:['E'],
+	    name:'Större sötvedelssäckmal',
+		latin:'Coleophora gallipennella', 
+		slug:'coleophora_gallipennella', 
+		image:'img/coleophora_gallipennella-§1-16-9105.jpg',
+		date: '2016-06-21',
+		site: 'Höge ås, Öl',
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-9105'
+	  },
 	  
       {
 	    group:['E'],
@@ -1086,6 +1152,55 @@ var TAXONIMAGES: TaxonImage[] = [
 		detMethod: 'foto',
 		photographer: 'Magnus Unger',
 		bildId: '14-9934'
+	  },
+	  
+      {
+	    group:['F'],
+	    name:'Tjärblomstersäckmal',
+		latin:'Coleophora graminicolella', 
+		slug:'coleophora_graminicolella', 
+		image:'img/coleophora_graminicolella-§3-16-6738.jpg',
+		date: '2016-05-30',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 3,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-6738'
+	  },
+      {
+	    group:['F'],
+	    name:'Tjärblomstersäckmal',
+		latin:'Coleophora graminicolella', 
+		slug:'coleophora_graminicolella', 
+		image:'img/coleophora_graminicolella-§1-16-6209.jpg',
+		date: '2016-05-19',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-6209'
+	  },
+      {
+	    group:['F'],
+	    name:'Tjärblomstersäckmal',
+		latin:'Coleophora graminicolella', 
+		slug:'coleophora_graminicolella', 
+		image:'img/coleophora_graminicolella-§2-16-6266.jpg',
+		date: '2016-05-19',
+		site: 'Släp, Hl',
+		unsure: false,
+		specimen: 2,
+		detYear: 2016,
+		detBy: 'Jan Å. Jonasson',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-6266'
 	  },
 	  
 	  {
@@ -2015,7 +2130,7 @@ var ALLTAXONS: Taxon[] = [
 		  difference: 'Mörkare brun och jämnfärgad, vita mittstrecket tydligare.'
 		},
 		{
-		  name:'Sötvedelfruktsäckmal',
+		  name:'Större sötvedelssäckmal',
 		  latin:'Coleophora gallipennella',
 		  difference: 'Långa gulvita antenntofsar'
 		},
@@ -2270,11 +2385,11 @@ var ALLTAXONS: Taxon[] = [
       artId:755,
       dyntaxaId:214492,
       group: ['E'],
-      name:'Sötvedelfruktsäckmal',
+      name:'Större sötvedelssäckmal',
       latin:'Coleophora gallipennella',
       auctor:'(Hübner, 1796)',
       hasImage:false,
-      slugSv:'sötvedelfruktsäckmal',
+      slugSv:'större_sötvedelssäckmal',
       slug:'coleophora_gallipennella',
 	  redlist: 'NT',
 	  distribution: 'Förekommer mycket lokalt i södra Sverige, i anslutning till värdväxten',
@@ -2946,7 +3061,7 @@ var ALLTAXONS: Taxon[] = [
       artId:816,
       dyntaxaId:214551,
       group: ['F'],
-      name:'Mörkringad tjärblomstersäckmal',
+      name:'Tjärblomstersäckmal',
       latin:'Coleophora graminicolella',
       auctor:'Heinemann, 1876',
       hasImage:false,
