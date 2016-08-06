@@ -20,20 +20,28 @@ import {TaxonService} from './taxon.service';
 			<h1>Group {{id}} - <small>{{taxons.length}} arter</small></h1>
 		</div>
 		<div class="col-xs-12">
-			<ul class="list-unstyled">
-				<li *ngFor="#taxon of taxons">
-					<div *ngIf="taxon.hasImage">
-						<!--<img src="http://www.lepidoptera.se/flight/{{taxon.slug}}.aspx"/>-->
-						<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
+			<table>
+				<tr *ngFor="#taxon of taxons">
+					<td>
+						<div *ngIf="taxon.hasImage">
+							<!--<img src="http://www.lepidoptera.se/flight/{{taxon.slug}}.aspx"/>-->
+							<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
+								<em>{{taxon.latin}}</em> - {{taxon.name}}
+							</a>
+						</div>
+						<div *ngIf="!taxon.hasImage">
+							<!--<img src="http://www.lepidoptera.se/flight/{{taxon.slug}}.aspx"/>-->
 							<em>{{taxon.latin}}</em> - {{taxon.name}}
-						</a>
-					</div>
-					<div *ngIf="!taxon.hasImage">
-						<!--<img src="http://www.lepidoptera.se/flight/{{taxon.slug}}.aspx"/>-->
-						<em>{{taxon.latin}}</em> - {{taxon.name}}
-					</div>
-				</li>
-			</ul>
+						</div>
+					</td>
+					<td align="right" style="white-space: nowrap;">
+						<div *ngIf="taxon.wingSpanMin!=0">
+						<small>{{taxon.wingSpanMin}}-{{taxon.wingSpanMax}} mm</small>
+						</div>
+					</td>
+				</tr>
+			</table>
+		
 		</div>
 		<div *ngFor="#item of taxonImages" class="col-xs-12 col-md-6 col-lg-4">
 			<a [routerLink]="['TaxonDetail', {id: item.slug }]">

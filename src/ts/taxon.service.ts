@@ -603,7 +603,7 @@ var TAXONIMAGES: TaxonImage[] = [
 
       {
 	    group:['D'],
-	    name:'Allmän mållsäckmal',
+	    name:'Större mållesäckmal',
 		latin:'Coleophora sternipennella', 
 		slug:'coleophora_sternipennella', 
 		image:'img/coleophora_sternipennella-§1-10-9487.jpg',
@@ -635,7 +635,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	  },
       {
 	    group:['D','F'],
-	    name:'Spetsvingad mållsäckmal',
+	    name:'Smalvingad mållesäckmal',
 		latin:'Coleophora vestianella', 
 		slug:'coleophora_vestianella', 
 		image:'img/coleophora_vestianella-§2-14-7174.jpg',
@@ -651,7 +651,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	  },
       {
 	    group:['D','F'],
-	    name:'Spetsvingad mållsäckmal',
+	    name:'Smalvingad mållesäckmal',
 		latin:'Coleophora vestianella', 
 		slug:'coleophora_vestianella', 
 		image:'img/coleophora_vestianella-§1-10-9652.jpg',
@@ -667,7 +667,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	  },
       {
 	    group:['D','F'],
-	    name:'Kustmållsäckmal',
+	    name:'Kustmållesäckmal',
 		latin:'Coleophora atriplicis', 
 		slug:'coleophora_atriplicis', 
 		image:'img/coleophora_atriplicis-§1-10-8831.jpg',
@@ -941,6 +941,23 @@ var TAXONIMAGES: TaxonImage[] = [
 		bildId: '16-1979'
 	  },
 	  
+	  
+      {
+	    group:['F'],
+	    name:'Sikelspetsad timjesäckmal',
+		latin:'Coleophora lixella', 
+		slug:'coleophora_lixella', 
+		image:'img/coleophora_lixella-§3-16-1944.jpg',
+		date: '2016-07-23',
+		site: 'Tofta skjutfält, Gtl',
+		unsure: false,
+		specimen: 3,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-1944'
+	  },
       {
 	    group:['F'],
 	    name:'Sikelspetsad timjesäckmal',
@@ -1096,6 +1113,7 @@ var TAXONIMAGES: TaxonImage[] = [
 		image:'img/coleophora_sp-§1-10-8901.jpg',
 		date: '2010-07-11',
 		site: 'Nidingen, Hl',
+		wingspan: 8.5,
 		unsure: true,
 		specimen: 1,
 		detYear: 2010,
@@ -1112,6 +1130,7 @@ var TAXONIMAGES: TaxonImage[] = [
 		image:'img/coleophora_sp-§1-10-8899.jpg',
 		date: '2010-07-11',
 		site: 'Nidingen, Hl',
+		wingspan: 8.5,
 		unsure: true,
 		specimen: 1,
 		detYear: 2010,
@@ -1128,8 +1147,9 @@ var TAXONIMAGES: TaxonImage[] = [
 		image:'img/coleophora_sp-§2-14-7432.jpg',
 		date: '2014-07-10',
 		site: 'Nidingen, Hl',
+		wingspan: 11.5,
 		unsure: true,
-		specimen: 1,
+		specimen: 2,
 		detYear: 2014,
 		detBy: '',
 		detMethod: '',        
@@ -1169,7 +1189,23 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '14-9934'
 	  },
-	  
+      {
+	    group:['F'],
+	    name:'Ljusringad backglimsäckmal',
+		latin:'Coleophora nutantella', 
+		slug:'coleophora_nutantella', 
+		image:'img/coleophora_nutantella-§1-16-9201.jpg',
+		date: '2016-06-21',
+		site: 'Jordtorp, Öl',
+		wingspan: 17,
+		unsure: true,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-9201'
+	  },	  
       {
 	    group:['F'],
 	    name:'Tjärblomstersäckmal',
@@ -1210,6 +1246,7 @@ var TAXONIMAGES: TaxonImage[] = [
 		image:'img/coleophora_graminicolella-§2-16-6266.jpg',
 		date: '2016-05-19',
 		site: 'Släp, Hl',
+		wingspan: 17,
 		unsure: false,
 		specimen: 2,
 		detYear: 2016,
@@ -1218,6 +1255,7 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '16-6266'
 	  },
+	  
 	  
 	  {
 	    group:['G'],
@@ -1551,6 +1589,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Trampörtgallmal',
       latin:'Augasma aeratella',
       auctor:'(Zeller, 1839)',
+	  wingSpanMin: 9,
+	  wingSpanMax: 10,
       hasImage:false,
       slugSv:'trampörtgallmal',
       slug:'augasma_aeratella'
@@ -1562,6 +1602,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Buskstjärnblomkapselmal',
       latin:'Metriotes lutarea',
       auctor:'(Haworth, 1828)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'buskstjärnblomkapselmal',
       slug:'metriotes_lutarea'
@@ -1573,6 +1615,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Svartvit säckmal',
       latin:'Coleophora albella',
       auctor:'(Thunberg, 1788)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'svartvit_säckmal',
       slug:'coleophora_albella'
@@ -1584,6 +1628,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Spireasäckmal',
       latin:'Coleophora spiraeella',
       auctor:'Rebel, 1916',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'spireasäckmal',
       slug:'coleophora_spiraeella'
@@ -1595,6 +1641,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gul eksäckmal',
       latin:'Coleophora lutipennella',
       auctor:'(Zeller, 1838)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gul_eksäckmal',
       slug:'coleophora_lutipennella'
@@ -1606,6 +1654,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Nyponsäckmal',
       latin:'Coleophora gryphipennella',
       auctor:'(Hübner, 1796)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'nyponsäckmal',
       slug:'coleophora_gryphipennella'
@@ -1617,6 +1667,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ljuskantad eksäckmal',
       latin:'Coleophora flavipennella',
       auctor:'(Duponchel, 1843)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'ljuskantad_eksäckmal',
       slug:'coleophora_flavipennella'
@@ -1628,6 +1680,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ljuskantad slånsäckmal',
       latin:'Coleophora adjectella',
       auctor:'Herrich-Schäffer, 1861',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'ljuskantad_slånsäckmal',
       slug:'coleophora_adjectella'
@@ -1639,6 +1693,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ljuskantad björksäckmal',
       latin:'Coleophora milvipennis',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'ljuskantad_björksäckmal',
       slug:'coleophora_milvipennis'
@@ -1650,6 +1706,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ljuskantad alsäckmal',
       latin:'Coleophora alnifoliae',
       auctor:'Barasch, 1934',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'ljuskantad_alsäckmal',
       slug:'coleophora_alnifoliae'
@@ -1661,6 +1719,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Vitkantad almsäckmal',
       latin:'Coleophora badiipennella',
       auctor:'(Duponchel, 1843)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'vitkantad_almsäckmal',
       slug:'coleophora_badiipennella'
@@ -1672,6 +1732,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ljuskantad almsäckmal',
       latin:'Coleophora limosipennella',
       auctor:'(Duponchel, 1843)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'ljuskantad_almsäckmal',
       slug:'coleophora_limosipennella'
@@ -1683,6 +1745,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gulgrå rönnsäckmal',
       latin:'Coleophora siccifolia',
       auctor:'Stainton, 1856',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gulgrå_rönnsäckmal',
       slug:'coleophora_siccifolia'
@@ -1694,6 +1758,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Odonsäckmal',
       latin:'Coleophora uliginosella',
       auctor:'Glitz, 1872',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'odonsäckmal',
       slug:'coleophora_uliginosella'
@@ -1705,6 +1771,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Björksäckmal',
       latin:'Coleophora serratella',
       auctor:'(Linnaeus, 1761)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'björksäckmal',
       slug:'coleophora_serratella'
@@ -1716,6 +1784,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Apelsäckmal',
       latin:'Coleophora spinella',
       auctor:'(Schrank, 1802)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'apelsäckmal',
       slug:'coleophora_spinella'
@@ -1727,6 +1797,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Körsbärssäckmal',
       latin:'Coleophora prunifoliae',
       auctor:'Doets, 1944',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'körsbärssäckmal',
       slug:'coleophora_prunifoliae'
@@ -1738,6 +1810,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Vattenskräppesäckmal',
       latin:'Coleophora hydrolapathella',
       auctor:'M. Hering, 1924',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'vattenskräppesäckmal',
       slug:'coleophora_hydrolapathella'
@@ -1749,6 +1823,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Vitkantad rönnsäckmal',
       latin:'Coleophora trigeminella',
       auctor:'Fuchs, 1881',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'vitkantad_rönnsäckmal',
       slug:'coleophora_trigeminella'
@@ -1760,6 +1836,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Mossesäckmal',
       latin:'Coleophora cornutella',
       auctor:'Herrich-Schäffer, 1861',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'mossesäckmal',
       slug:'coleophora_cornutella'
@@ -1771,6 +1849,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Liten grönglanssäckmal',
       latin:'Coleophora fuscocuprella',
       auctor:'Herrich-Schäffer, 1854',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'liten_grönglanssäckmal',
       slug:'coleophora_fuscocuprella'
@@ -1782,6 +1862,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Mjölonsäckmal',
       latin:'Coleophora arctostaphyli',
       auctor:'Meder, 1934',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'mjölonsäckmal',
       slug:'coleophora_arctostaphyli'
@@ -1793,6 +1875,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Videsäckmal',
       latin:'Coleophora lusciniaepennella',
       auctor:'(Treitschke, 1833)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'videsäckmal',
       slug:'coleophora_lusciniaepennella'
@@ -1804,6 +1888,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Pyrolasäckmal',
       latin:'Coleophora idaeella',
       auctor:'Hofmann, 1869',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'pyrolasäckmal',
       slug:'coleophora_idaeella'
@@ -1815,6 +1901,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Blåbärsäckmal',
       latin:'Coleophora vacciniella',
       auctor:'Herrich-Schäffer, 1861',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'blåbärsäckmal',
       slug:'coleophora_vacciniella'
@@ -1826,6 +1914,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Mindre skvattramsäckmal',
       latin:'Coleophora ledi',
       auctor:'Stainton, 1860',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'mindre_skvattramsäckmal',
       slug:'coleophora_ledi'
@@ -1837,6 +1927,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Blygrå säckmal',
       latin:'Coleophora plumbella',
       auctor:'Kanerva, 1941',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'blygrå_säckmal',
       slug:'coleophora_plumbella'
@@ -1848,6 +1940,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Lingonpistolsäckmal',
       latin:'Coleophora vitisella',
       auctor:'Gregson, 1856',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'lingonpistolsäckmal',
       slug:'coleophora_vitisella'
@@ -1859,6 +1953,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Allmän lingonsäckmal',
       latin:'Coleophora glitzella',
       auctor:'Hofmann, 1869',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'allmän_lingonsäckmal',
       slug:'coleophora_glitzella'
@@ -1870,6 +1966,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Musgrå lingonsäckmal',
       latin:'Coleophora murinella',
       auctor:'Tengström, 1848',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'musgrå_lingonsäckmal',
       slug:'coleophora_murinella'
@@ -1881,6 +1979,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Allätarsäckmal',
       latin:'Coleophora violacea',
       auctor:'(Ström, 1783)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'allätarsäckmal',
       slug:'coleophora_violacea'
@@ -1892,6 +1992,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Brudbrödsäckmal',
       latin:'Coleophora potentillae',
       auctor:'Elisha, 1885',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'brudbrödsäckmal',
       slug:'coleophora_potentillae'
@@ -1903,6 +2005,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Skvattramsäckmal',
       latin:'Coleophora obscuripalpella',
       auctor:'Kanerva, 1941',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'skvattramsäckmal',
       slug:'coleophora_obscuripalpella'
@@ -1914,6 +2018,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Hjortronsäckmal',
       latin:'Coleophora thulea',
       auctor:'Johansson, 1967',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'hjortronsäckmal',
       slug:'coleophora_thulea'
@@ -1925,6 +2031,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Fjällsippesäckmal',
       latin:'Coleophora unigenella',
       auctor:'Svensson, 1966',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'fjällsippesäckmal',
       slug:'coleophora_unigenella'
@@ -1936,6 +2044,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Liten ljungsäckmal',
       latin:'Coleophora juncicolella',
       auctor:'Stainton, 1851',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'liten_ljungsäckmal',
       slug:'coleophora_juncicolella'
@@ -1947,6 +2057,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Grå björksäckmal',
       latin:'Coleophora orbitella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'grå_björksäckmal',
       slug:'coleophora_orbitella'
@@ -1958,6 +2070,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Brun alsäckmal',
       latin:'Coleophora binderella',
       auctor:'Kollar, 1832',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'brun_alsäckmal',
       slug:'coleophora_binderella'
@@ -1969,6 +2083,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Trysäckmal',
       latin:'Coleophora ahenella',
       auctor:'Heinemann, 1876',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'trysäckmal',
       slug:'coleophora_ahenella'
@@ -1980,6 +2096,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Myntesäckmal',
       latin:'Coleophora albitarsella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'myntesäckmal',
       slug:'coleophora_albitarsella'
@@ -1991,6 +2109,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Lungörtssäckmal',
       latin:'Coleophora pulmonariella',
       auctor:'Ragonot, 1874',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'lungörtssäckmal',
       slug:'coleophora_pulmonariella'
@@ -2002,6 +2122,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Sötväpplingsäckmal',
       latin:'Coleophora trifolii',
       auctor:'(Curtis, 1832)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'sötväpplingsäckmal',
       slug:'coleophora_trifolii',
@@ -2025,6 +2147,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Tidig grönglanssäckmal',
       latin:'Coleophora frischella',
       auctor:'(Linnaeus, 1758)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'tidig_grönglanssäckmal',
       slug:'coleophora_frischella',
@@ -2048,6 +2172,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Sen grönglanssäckmal',
       latin:'Coleophora alcyonipennella',
       auctor:'(Kollar, 1832)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'sen_grönglanssäckmal',
       slug:'coleophora_alcyonipennella',
@@ -2071,6 +2197,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Skarplinjerad krisslesäckmal',
       latin:'Coleophora conyzae',
       auctor:'Zeller, 1868',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'skarplinjerad_krisslesäckmal',
       slug:'coleophora_conyzae'
@@ -2082,6 +2210,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Stinksyskesäckmal',
       latin:'Coleophora lineolea',
       auctor:'(Haworth, 1828)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'stinksyskesäckmal',
       slug:'coleophora_lineolea'
@@ -2093,6 +2223,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Vattrad rönnsäckmal',
       latin:'Coleophora hemerobiella',
       auctor:'(Scopoli, 1763)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'vattrad_rönnsäckmal',
       slug:'coleophora_hemerobiella'
@@ -2104,6 +2236,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Olivfärgad stjärnblomsäckmal',
       latin:'Coleophora lithargyrinella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'olivfärgad_stjärnblomsäckmal',
       slug:'coleophora_lithargyrinella'
@@ -2115,6 +2249,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Sandvedelsäckmal',
       latin:'Coleophora onobrychiella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'sandvedelsäckmal',
       slug:'coleophora_onobrychiella',
@@ -2135,6 +2271,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Sötvedelbladsäckmal',
       latin:'Coleophora colutella',
       auctor:'(Fabricius, 1794)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'sötvedelbladsäckmal',
       slug:'coleophora_colutella',
@@ -2149,6 +2287,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ginstsäckmal',
       latin:'Coleophora genistae',
       auctor:'Stainton, 1847',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'ginstsäckmal',
       slug:'coleophora_genistae',
@@ -2186,6 +2326,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Kilstreckad fjällsäckmal',
       latin:'Coleophora svenssoni',
       auctor:'Baldizzone, 1985',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'kilstreckad_fjällsäckmal',
       slug:'coleophora_svenssoni'
@@ -2197,6 +2339,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Jungfrusäckmal',
       latin:'Coleophora parthenogenella',
       auctor:'Stainton, 1850',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'harrissäckmal',
       slug:'coleophora_parthenogenella',
@@ -2248,6 +2392,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Vitkantad timjansäckmal',
       latin:'Coleophora niveicostella',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'vitkantad_timjansäckmal',
       slug:'coleophora_niveicostella'
@@ -2259,6 +2405,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Toksäckmal',
       latin:'Coleophora peri',
       auctor:'Svensson, 1976',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'toksäckmal',
       slug:'coleophora_peri'
@@ -2270,6 +2418,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Käringtandsäckmal',
       latin:'Coleophora discordella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'käringtandsäckmal',
       slug:'coleophora_discordella'
@@ -2281,6 +2431,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Silverstreckad säckmal',
       latin:'Coleophora chalcogrammella',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'silverstreckad_säckmal',
       slug:'coleophora_chalcogrammella'
@@ -2292,6 +2444,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Fjällsprötad grönglanssäckmal',
       latin:'Coleophora deauratella',
       auctor:'Lienig \u0026 Zeller, 1846',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'fjällsprötad_grönglanssäckmal',
       slug:'coleophora_deauratella'
@@ -2303,6 +2457,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Klövergrönglanssäckmal',
       latin:'Coleophora mayrella',
       auctor:'(Hübner, 1813)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'klövergrönglanssäckmal',
       slug:'coleophora_mayrella'
@@ -2314,6 +2470,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Pudrad hasselsäckmal',
       latin:'Coleophora anatipennella',
       auctor:'(Hübner, 1783)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'pudrad_hasselsäckmal',
       slug:'coleophora_anatipennella',
@@ -2337,6 +2495,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Pudrad sälgsäckmal',
       latin:'Coleophora albidella',
       auctor:'(Denis \u0026 Schiffermüller, 1775)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'pudrad_sälgsäckmal',
       slug:'coleophora_albidella',
@@ -2360,6 +2520,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Vit eksäckmal',
       latin:'Coleophora kuehnella',
       auctor:'(Goeze, 1783)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'vit_eksäckmal',
       slug:'coleophora_kuehnella',
@@ -2393,6 +2555,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Brunstreckad eksäckmal',
       latin:'Coleophora ibipennella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'brunstreckad_eksäckmal',
       slug:'coleophora_ibipennella',
@@ -2416,6 +2580,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gulstreckad björksäckmal',
       latin:'Coleophora betulella',
       auctor:'Wocke, 1876',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gulstreckad_björksäckmal',
       slug:'coleophora_betulella',
@@ -2439,6 +2605,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gulspetsad sälgsäckmal',
       latin:'Coleophora zelleriella',
       auctor:'Heinemann, 1854',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gulspetsad_sälgsäckmal',
       slug:'coleophora_zelleriella'
@@ -2450,6 +2618,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gulstreckad avenboksäckmal',
       latin:'Coleophora currucipennella',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gulstreckad_avenboksäckmal',
       slug:'coleophora_currucipennella'
@@ -2461,6 +2631,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Kilstreckad ljungsäckmal',
       latin:'Coleophora pyrrhulipennella',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'kilstreckad_ljungsäckmal',
       slug:'coleophora_pyrrhulipennella'
@@ -2472,6 +2644,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Stor klintsäckmal',
       latin:'Coleophora brevipalpella',
       auctor:'Wocke, 1874',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'stor_klintsäckmal',
       slug:'coleophora_brevipalpella'
@@ -2483,6 +2657,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Större sötvedelssäckmal',
       latin:'Coleophora gallipennella',
       auctor:'(Hübner, 1796)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'större_sötvedelssäckmal',
       slug:'coleophora_gallipennella',
@@ -2496,6 +2672,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Kilstreckad fältmalörtsäckmal',
       latin:'Coleophora vibicigerella',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'kilstreckad_fältmalörtsäckmal',
       slug:'coleophora_vibicigerella'
@@ -2507,6 +2685,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Kilstreckad klintsäckmal',
       latin:'Coleophora conspicuella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'kilstreckad_klintsäckmal',
       slug:'coleophora_conspicuella'
@@ -2518,6 +2698,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Kilstreckad rölleksäckmal',
       latin:'Coleophora partitella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'kilstreckad_rölleksäckmal',
       slug:'coleophora_partitella'
@@ -2529,6 +2711,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Kilstreckad hedblomstersäckmal',
       latin:'Coleophora caelebipennella',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'kilstreckad_hedblomstersäckmal',
       slug:'coleophora_caelebipennella'
@@ -2540,6 +2724,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Solvändesäckmal',
       latin:'Coleophora ochrea',
       auctor:'(Haworth, 1828)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'solvändesäckmal',
       slug:'coleophora_ochrea'
@@ -2551,6 +2737,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Sikelspetsad timjesäckmal',
       latin:'Coleophora lixella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 16,
+      wingSpanMax: 20,
       hasImage:false,
       slugSv:'sikelspetsad_timjesäckmal',
       slug:'coleophora_lixella'
@@ -2562,6 +2750,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Getväpplingsäckmal',
       latin:'Coleophora vulnerariae',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'getväpplingsäckmal',
       slug:'coleophora_vulnerariae'
@@ -2573,6 +2763,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Strävbladsäckmal',
       latin:'Coleophora pennella',
       auctor:'(Denis \u0026 Schiffermüller, 1775)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'strävbladsäckmal',
       slug:'coleophora_pennella'
@@ -2584,6 +2776,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Lärksäckmal',
       latin:'Coleophora laricella',
       auctor:'(Hübner, 1817)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'lärksäckmal',
       slug:'coleophora_laricella'
@@ -2595,6 +2789,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Skogsfrylesäckmal',
       latin:'Coleophora antennariella',
       auctor:'Herrich-Schäffer, 1861',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'skogsfrylesäckmal',
       slug:'coleophora_antennariella'
@@ -2606,6 +2802,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Salttågsäckmal',
       latin:'Coleophora adjunctella',
       auctor:'Hodgkinson, 1882',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'salttågsäckmal',
       slug:'coleophora_adjunctella'
@@ -2617,6 +2815,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Skarpringad tågsäckmal',
       latin:'Coleophora caespititiella',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'skarpringad_tågsäckmal',
       slug:'coleophora_caespititiella'
@@ -2628,6 +2828,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ljussprötad tågsäckmal',
       latin:'Coleophora tamesis',
       auctor:'Waters, 1929',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'ljussprötad_tågsäckmal',
       slug:'coleophora_tamesis'
@@ -2639,6 +2841,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Suddig tågsäckmal',
       latin:'Coleophora glaucicolella',
       auctor:'Wood, 1892',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'suddig_tågsäckmal',
       slug:'coleophora_glaucicolella'
@@ -2650,6 +2854,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Dyster frylesäckmal',
       latin:'Coleophora otidipennella',
       auctor:'(Hübner, 1817)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'dyster_frylesäckmal',
       slug:'coleophora_otidipennella'
@@ -2661,6 +2867,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Allmän tågsäckmal',
       latin:'Coleophora alticolella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'allmän_tågsäckmal',
       slug:'coleophora_alticolella'
@@ -2672,6 +2880,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gullinjerad tågsäckmal',
       latin:'Coleophora taeniipennella',
       auctor:'Herrich-Schäffer, 1855',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gullinjerad_tågsäckmal',
       slug:'coleophora_taeniipennella'
@@ -2683,6 +2893,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Parkfrylesäckmal',
       latin:'Coleophora sylvaticella',
       auctor:'Wood, 1892',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'parkfrylesäckmal',
       slug:'coleophora_sylvaticella'
@@ -2694,6 +2906,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Trött säckmal',
       latin:'Coleophora lassella',
       auctor:'Staudinger, 1859',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'trött_säckmal',
       slug:'coleophora_lassella'
@@ -2705,6 +2919,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Strandtågsäckmal',
       latin:'Coleophora maritimella',
       auctor:'Newman, 1873',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'strandtågsäckmal',
       slug:'coleophora_maritimella'
@@ -2716,6 +2932,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gullrissäckmal',
       latin:'Coleophora virgaureae',
       auctor:'Stainton, 1857',
+      wingSpanMin: 10,
+      wingSpanMax: 13,
       hasImage:false,
       slugSv:'gullrissäckmal',
       slug:'coleophora_virgaureae'
@@ -2727,6 +2945,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Dubbellinjerad tistelsäckmal',
       latin:'Coleophora therinella',
       auctor:'Tengström, 1848',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'dubbellinjerad_tistelsäckmal',
       slug:'coleophora_therinella'
@@ -2738,6 +2958,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Strandastersäckmal',
       latin:'Coleophora asteris',
       auctor:'Mühlig, 1864',
+      wingSpanMin: 10,
+      wingSpanMax: 15,
       hasImage:false,
       slugSv:'strandastersäckmal',
       slug:'coleophora_asteris'
@@ -2749,12 +2971,14 @@ var ALLTAXONS: Taxon[] = [
       name:'Gulgrå mållsäckmal',
       latin:'Coleophora saxicolella',
       auctor:'(Duponchel, 1843)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gulgrå_mållsäckmal',
       slug:'coleophora_saxicolella',
 	  similar: [
 		{
-		  name:'Allmän mållsäckmal',
+		  name:'Större mållesäckmal',
 		  latin:'Coleophora sternipennella',
 		  difference: ''
 		},
@@ -2764,22 +2988,26 @@ var ALLTAXONS: Taxon[] = [
       artId:781,
       dyntaxaId:214516,
       group: ['F'],
-      name:'Vitribbad mållsäckmal',
+      name:'Mindre mållesäckmal',
       latin:'Coleophora jaernaensis',
       auctor:'Björklund \u0026 Palmqvist, 2002',
+      wingSpanMin: 11,
+      wingSpanMax: 14,
       hasImage:false,
-      slugSv:'vitribbad_mållsäckmal',
+      slugSv:'mindre_mållesäckmal',
       slug:'coleophora_jaernaensis'
    },
    {
       artId:782,
       dyntaxaId:214517,
       group: ['D'],
-      name:'Allmän mållsäckmal',
+      name:'Större mållesäckmal',
       latin:'Coleophora sternipennella',
       auctor:'(Zetterstedt, 1839)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
-      slugSv:'allmän_mållsäckmal',
+      slugSv:'större_mållesäckmal',
       slug:'coleophora_sternipennella',
 	  similar: [
 		{
@@ -2796,6 +3024,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Nordsäckmal',
       latin:'Coleophora boreella',
       auctor:'Benander, 1939',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'nordsäckmal',
       slug:'coleophora_boreella'
@@ -2807,6 +3037,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gråbinkesäckmal',
       latin:'Coleophora squamosella',
       auctor:'Stainton, 1856',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gråbinkesäckmal',
       slug:'coleophora_squamosella'
@@ -2818,6 +3050,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Blek mållsäckmal',
       latin:'Coleophora versurella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 11,
+      wingSpanMax: 15,
       hasImage:false,
       slugSv:'blek_mållsäckmal',
       slug:'coleophora_versurella'
@@ -2826,22 +3060,26 @@ var ALLTAXONS: Taxon[] = [
       artId:786,
       dyntaxaId:214521,
       group: ['D','F'],
-      name:'Spetsvingad mållsäckmal',
+      name:'Smalvingad mållesäckmal',
       latin:'Coleophora vestianella',
       auctor:'(Lnnaeus, 1758)',
+      wingSpanMin: 11,
+      wingSpanMax: 16,
       hasImage:false,
-      slugSv:'spetsvingad_mållsäckmal',
+      slugSv:'smalvingad_mållesäckmal',
       slug:'coleophora_vestianella'
    },
    {
       artId:787,
       dyntaxaId:214522,
       group: ['D','F'],
-      name:'Kustmållsäckmal',
+      name:'Kustmållesäckmal',
       latin:'Coleophora atriplicis',
       auctor:'Meyrick, 1928',
+      wingSpanMin: 12,
+      wingSpanMax: 14,
       hasImage:false,
-      slugSv:'kustmållsäckmal',
+      slugSv:'kustmållesäckmal',
       slug:'coleophora_atriplicis'
    },
    {
@@ -2851,6 +3089,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Kattfotsäckmal',
       latin:'Coleophora pappiferella',
       auctor:'Hofmann, 1869',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'kattfotsäckmal',
       slug:'coleophora_pappiferella'
@@ -2862,6 +3102,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Absintsäckmal',
       latin:'Coleophora absinthii',
       auctor:'Wocke, 1876',
+      wingSpanMin: 14,
+      wingSpanMax: 17,
       hasImage:false,
       slugSv:'absintsäckmal',
       slug:'coleophora_absinthii'
@@ -2873,6 +3115,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Pältsasäckmal',
       latin:'Coleophora paeltsaella',
       auctor:'Palmqvist \u0026 Hellberg, 1999',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'pältsasäckmal',
       slug:'coleophora_paeltsaella'
@@ -2884,6 +3128,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gråbosäckmal',
       latin:'Coleophora artemisicolella',
       auctor:'Bruand, 1855',
+      wingSpanMin: 11,
+      wingSpanMax: 13,
       hasImage:false,
       slugSv:'gråbosäckmal',
       slug:'coleophora_artemisicolella'
@@ -2895,6 +3141,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Hylsnejlikesäckmal',
       latin:'Coleophora adelogrammella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 13,
+      wingSpanMax: 15,
       hasImage:false,
       slugSv:'hylsnejlikesäckmal',
       slug:'coleophora_adelogrammella'
@@ -2903,11 +3151,13 @@ var ALLTAXONS: Taxon[] = [
       artId:793,
       dyntaxaId:214528,
       group: ['F'],
-      name:'Grovfjällig fältmalörtsäckmal',
+      name:'Grovfjällig malörtssäckmal',
       latin:'Coleophora succursella',
       auctor:'Herrich-Schäffer, 1854',
+      wingSpanMin: 14,
+      wingSpanMax: 15,
       hasImage:false,
-      slugSv:'grovfjällig_fältmalörtsäckmal',
+      slugSv:'grovfjällig_malörtssäckmal',
       slug:'coleophora_succursella'
    },
    {
@@ -2917,6 +3167,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Grovfjällig hedblomstersäckmal',
       latin:'Coleophora gnaphalii',
       auctor:'Zeller, 1839',
+      wingSpanMin: 14,
+      wingSpanMax: 15,
       hasImage:false,
       slugSv:'grovfjällig_hedblomstersäckmal',
       slug:'coleophora_gnaphalii'
@@ -2928,6 +3180,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Större backglimsäckmal',
       latin:'Coleophora galbulipennella',
       auctor:'Zeller, 1838',
+      wingSpanMin: 15,
+      wingSpanMax: 17,
       hasImage:false,
       slugSv:'större_backglimsäckmal',
       slug:'coleophora_galbulipennella'
@@ -2939,6 +3193,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Knytlingsäckmal',
       latin:'Coleophora scabrida',
       auctor:'Toll, 1959',
+      wingSpanMin: 12,
+      wingSpanMax: 14,
       hasImage:false,
       slugSv:'knytlingsäckmal',
       slug:'coleophora_scabrida'
@@ -2950,6 +3206,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Grovfjällig rölleksäckmal',
       latin:'Coleophora millefolii',
       auctor:'Zeller, 1849',
+      wingSpanMin: 11,
+      wingSpanMax: 12,
       hasImage:false,
       slugSv:'grovfjällig_rölleksäckmal',
       slug:'coleophora_millefolii'
@@ -2958,11 +3216,13 @@ var ALLTAXONS: Taxon[] = [
       artId:798,
       dyntaxaId:100686,
       group: ['F'],
-      name:'Såpörtsäckmal',
+      name:'Såpörtssäckmal',
       latin:'Coleophora kyffhusana',
       auctor:'Petry, 1898',
+      wingSpanMin: 9,
+      wingSpanMax: 10,
       hasImage:false,
-      slugSv:'såpörtsäckmal',
+      slugSv:'såpörtssäckmal',
       slug:'coleophora_kyffhusana'
    },
    {
@@ -2972,6 +3232,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Linjerad tistelsäckmal',
       latin:'Coleophora peribenanderi',
       auctor:'Toll, 1943',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'linjerad_tistelsäckmal',
       slug:'coleophora_peribenanderi'
@@ -2983,6 +3245,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Linjerad gullrissäckmal',
       latin:'Coleophora amellivora',
       auctor:'Baldizzone, 1979',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'linjerad_gullrissäckmal',
       slug:'coleophora_amellivora'
@@ -2994,6 +3258,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Vitsprötad gullrissäckmal',
       latin:'Coleophora ramosella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'vitsprötad_gullrissäckmal',
       slug:'coleophora_ramosella'
@@ -3005,6 +3271,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Gullinjerad gullrissäckmal',
       latin:'Coleophora trochilella',
       auctor:'(Duponchel, 1843)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'gullinjerad_gullrissäckmal',
       slug:'coleophora_trochilella'
@@ -3013,22 +3281,26 @@ var ALLTAXONS: Taxon[] = [
       artId:803,
       dyntaxaId:214538,
       group: ['F', 'D'],
-      name:'Sen fältmalörtsäckmal',
+      name:'Större fältmalörtssäckmal',
       latin:'Coleophora directella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 15,
+      wingSpanMax: 18,
       hasImage:false,
-      slugSv:'sen_fältmalörtsäckmal',
+      slugSv:'större_fältmalörtssäckmal',
       slug:'coleophora_directella'
    },
    {
       artId:804,
       dyntaxaId:214539,
       group: ['F'],
-      name:'Sen rölleksäckmal',
+      name:'Större röllikasäckmal',
       latin:'Coleophora expressella',
       auctor:'Klemensiewicz, 1902',
+      wingSpanMin: 16,
+      wingSpanMax: 20,
       hasImage:false,
-      slugSv:'sen_rölleksäckmal',
+      slugSv:'större_röllikasäckmal',
       slug:'coleophora_expressella'
    },
    {
@@ -3038,6 +3310,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Strimmig stjärnblomsäckmal',
       latin:'Coleophora striatipennella',
       auctor:'Nylander, 1848',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'strimmig_stjärnblomsäckmal',
       slug:'coleophora_striatipennella'
@@ -3049,6 +3323,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Skarpringad stjärnblomsäckmal',
       latin:'Coleophora solitariella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'skarpringad_stjärnblomsäckmal',
       slug:'coleophora_solitariella'
@@ -3060,6 +3336,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Renfanesäckmal',
       latin:'Coleophora tanaceti',
       auctor:'Mühlig, 1865',
+      wingSpanMin: 11,
+      wingSpanMax: 14,
       hasImage:false,
       slugSv:'renfanesäckmal',
       slug:'coleophora_tanaceti'
@@ -3071,6 +3349,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ljus malörtsäckmal',
       latin:'Coleophora artemisiella',
       auctor:'Scott, 1861',
+      wingSpanMin: 11,
+      wingSpanMax: 13,
       hasImage:false,
       slugSv:'ljus_malörtsäckmal',
       slug:'coleophora_artemisiella'
@@ -3082,6 +3362,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Punkterad backglimsäckmal',
       latin:'Coleophora hackmani',
       auctor:'(Toll, 1953)',
+      wingSpanMin: 12,
+      wingSpanMax: 15,
       hasImage:false,
       slugSv:'punkterad_backglimsäckmal',
       slug:'coleophora_hackmani'
@@ -3090,11 +3372,13 @@ var ALLTAXONS: Taxon[] = [
       artId:810,
       dyntaxaId:214545,
       group: ['F','G'],
-      name:'Silverstreckad rölleksäckmal',
+      name:'Mindre röllikasäckmal',
       latin:'Coleophora argentula',
       auctor:'(Stephens, 1834)',
+      wingSpanMin: 9,
+      wingSpanMax: 13,
       hasImage:false,
-      slugSv:'silverstreckad_rölleksäckmal',
+      slugSv:'mindre_röllikasäckmal',
       slug:'coleophora_argentula'
    },
    {
@@ -3104,6 +3388,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Hampflockelsäckmal',
       latin:'Coleophora follicularis',
       auctor:'(Vallot, 1802)',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'hampflockelsäckmal',
       slug:'coleophora_follicularis'
@@ -3112,11 +3398,13 @@ var ALLTAXONS: Taxon[] = [
       artId:812,
       dyntaxaId:214547,
       group: ['F','D'],
-      name:'Grå fältmalörtsäckmal',
+      name:'Grå fältmalörtssäckmal',
       latin:'Coleophora granulatella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 11,
+      wingSpanMax: 13,
       hasImage:false,
-      slugSv:'grå_fältmalörtsäckmal',
+      slugSv:'grå_fältmalörtssäckmal',
       slug:'coleophora_granulatella'
    },
    {
@@ -3126,6 +3414,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ljus mållsäckmal',
       latin:'Coleophora adspersella',
       auctor:'Benander, 1939',
+      wingSpanMin: 13,
+      wingSpanMax: 16,
       hasImage:false,
       slugSv:'ljus_mållsäckmal',
       slug:'coleophora_adspersella'
@@ -3137,6 +3427,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Nejliksäckmal',
       latin:'Coleophora dianthi',
       auctor:'Herrich-Schäffer, 1855',
+      wingSpanMin: 13,
+      wingSpanMax: 15,
       hasImage:false,
       slugSv:'nejliksäckmal',
       slug:'coleophora_dianthi'
@@ -3145,11 +3437,13 @@ var ALLTAXONS: Taxon[] = [
       artId:815,
       dyntaxaId:214550,
       group: ['F'],
-      name:'Ljusringad backglimsäckmal',
+      name:'Ljusringad backglimssäckmal',
       latin:'Coleophora nutantella',
       auctor:'Mühlig \u0026 Frey, 1857',
+      wingSpanMin: 14,
+      wingSpanMax: 18,
       hasImage:false,
-      slugSv:'ljusringad_backglimsäckmal',
+      slugSv:'ljusringad_backglimssäckmal',
       slug:'coleophora_nutantella'
    },
    {
@@ -3159,6 +3453,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Tjärblomstersäckmal',
       latin:'Coleophora graminicolella',
       auctor:'Heinemann, 1876',
+      wingSpanMin: 15,
+      wingSpanMax: 17,
       hasImage:false,
       slugSv:'mörkringad_tjärblomstersäckmal',
       slug:'coleophora_graminicolella'
@@ -3170,6 +3466,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Dvärgsäckmal',
       latin:'Coleophora paradrymidis',
       auctor:'Toll, 1949',
+      wingSpanMin: 9,
+      wingSpanMax: 11,
       hasImage:false,
       slugSv:'dvärgsäckmal',
       slug:'coleophora_paradrymidis'
@@ -3181,6 +3479,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Såpnejliksäckmal',
       latin:'Coleophora saponariella',
       auctor:'Heeger, 1848',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'såpnejliksäckmal',
       slug:'coleophora_saponariella'
@@ -3192,6 +3492,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Klintgrönglanssäckmal',
       latin:'Coleophora paripennella',
       auctor:'Zeller, 1839',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'klintgrönglanssäckmal',
       slug:'coleophora_paripennella'
@@ -3203,6 +3505,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Ribbad mållsäckmal',
       latin:'Coleophora clypeiferella',
       auctor:'Hofmann, 1871',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'ribbad_mållsäckmal',
       slug:'coleophora_clypeiferella'
@@ -3214,6 +3518,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Tvåfläckad mållsäckmal',
       latin:'Coleophora squalorella',
       auctor:'Zeller, 1849',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'tvåfläckad_mållsäckmal',
       slug:'coleophora_squalorella'
@@ -3225,6 +3531,8 @@ var ALLTAXONS: Taxon[] = [
       name:'Glasörtsäckmal',
       latin:'Coleophora salicorniae',
       auctor:'Heinemann \u0026 Wocke, 1876',
+      wingSpanMin: 0,
+      wingSpanMax: 0,
       hasImage:false,
       slugSv:'glasörtsäckmal',
       slug:'coleophora_salicorniae'

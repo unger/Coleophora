@@ -8,6 +8,8 @@ export interface Taxon extends TaxonName {
   dyntaxaId:number,
   group: string[],
   auctor: string,
+  wingSpanMin: number,
+  wingSpanMax: number,
   slugSv: string,
   slug: string,
   hasImage: boolean,
