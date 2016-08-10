@@ -23,7 +23,7 @@ import {GroupService} from './group.service';
 	  <div class="row">	  
 		<div *ngFor="#group of groups" class="col-xs-6">
 			<a [routerLink]="['GroupDetail', {id: group.id }]">
-				<img src="{{group.image}}" class="img-responsive img-thumbnail" />
+				<img src="{{group.image}}" class="img-responsive" />
 			</a>
 			<p class="text-center"><small><strong>{{group.name}}</strong> {{group.description}}</small></p>
 		</div>	  

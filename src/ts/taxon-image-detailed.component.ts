@@ -11,7 +11,7 @@ import {TaxonImage} from './taxon-image';
   ],
   template: `
 	  		<div>
-				<img src="{{item.image}}" class="img-responsive img-thumbnail" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
+				<img src="{{item.image}}" class="img-responsive" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
 			</div>
 			<p class="text-center">
 				<small>

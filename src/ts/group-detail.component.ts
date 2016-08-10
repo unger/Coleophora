@@ -45,7 +45,7 @@ import {TaxonService} from './taxon.service';
 		</div>
 		<div *ngFor="#item of taxonImages" class="col-xs-12 col-md-6 col-lg-4">
 			<a [routerLink]="['TaxonDetail', {id: item.slug }]">
-				<img src="{{item.image}}" class="img-responsive img-thumbnail" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
+				<img src="{{item.image}}" class="img-responsive" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
 			</a>
 			<p class="text-center">
 				<small>
