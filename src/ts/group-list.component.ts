@@ -1,6 +1,6 @@
-import {Component, Input} from 'angular2/core';
-import {Title} from 'angular2/platform/browser';
-import {ROUTER_DIRECTIVES} from 'angular2/router';
+import {Component, Input} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {ROUTER_DIRECTIVES} from '@angular/router-deprecated';
 import {Group} from './group';
 import {GroupDetailComponent} from './group-detail.component';
 import {GroupService} from './group.service';
@@ -21,7 +21,7 @@ import {GroupService} from './group.service';
 	  </div>
   
 	  <div class="row">	  
-		<div *ngFor="#group of groups" class="col-xs-6">
+		<div *ngFor="let group of groups" class="col-xs-6">
 			<a [routerLink]="['GroupDetail', {id: group.id }]">
 				<img src="{{group.image}}" class="img-responsive" />
 			</a>

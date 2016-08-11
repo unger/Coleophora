@@ -1,6 +1,6 @@
-import {Component, Input} from 'angular2/core';
-import {Title} from 'angular2/platform/browser';
-import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
+import {Component, Input} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 import {TaxonImage} from './taxon-image';
 import {Taxon} from './taxon';
 import {Group} from './group';
@@ -21,7 +21,7 @@ import {TaxonService} from './taxon.service';
 		</div>
 		<div class="col-xs-12">
 			<table class="small">
-				<tr *ngFor="#taxon of taxons">
+				<tr *ngFor="let taxon of taxons">
 					<td>
 						<div *ngIf="taxon.hasImage">
 							<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
@@ -46,7 +46,7 @@ import {TaxonService} from './taxon.service';
 			</table>
 		
 		</div>
-		<div *ngFor="#item of taxonImages" class="col-xs-12 col-md-6 col-lg-4">
+		<div *ngFor="let item of taxonImages" class="col-xs-12 col-md-6 col-lg-4">
 			<a [routerLink]="['TaxonDetail', {id: item.slug }]">
 				<img src="{{item.image}}" class="img-responsive" alt="{{item.latin}} - {{item.name}} &copy; {{item.photographer}}" />
 			</a>

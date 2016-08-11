@@ -1,6 +1,6 @@
-import {Component, Input} from 'angular2/core';
-import {Title} from 'angular2/platform/browser';
-import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
+import {Component, Input} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 import {TaxonImage} from './taxon-image';
 import {Taxon} from './taxon';
 import {TaxonService} from './taxon.service';
@@ -12,12 +12,12 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 
 	<div class="row">	  
 	    <div class="col-xs-6">
-			<div *ngFor="#item of taxonImages1">
+			<div *ngFor="let item of taxonImages1">
 				<taxon-image-detailed [item]="item"></taxon-image-detailed>
 			</div>
 		</div>
 	    <div class="col-xs-6">
-			<div *ngFor="#item of taxonImages2">
+			<div *ngFor="let item of taxonImages2">
 				<taxon-image-detailed [item]="item"></taxon-image-detailed>
 			</div>
 		</div>

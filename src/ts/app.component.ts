@@ -1,5 +1,6 @@
-import {Component} from 'angular2/core';
-import {Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS, Location } from 'angular2/router';
+import {Component} from '@angular/core';
+import {Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
+import {Location} from '@angular/common';
 import {TaxonImage} from './taxon-image';
 import {TaxonListComponent} from './taxon-list.component';
 import {GroupListComponent} from './group-list.component';

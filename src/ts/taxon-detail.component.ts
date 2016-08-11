@@ -1,6 +1,6 @@
-import {Component, Input} from 'angular2/core';
-import {Title} from 'angular2/platform/browser';
-import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
+import {Component, Input} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 import {TaxonImage} from './taxon-image';
 import {Taxon, TaxonName} from './taxon';
 import {TaxonService} from './taxon.service';
@@ -34,7 +34,7 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 		<div class="col-xs-12" *ngIf="taxon && taxon.similar">
 			<h4>Liknande arter</h4>
 			<ul class="list-unstyled">
-				<template ngFor #similar [ngForOf]="taxon.similar" #i="index">
+				<template ngFor let-similar [ngForOf]="taxon.similar" let-i="index">
 					<li>
 						<span *ngIf="similar.hasImage">
 							<a [routerLink]="['TaxonDetail', {id: similar.slug }]">
@@ -58,7 +58,7 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 			</ul>
 		</div>		
 
-		<div *ngFor="#item of taxonImages" class="col-xs-12">
+		<div *ngFor="let item of taxonImages" class="col-xs-12">
 			<taxon-image-detailed [item]="item"></taxon-image-detailed>
 		</div>
 	  </div>

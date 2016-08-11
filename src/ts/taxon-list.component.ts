@@ -1,6 +1,6 @@
-import {Component, Input} from 'angular2/core';
-import {Title} from 'angular2/platform/browser';
-import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
+import {Component, Input} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {RouteParams, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 import {TaxonImage} from './taxon-image';
 import {TaxonService} from './taxon.service';
 
@@ -25,7 +25,7 @@ import {TaxonService} from './taxon.service';
 				<small>{{taxons.length}} arter</small>
 			</h1>
 		</div>
-		<div *ngFor="#taxon of taxons" class="col-xs-12 col-md-6 col-lg-4">
+		<div *ngFor="let taxon of taxons" class="col-xs-12 col-md-6 col-lg-4">
 			<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
 				<img src="{{taxon.image}}" class="img-responsive" alt="{{taxon.latin}} - {{taxon.name}} &copy; {{taxon.photographer}}" />
 			</a>
