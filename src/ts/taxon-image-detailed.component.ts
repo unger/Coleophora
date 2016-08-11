@@ -17,6 +17,11 @@ import {TaxonImage} from './taxon-image';
 				<small>
 					<span *ngIf="item.specimen">§{{item.specimen}}</span>
 					<em>{{item.latin}}<span *ngIf="item.unsure">?</span></em> - {{item.name}}<span *ngIf="item.unsure">?</span><br/>
+					
+					<div *ngIf="item.wingspan">
+						Vingbredd ca {{item.wingspan}} mm
+					</div>
+					
 					{{item.date}}, {{item.site}} &copy; {{item.photographer}}<br/>
 
 					<template [ngIf]="item.detBy">

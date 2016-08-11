@@ -866,7 +866,7 @@ var TAXONIMAGES: TaxonImage[] = [
 		slug:'coleophora_gallipennella', 
 		image:'img/coleophora_gallipennella-§1-16-9105.jpg',
 		date: '2016-06-21',
-		site: 'Höge ås, Öl',
+		site: 'Jordtorp, Öl',
 		unsure: false,
 		specimen: 1,
 		detYear: 2016,

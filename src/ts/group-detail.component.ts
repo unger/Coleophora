@@ -20,23 +20,26 @@ import {TaxonService} from './taxon.service';
 			<h1>Group {{id}} - <small>{{taxons.length}} arter</small></h1>
 		</div>
 		<div class="col-xs-12">
-			<table>
+			<table class="small">
 				<tr *ngFor="#taxon of taxons">
 					<td>
 						<div *ngIf="taxon.hasImage">
-							<!--<img src="http://www.lepidoptera.se/flight/{{taxon.slug}}.aspx"/>-->
 							<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
 								<em>{{taxon.latin}}</em> - {{taxon.name}}
 							</a>
 						</div>
 						<div *ngIf="!taxon.hasImage">
-							<!--<img src="http://www.lepidoptera.se/flight/{{taxon.slug}}.aspx"/>-->
 							<em>{{taxon.latin}}</em> - {{taxon.name}}
 						</div>
 					</td>
 					<td align="right" style="white-space: nowrap;">
 						<div *ngIf="taxon.wingSpanMin!=0">
-						<small>{{taxon.wingSpanMin}}-{{taxon.wingSpanMax}} mm</small>
+						{{taxon.wingSpanMin}}-{{taxon.wingSpanMax}} mm
+						</div>
+					</td>
+					<td style="padding: 2px 5px;">
+						<div>
+						<a href="http://www.lepidoptera.se/arter/{{taxon.slugSv}}">[länk]</a>
 						</div>
 					</td>
 				</tr>

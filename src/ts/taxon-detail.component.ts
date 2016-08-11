@@ -27,6 +27,9 @@ import {TaxonImageDetailedComponent} from './taxon-image-detailed.component';
 				({{taxonImages.length}} bild)
 			</p>
 		</div>
+	    <div class="col-xs-12" *ngIf="taxon && taxon.slugSv">
+			Länk: <a href="http://www.lepidoptera.se/arter/{{taxon.slugSv}}">lepidoptera.se</a>
+		</div>
 		
 		<div class="col-xs-12" *ngIf="taxon && taxon.similar">
 			<h4>Liknande arter</h4>

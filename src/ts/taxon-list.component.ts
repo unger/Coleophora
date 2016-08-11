@@ -25,11 +25,11 @@ import {TaxonService} from './taxon.service';
 				<small>{{taxons.length}} arter</small>
 			</h1>
 		</div>
-		<div *ngFor="#taxon of taxons" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		<div *ngFor="#taxon of taxons" class="col-xs-12 col-md-6 col-lg-4">
 			<a [routerLink]="['TaxonDetail', {id: taxon.slug }]">
 				<img src="{{taxon.image}}" class="img-responsive" alt="{{taxon.latin}} - {{taxon.name}} &copy; {{taxon.photographer}}" />
 			</a>
-			<p class="text-center">
+			<p class="text-center" style="white-space:nowrap">
 				<small>
 					<em>{{taxon.latin}}<span *ngIf="taxon.unsure">?</span></em> - {{taxon.name}}<span *ngIf="taxon.unsure">?</span><br/>
 					<!--{{taxon.date}}, {{taxon.site}} &copy; {{taxon.photographer}}-->
