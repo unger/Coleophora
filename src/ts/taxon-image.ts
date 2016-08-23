@@ -6,6 +6,7 @@ export class TaxonImage {
   image: string;
   date: string;
   site: string;
+  stage: string;
   wingspan: number;
   unsure: boolean;
   specimen: number;

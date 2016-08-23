@@ -54,6 +54,10 @@ export class TaxonListComponent {
 		this.taxons = _service.getUnsureTaxonImages();
 	    _title.setTitle('Osäkra arter - Coleophoridae - Säckmalar');
 	  }
+	  else if (id === "säckar") {
+		this.taxons = _service.getCaseImages();
+	    _title.setTitle('Säckar - Coleophoridae - Säckmalar');
+	  }
 	  else {
 		this.taxons = _service.getTaxonImages();
 	    _title.setTitle('Alla arter - Coleophoridae - Säckmalar');

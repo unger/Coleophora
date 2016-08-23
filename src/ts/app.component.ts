@@ -24,6 +24,7 @@ interface Window {
 			<li><a [routerLink]="['Groups']">Grupper</a></li>
 			<li><a [routerLink]="['Taxons', {id: 'säkra' }]">Arter</a></li>
 			<li><a [routerLink]="['Taxons', {id: 'osäkra' }]">Osäkra</a></li>
+			<li><a [routerLink]="['Taxons', {id: 'säckar' }]">Säckar</a></li>
 		</ul>
 	  </div>
 	</nav>
