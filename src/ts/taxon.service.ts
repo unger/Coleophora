@@ -160,9 +160,6 @@ export class TaxonService {
 }
 
 var CASEIMAGES: TaxonImage[] = [
-
-
-
       {
 	    group:[''],
 	    name:' Såpnejlikesäckmal',
@@ -378,7 +375,99 @@ var CASEIMAGES: TaxonImage[] = [
 		detMethod: 'foto',
 		photographer: 'Magnus Unger',
 		bildId: '16-4084'
-	  },	  
+	  },
+	  {
+	    group:[''],
+	    name:'Tvillingtågsäckmal',
+		latin:'Coleophora alticolella', 
+		slug:'coleophora_alticolella', 
+		image:'img/case/coleophora_alticolella-§1-16-4894.jpg',
+		date: '2016-09-15',
+		site: 'Kvibergsnäs, Göteborg, Vg',
+		stage: 'case',
+		wingspan: 0,
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-4894'
+	  },
+	  {
+	    group:[''],
+	    name:'Vitsprötad gullrissäckmal',
+		latin:'Coleophora ramosella', 
+		slug:'coleophora_ramosella', 
+		image:'img/case/coleophora_ramosella-§1-16-5055.jpg',
+		date: '2016-09-18',
+		site: 'Hönö, Öckerö, Boh',
+		stage: 'case',
+		wingspan: 0,
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-5055'
+	  },
+	  {
+	    group:[''],
+	    name:'Gråbosäckmal',
+		latin:'Coleophora artemisicolella', 
+		slug:'coleophora_artemisicolella', 
+		image:'img/case/coleophora_artemisicolella-§1-16-5107.jpg',
+		date: '2016-09-25',
+		site: 'Brännö, Vg',
+		stage: 'case',
+		wingspan: 0,
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-5107'
+	  },
+	  {
+	    group:[''],
+	    name:'Blåbärsäckmal',
+		latin:'Coleophora vacciniella', 
+		slug:'coleophora_vacciniella', 
+		image:'img/case/coleophora_vacciniella-§1-16-5098.jpg',
+		date: '2016-09-25',
+		site: 'Brännö, Vg',
+		stage: 'case',
+		wingspan: 0,
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-5098'
+	  },
+	  {
+	    group:[''],
+	    name:'Videsäckmal',
+		latin:'Coleophora lusciniaepennella', 
+		slug:'coleophora_lusciniaepennella', 
+		image:'img/case/coleophora-lusciniaepennella-§1-16-5267.jpg',
+		date: '2016-09-25',
+		site: 'Släp, Hl',
+		stage: 'case',
+		wingspan: 0,
+		unsure: false,
+		specimen: 1,
+		detYear: 2016,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '16-5267'
+	  },
+	  
+	  
 	  
 	  ];
 
@@ -1023,7 +1112,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	  },
       {
 	    group:['D','C'],
-	    name:'Allmän tågsäckmal',
+	    name:'Tvillingtågsäckmal',
 		latin:'Coleophora alticolella', 
 		slug:'coleophora_alticolella', 
 		image:'img/coleophora_alticolella-§3-10-7963.jpg',
@@ -1041,7 +1130,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	  },
       {
 	    group:['D','C'],
-	    name:'Allmän tågsäckmal',
+	    name:'Tvillingtågsäckmal',
 		latin:'Coleophora alticolella', 
 		slug:'coleophora_alticolella', 
 		image:'img/coleophora_alticolella-§2-10-8020.jpg',
@@ -1059,7 +1148,7 @@ var TAXONIMAGES: TaxonImage[] = [
 	  },
       {
 	    group:['D','C'],
-	    name:'Allmän tågsäckmal',
+	    name:'Tvillingtågsäckmal',
 		latin:'Coleophora alticolella', 
 		slug:'coleophora_alticolella', 
 		image:'img/coleophora_alticolella-§1-10-6480.jpg',
@@ -3309,7 +3398,7 @@ var ALLTAXONS: Taxon[] = [
       artId:771,
       dyntaxaId:214508,
       group: ['D','C'],
-      name:'Allmän tågsäckmal',
+      name:'Tvillingtågsäckmal',
       latin:'Coleophora alticolella',
       auctor:'Zeller, 1849',
       wingSpanMin: 0,
