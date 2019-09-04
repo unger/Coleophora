@@ -785,6 +785,42 @@ var TAXONIMAGES: TaxonImage[] = [
 		bildId: '10-0151'
 	  },
 	  {
+        group: ['B'],
+        name: 'Grå björksäckmal',
+        latin: 'Coleophora orbitella',
+        slug: 'coleophora_orbitella',
+        image: 'img/coleophora_orbitella-§1-16-8355.jpg',
+        date: '2016-06-15',
+        site: 'Släp, Hl',
+        stage: 'imago',
+        wingspan: 0,
+        unsure: false,
+        specimen: 1,
+        detYear: 2018,
+        detBy: 'Jan Å. Jonasson',
+        detMethod: 'genprep',
+        photographer: 'Magnus Unger',
+        bildId: '16-8355'
+    },
+    {
+        group: ['B'],
+        name: 'Brun alsäckmal',
+        latin: 'Coleophora binderella',
+        slug: 'coleophora_binderella',
+        image: 'img/coleophora_binderella-§1-16-1111.jpg',
+        date: '2016-07-19',
+        site: 'Släp, Hl',
+        stage: 'imago',
+        wingspan: 0,
+        unsure: false,
+        specimen: 1,
+        detYear: 2018,
+        detBy: 'Jan Å. Jonasson',
+        detMethod: 'genprep',
+        photographer: 'Magnus Unger',
+        bildId: '16-1111'
+    },
+    {
 	    group:['B'],
 	    name:'Gul eksäckmal',
 		latin:'Coleophora lutipennella', 
@@ -983,6 +1019,24 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '11-7435'
 	  },
+	  {
+        group: ['C'],
+        name: 'Mjölonsäckmal',
+        latin: 'Coleophora arctostaphyli',
+        slug: 'coleophora_arctostaphyli',
+        image: 'img/coleophora_arctostaphyli-§1-16-2248.jpg',
+        date: '2016-07-25',
+        site: 'Tofta, Gtl',
+        stage: 'imago',
+        wingspan: 0,
+        unsure: false,
+        specimen: 1,
+        detYear: 2018,
+        detBy: 'Jan Å. Jonasson',
+        detMethod: 'genprep',
+        photographer: 'Magnus Unger',
+        bildId: '16-2248'
+      },
 	  {
 	    group:['C','B'],
 	    name:'Ljuskantad eksäckmal',
@@ -1309,7 +1363,24 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '10-9743'
 	  },
-
+	  {
+        group: ['E'],
+        name: 'Käringtandssäckmal',
+        latin: 'Coleophora discordella',
+        slug: 'coleophora_discordella',
+        image: 'img/coleophora_discordella-§1-17-6649.jpg',
+        date: '2017-07-07',
+        site: 'Hönö, Boh',
+        stage: 'imago',
+        wingspan: 0,
+        unsure: false,
+        specimen: 1,
+        detYear: 2017,
+        detBy: 'Magnus Unger',
+        detMethod: 'hatched',
+        photographer: 'Magnus Unger',
+        bildId: '17-6649'
+      },
       {
 	    group:['E'],
 	    name:'Större sötvedelssäckmal',
@@ -1328,8 +1399,25 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '16-9105'
 	  },
-	  
-      {
+	  {
+        group: ['E'],
+        name: 'Kilstreckad hedblomstersäckmal',
+        latin: 'Coleophora caelebipennella',
+        slug: 'coleophora_caelebipennella',
+        image: 'img/coleophora_caelebipennella-§3-17-7097.jpg',
+        date: '2017-07-10',
+        site: 'Veinge, Hl',
+        stage: 'imago',
+        wingspan: 0,
+        unsure: false,
+        specimen: 3,
+        detYear: 2017,
+        detBy: 'Magnus Unger',
+        detMethod: 'foto',
+        photographer: 'Magnus Unger',
+        bildId: '17-7097'
+	  },
+	  {
 	    group:['E'],
 	    name:'Kilstreckad hedblomstersäckmal',
 		latin:'Coleophora caelebipennella', 
@@ -1895,7 +1983,61 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '14-5331'
 	  },
-      {
+	  {
+        group: ['G'],
+        name: 'Strimmig stjärnblomssäckmal',
+        latin: 'Coleophora striatipennella',
+        slug: 'coleophora_striatipennella',
+        image: 'img/coleophora_striatipennella-§2-16-1133.jpg',
+        date: '2016-07-19',
+        site: 'Släp, Hl',
+        stage: 'imago',
+        wingspan: 0,
+        unsure: false,
+        specimen: 2,
+        detYear: 2018,
+        detBy: 'Jan Å. Jonasson',
+        detMethod: 'genprep',
+        photographer: 'Magnus Unger',
+        bildId: '16-1133'
+    },    
+    {
+        group: ['G'],
+        name: 'Strimmig stjärnblomssäckmal',
+        latin: 'Coleophora striatipennella',
+        slug: 'coleophora_striatipennella',
+        image: 'img/coleophora_striatipennella-§1-16-0836.jpg',
+        date: '2016-07-10',
+        site: 'Nidingen, Hl',
+        stage: 'imago',
+        wingspan: 0,
+        unsure: false,
+        specimen: 1,
+        detYear: 2018,
+        detBy: 'Jan Å. Jonasson',
+        detMethod: 'genprep',
+        photographer: 'Magnus Unger',
+        bildId: '16-0836'
+    },
+    {
+        group: ['G'],
+        name: 'Ljussprötad tågsäckmal',
+        latin: 'Coleophora tamesis',
+        slug: 'coleophora_tamesis',
+        image: 'img/coleophora_tamesis-§1-17-7211.jpg',
+        date: '2017-07-10',
+        site: 'Veinge, Hl',
+        stage: 'imago',
+        wingspan: 0,
+        unsure: false,
+        specimen: 1,
+        detYear: 2018,
+        detBy: 'Jan Å. Jonasson',
+        detMethod: 'genprep',
+        photographer: 'Magnus Unger',
+        bildId: '17-7211'
+    },
+    {
 	    group:['G'],
 	    name:'Gullinjerad tågsäckmal',
 		latin:'Coleophora taeniipennella', 
@@ -1913,6 +2055,25 @@ var TAXONIMAGES: TaxonImage[] = [
 		photographer: 'Magnus Unger',
 		bildId: '10-6831'
 	  }, 
+	  
+      {
+	    group:['G','H'],
+	    name:'Gulstreckad björksäckmal',
+		latin:'Coleophora betulella', 
+		slug:'coleophora_betulella', 
+		image:'img/coleophora_betulella-§3-19-_8709.jpg',
+		date: '2019-06-29',
+		site: 'Fjärås Bräcka, Hl',
+		stage: 'imago',
+		wingspan: 0,
+		unsure: false,
+		specimen: 3,
+		detYear: 2019,
+		detBy: 'Magnus Unger',
+		detMethod: 'foto',
+		photographer: 'Magnus Unger',
+		bildId: '19-8709'
+	  },
       {
 	    group:['G','H'],
 	    name:'Gulstreckad björksäckmal',
@@ -3126,10 +3287,15 @@ var ALLTAXONS: Taxon[] = [
 		  difference: ''
 		},
 		{
-		  name:'Vit eksäckmal',
-		  latin:'Coleophora kuehnella',
-		  difference: ''
-		},
+			name:'Vit eksäckmal',
+			latin:'Coleophora kuehnella',
+			difference: ''
+		  },
+		  {
+			name:'Gulstreckad avenboksäckmal',
+			latin:'Coleophora currucipennella',
+ 		    difference: ''
+		  },
 	  ]
    },
    {
@@ -3156,7 +3322,14 @@ var ALLTAXONS: Taxon[] = [
       wingSpanMax: 0,
       hasImage:false,
       slugSv:'gulstreckad_avenboksäckmal',
-      slug:'coleophora_currucipennella'
+	  slug:'coleophora_currucipennella',
+	  similar: [
+		{
+		  name:'Gulstreckad björksäckmal',
+		  latin:'Coleophora betulella',
+		  difference: ''
+		},
+	  ]	  
    },
    {
       artId:753,
