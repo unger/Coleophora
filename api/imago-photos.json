@@ -1126,7 +1126,7 @@
       "bildId": "10-9498"
     }, 
     {
-      "group":["F"],
+      "group":["F", "D"],
       "name":"Strandastersäckmal",
       "latin":"Coleophora asteris", 
       "slug":"coleophora_asteris", 
@@ -1759,8 +1759,7 @@
       "detMethod": "foto",
       "photographer": "Magnus Unger",
       "bildId": "16-1987"
-    }, 
-    
+    },    
     {
       "group":["H"],
       "name":"Pudrad sälgsäckmal",

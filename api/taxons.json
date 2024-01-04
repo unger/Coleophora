@@ -1389,7 +1389,7 @@
        "auctor":"Mühlig, 1864",
        "wingSpanMin": 10,
        "wingSpanMax": 15,
-       "hasImage":false,
+       "hasImage":true,
        "slugSv":"strandastersäckmal",
        "slug":"coleophora_asteris"
     },
