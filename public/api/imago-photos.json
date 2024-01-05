@@ -207,6 +207,28 @@
     "name": "Spireasäckmal",
     "latin": "Coleophora spiraeella",
     "slug": "coleophora_spiraeella",
+    "image": "/img/coleophora_spiraeella-§2-23-3870.jpg",
+    "date": "2023-05-10",
+    "hatchedDate": "2023-05-19",
+    "site": "Göteborg, Vg",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 1,
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "kläckning",
+    "photographer": "Magnus Unger",
+    "bildId": "23-3870"
+  },
+  {
+    "group": [
+      "B",
+      "A"
+    ],
+    "name": "Spireasäckmal",
+    "latin": "Coleophora spiraeella",
+    "slug": "coleophora_spiraeella",
     "image": "/img/coleophora_spiraeella-§1-16-7174.jpg",
     "date": "2016-06-02",
     "site": "Partille, Vg",
@@ -583,6 +605,48 @@
     "detMethod": "",
     "photographer": "Magnus Unger",
     "bildId": "11-8232"
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "name": "Nyponsäckmal",
+    "latin": "Coleophora gryphipennella",
+    "slug": "coleophora_gryphipennella",
+    "image": "/img/coleophora_gryphipennella-§3-23-4314.jpg",
+    "date": "2023-05-10",
+    "hatchedDate": "2023-05-31",
+    "site": "Göteborg, Vg",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 3,
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "kläckning",
+    "photographer": "Magnus Unger",
+    "bildId": "23-4314"
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "name": "Nyponsäckmal",
+    "latin": "Coleophora gryphipennella",
+    "slug": "coleophora_gryphipennella",
+    "image": "/img/coleophora_gryphipennella-§2-23-4152.jpg",
+    "date": "2023-05-05",
+    "hatchedDate": "2023-05-26",
+    "site": "Göteborg, Vg",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 2,
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "kläckning",
+    "photographer": "Magnus Unger",
+    "bildId": "23-4152"
   },
   {
     "group": [
