@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Lapp",
+    "name": "Lappsäck",
+    "description": "Sammansatta blad eller växtdelar",
+    "image": "/img/case/coleophora_discordella-§1-16-4083.jpg"
+  },
+  {
+    "id": "Blad",
+    "name": "Bladsäck",
+    "description": "Vikt eller rullat blad",
+    "image": "/img/case/coleophora_spiraeella-§1-16-4054.jpg"
+  },
+  {
+    "id": "Pistol",
+    "name": "Pistolsäck",
+    "description": "Pistolformad",
+    "image": null
+  },
+  {
+    "id": "Frö",
+    "name": "Frösäck",
+    "description": "Frökapsel",
+    "image": "/img/case/coleophora_artemisicolella-§1-16-5107.jpg"
+  },
+  {
+    "id": "Rör",
+    "name": "Rörsäck",
+    "description": "Rörformad av silke",
+    "image": "/img/case/coleophora_ramosella-§1-16-5055.jpg"
+  },
+  {
+    "id": "Skid",
+    "name": "Skidsäck",
+    "description": "Skidformad oftast av silke",
+    "image": null
+  }
+]

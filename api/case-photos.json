@@ -1,6 +1,6 @@
 [
     {
-      "group":[""],
+      "group":["Rör"],
       "name":" Såpnejlikesäckmal",
       "latin":"Coleophora saponariella", 
       "slug":"coleophora_saponariella", 
@@ -18,7 +18,7 @@
       "bildId": "10-3546"
     },      
     {
-      "group":[""],
+      "group":["Rör"],
       "name":" Såpnejlikesäckmal",
       "latin":"Coleophora saponariella", 
       "slug":"coleophora_saponariella", 
@@ -36,7 +36,7 @@
       "bildId": "10-3541"
     },
     {
-      "group":[""],
+      "group":["Rör"],
       "name":" Vattenskräppesäckmal",
       "latin":"Coleophora hydrolapathella", 
       "slug":"coleophora_hydrolapathella", 
@@ -54,7 +54,7 @@
       "bildId": "16-3730"
     },
     {
-      "group":[""],
+      "group":["Frö"],
       "name":"Parkfrylesäckmal",
       "latin":"Coleophora sylvaticella",
       "slug":"coleophora_sylvaticella", 
@@ -72,7 +72,7 @@
       "bildId": "16-3720"
     },
     {
-      "group":[""],
+      "group":["Blad"],
       "name":"Linjerad gullrissäckmal",
       "latin":"Coleophora amellivora", 
       "slug":"coleophora_amellivora", 
@@ -90,7 +90,7 @@
       "bildId": "16-3802"
     },
     {
-      "group":[""],
+      "group":["Blad"],
       "name":"Linjerad gullrissäckmal",
       "latin":"Coleophora amellivora", 
       "slug":"coleophora_amellivora", 
@@ -108,7 +108,7 @@
       "bildId": "16-3793"
     },
     {
-      "group":[""],
+      "group":["Blad"],
       "name":"Linjerad gullrissäckmal",
       "latin":"Coleophora amellivora", 
       "slug":"coleophora_amellivora", 
@@ -126,7 +126,7 @@
       "bildId": "16_3830"
     },
     {
-      "group":[""],
+      "group":["Blad"],
       "name":"Spireasäckmal",
       "latin":"Coleophora spiraeella", 
       "slug":"coleophora_spiraeella", 
@@ -144,7 +144,7 @@
       "bildId": "16-4054"
     },
     {
-      "group":[""],
+      "group":["Blad"],
       "name":"Spireasäckmal",
       "latin":"Coleophora spiraeella", 
       "slug":"coleophora_spiraeella", 
@@ -162,7 +162,7 @@
       "bildId": "16-4056"
     },
     {
-      "group":[""],
+      "group":["Blad"],
       "name":"Spireasäckmal",
       "latin":"Coleophora spiraeella", 
       "slug":"coleophora_spiraeella", 
@@ -180,7 +180,7 @@
       "bildId": "16-4068"
     },
     {
-      "group":[""],
+      "group":["Lapp"],
       "name":"Käringtandssäckmal",
       "latin":"Coleophora discordella", 
       "slug":"coleophora_discordella", 
@@ -198,7 +198,7 @@
       "bildId": "16-4083"
     },	     
     {
-      "group":[""],
+      "group":["Lapp"],
       "name":"Käringtandssäckmal",
       "latin":"Coleophora discordella", 
       "slug":"coleophora_discordella", 
@@ -216,7 +216,7 @@
       "bildId": "16-4084"
     },
     {
-      "group":[""],
+      "group":["Rör"],
       "name":"Tvillingtågsäckmal",
       "latin":"Coleophora alticolella", 
       "slug":"coleophora_alticolella", 
@@ -234,7 +234,7 @@
       "bildId": "16-4894"
     },
     {
-      "group":[""],
+      "group":["Rör"],
       "name":"Vitsprötad gullrissäckmal",
       "latin":"Coleophora ramosella", 
       "slug":"coleophora_ramosella", 
@@ -252,7 +252,7 @@
       "bildId": "16-5055"
     },
     {
-      "group":[""],
+      "group":["Frö"],
       "name":"Gråbosäckmal",
       "latin":"Coleophora artemisicolella", 
       "slug":"coleophora_artemisicolella", 
@@ -270,7 +270,7 @@
       "bildId": "16-5107"
     },
     {
-      "group":[""],
+      "group":["Lapp"],
       "name":"Blåbärsäckmal",
       "latin":"Coleophora vacciniella", 
       "slug":"coleophora_vacciniella", 
@@ -288,7 +288,7 @@
       "bildId": "16-5098"
     },
     {
-      "group":[""],
+      "group":["Lapp"],
       "name":"Videsäckmal",
       "latin":"Coleophora lusciniaepennella", 
       "slug":"coleophora_lusciniaepennella", 
