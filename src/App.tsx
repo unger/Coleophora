@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { Link, createBrowserRouter, RouterProvider, Outlet, ScrollRestoration } from 'react-router-dom';
 import GroupDetail from './components/GroupDetail'
 import GroupList from './components/GroupList'
 import CaseGroupDetail from './components/CaseGroupDetail'
@@ -7,26 +7,40 @@ import UnsureList from './components/UnsureList';
 import UnsureDetail from './components/UnsureDetail';
 import CaseGroupList from './components/CaseGroupList';
 
-function App() {
+const router = createBrowserRouter([
+  {
+    Component: Layout,
+    children: [
+      { path: "/", Component: GroupList },
+      { path: "/group/:id", Component: GroupDetail },
+      { path: "/cases", Component: CaseGroupList },
+      { path: "/cases/:id", Component: CaseGroupDetail },
+      { path: "/taxon/:slug", Component: TaxonDetail },
+      { path: "/unsure", Component: UnsureList },
+      { path: "/unsure/:slug", Component: UnsureDetail },
+    ]
+  },
+],
+  {
+    basename: import.meta.env.BASE_URL,
+  });
 
+export default function App() {
+  return <RouterProvider router={router} />;
+}
+
+function Layout() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <>
       <div className='navbar'>
         <Link to="/">Grupper</Link>
         <Link to="/cases">Säckar</Link>
         <Link to="/unsure">Osäkra</Link>
       </div>
-      <Routes>
-        <Route path="/" element={<GroupList />} />
-        <Route path="/group/:id" element={<GroupDetail />} />
-        <Route path="/cases" element={<CaseGroupList />} />
-        <Route path="/cases/:id" element={<CaseGroupDetail />} />
-        <Route path="/taxon/:slug" element={<TaxonDetail />} />
-        <Route path="/unsure" element={<UnsureList />} />
-        <Route path="/unsure/:slug" element={<UnsureDetail />} />
-      </Routes>
-    </BrowserRouter>
-  )
+      <Outlet />
+      <ScrollRestoration getKey={(location, _) => {
+        return location.pathname;
+      }} />
+    </>
+  );
 }
-
-export default App

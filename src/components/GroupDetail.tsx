@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { ScrollRestoration, useParams } from 'react-router-dom'
 import useGroups from '../hooks/useGroups'
 import GroupDetailTaxonList from './GroupDetailTaxonList';
 
@@ -20,6 +20,7 @@ function GroupDetail() {
       <h1>Grupp {group.id} - <small>{group.description}</small></h1>
       <GroupDetailTaxonList group={group}></GroupDetailTaxonList>
       {isFetching && <div>Updating...</div>}
+      <ScrollRestoration></ScrollRestoration>
     </div>
   )
 }

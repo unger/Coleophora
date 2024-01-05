@@ -9,19 +9,19 @@
       "id": "B",
       "name":"Grupp B",
       "description":"Enfärgad", 
-      "image":"/img/coleophora_lusciniaepennella-§1-11-8837.jpg"
+      "image":"/img/coleophora_idaeella-§1-23-0642.jpg"
     },
     {
       "id": "C",
       "name":"Grupp C",
       "description":"Enfärgad med ljus framkant", 
-      "image":"/img/coleophora_caespititiella-§1-11-7435.jpg"
+      "image":"/img/coleophora_arctostaphyli-§1-16-2248.jpg"
     },
     {
       "id": "D",
       "name":"Grupp D",
       "description":"Svagt streckad ofta med ljus framkant", 
-      "image":"/img/coleophora_sternipennella-§1-10-9487.jpg"
+      "image":"/img/coleophora_asteris-§1-21-0507.jpg"
     },
     {
       "id": "E",
@@ -33,7 +33,7 @@
       "id": "F",
       "name":"Grupp F",
       "description":"Streckad med ljusa sneda streck mot spetsen, med mörka fjäll", 
-      "image":"/img/coleophora_versurella-§1-10-7997.jpg"
+      "image":"/img/coleophora_versurella-§2-10-9431.jpg"
     },
     {
       "id": "G",
@@ -45,6 +45,6 @@
       "id": "H",
       "name":"Grupp H",
       "description":"Vit grundfärg", 
-      "image":"/img/coleophora_albidella-§1-10-9960.jpg"
+      "image":"/img/coleophora_anatipennella-§1-23-5684.jpg"
     }
 ]

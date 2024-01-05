@@ -12,7 +12,7 @@ function UnsureDetail() {
 
   if (error) return 'An error has occurred: ' + error.message
 
-  var filteredData = data.filter((item: TaxonPhoto) => item.slug === slug);
+  var filteredData = data.filter((item: TaxonPhoto) => item.slug === slug && item.unsure);
 
   if (filteredData.length === 0) return 'Inga bilder hittade';
 
