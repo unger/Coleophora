@@ -18,16 +18,17 @@
       "artId": 688,
       "dyntaxaId": 214424,
       "group": [
+         "A",
          "B"
       ],
-      "name": "Buskstjärnblomkapselmal",
-      "latin": "Metriotes lutarea",
+      "name": "Grå kapselsäckmal",
+      "latin": "Coleophora lutarea",
       "auctor": "(Haworth, 1828)",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "buskstjärnblomkapselmal",
-      "slug": "metriotes_lutarea"
+      "slugSv": "grå_kapselsäckmal",
+      "slug": "coleophora_lutarea"
    },
    {
       "artId": 689,
@@ -308,13 +309,13 @@
       "group": [
          "B"
       ],
-      "name": "Liten grönglanssäckmal",
+      "name": "Mindre grönglanssäckmal",
       "latin": "Coleophora fuscocuprella",
       "auctor": "Herrich-Schäffer, 1854",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "liten_grönglanssäckmal",
+      "slugSv": "mindre_grönglanssäckmal",
       "slug": "coleophora_fuscocuprella"
    },
    {
@@ -428,13 +429,13 @@
       "group": [
          "B"
       ],
-      "name": "Allmän lingonsäckmal",
+      "name": "Blek lingonsäckmal",
       "latin": "Coleophora glitzella",
       "auctor": "Hofmann, 1869",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "allmän_lingonsäckmal",
+      "slugSv": "blek_lingonsäckmal",
       "slug": "coleophora_glitzella"
    },
    {
@@ -458,13 +459,13 @@
       "group": [
          "B"
       ],
-      "name": "Allätarsäckmal",
+      "name": "Vägtornssäckmal",
       "latin": "Coleophora violacea",
       "auctor": "(Ström, 1783)",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "allätarsäckmal",
+      "slugSv": "vägtornssäckmal",
       "slug": "coleophora_violacea"
    },
    {
@@ -488,13 +489,13 @@
       "group": [
          "B"
       ],
-      "name": "Skvattramsäckmal",
+      "name": "Mörk skvattramsäckmal",
       "latin": "Coleophora obscuripalpella",
       "auctor": "Kanerva, 1941",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "skvattramsäckmal",
+      "slugSv": "mörk_skvattramsäckmal",
       "slug": "coleophora_obscuripalpella"
    },
    {
@@ -533,13 +534,13 @@
       "group": [
          "B"
       ],
-      "name": "Liten ljungsäckmal",
+      "name": "Mindre ljungsäckmal",
       "latin": "Coleophora juncicolella",
       "auctor": "Stainton, 1851",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "liten_ljungsäckmal",
+      "slugSv": "mindre_ljungsäckmal",
       "slug": "coleophora_juncicolella"
    },
    {
@@ -591,6 +592,7 @@
       "artId": 726,
       "dyntaxaId": 214462,
       "group": [
+         "A",
          "B"
       ],
       "name": "Myntesäckmal",
@@ -1212,13 +1214,13 @@
       "group": [
          "G"
       ],
-      "name": "Stor klintsäckmal",
+      "name": "Större klintsäckmal",
       "latin": "Coleophora brevipalpella",
       "auctor": "Wocke, 1874",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "stor_klintsäckmal",
+      "slugSv": "större_klintsäckmal",
       "slug": "coleophora_brevipalpella"
    },
    {
@@ -1364,13 +1366,13 @@
       "group": [
          "B"
       ],
-      "name": "Lärksäckmal",
+      "name": "Sydlig lärksäckmal",
       "latin": "Coleophora laricella",
       "auctor": "(Hübner, 1817)",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "lärksäckmal",
+      "slugSv": "sydlig_lärksäckmal",
       "slug": "coleophora_laricella"
    },
    {
@@ -1500,7 +1502,7 @@
       "dyntaxaId": 250426,
       "group": [
          "C",
-         "B"
+         "D"
       ],
       "name": "Parkfrylesäckmal",
       "latin": "Coleophora sylvaticella",
