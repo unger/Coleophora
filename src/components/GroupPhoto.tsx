@@ -1,19 +1,18 @@
 import { Link } from 'react-router-dom';
-import useImagoPhotos from '../hooks/useImagoPhotos'
+import { usePhotos } from '../hooks'
 import PhotoItem from './PhotoItem';
 
-function GroupPhoto({ taxon, groupId }: { taxon: Taxon, groupId: string }) {
+function GroupPhoto({ taxon, groupId }: { taxon: Taxon, groupId: GroupId }) {
 
-    const { isPending, error, data, isFetching } = useImagoPhotos();
+    const { isPending, error, data, isFetching } = usePhotos('imago', groupId, taxon.slug, false);
 
     if (isPending) return 'Loading...'
 
     if (error) return 'An error has occurred: ' + error.message
 
-    var firstImage = data.find((item: TaxonPhoto) => 
-        item.latin === taxon.latin
-        && !item.unsure        
-        && item.group.includes(groupId));
+    var firstImage = data.length > 0
+        ? data[0]
+        : undefined;
 
     return (
         <div>

@@ -1,19 +1,15 @@
 import { useParams } from 'react-router-dom';
-import { useCaseGroups } from '../hooks';
+import { useGroup } from '../hooks';
 import CaseGroupDetailPhotos from './CaseGroupDetailPhotos';
 
 function CaseGroupDetail() {
-  let { id } = useParams();
+  let { id }: { id? : CaseGroupId} = useParams();
 
-  const { isPending, error, data, isFetching } = useCaseGroups();
+  const { isPending, error, data: group, isFetching } = useGroup('case', id);
 
   if (isPending) return 'Loading...'
 
   if (error) return 'An error has occurred: ' + error.message
-
-  var group = data.find((item: TaxonGroup) => item.id == id);
-
-  if (group === undefined) return 'Group not found';
 
   return (
     <div>

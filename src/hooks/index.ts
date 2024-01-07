@@ -1,5 +1,5 @@
-export { default as useCaseGroups } from "./useCaseGroups";
-export { default as useCasePhotos } from "./useCasePhotos";
+export { default as useGroup } from "./useGroup";
 export { default as useGroups } from "./useGroups";
-export { default as useImagoPhotos } from "./useImagoPhotos";
+export { default as useTaxon } from "./useTaxon";
 export { default as useTaxons } from "./useTaxons";
+export { default as usePhotos } from "./usePhotos";

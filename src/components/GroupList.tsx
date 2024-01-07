@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import useGroups from '../hooks/useGroups'
+import { useGroups } from '../hooks'
 import PhotoItem from './PhotoItem';
 
 function GroupList() {
 
-  const { isPending, error, data, isFetching } = useGroups();
+  const { isPending, error, data, isFetching } = useGroups('imago');
 
   if (isPending) return 'Loading...'
 

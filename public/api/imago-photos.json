@@ -324,6 +324,28 @@
     "detMethod": "foto",
     "photographer": "Magnus Unger",
     "bildId": "14-9721"
+  },  
+  {
+    "group": [
+      "B"
+    ],
+    "name": "Björksäckmal",
+    "latin": "Coleophora serratella",
+    "slug": "coleophora_serratella",
+    "image": "/img/coleophora_serratella-§3-23-4354.jpg",
+    "date": "2023-05-16",
+    "hatchedDate": "2023-06-01",
+    "site": "Säveån, Vg",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 3,
+    "gender": "female",
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "kläckning",
+    "photographer": "Magnus Unger",
+    "bildId": "23-4354"
   },
   {
     "group": [
@@ -667,12 +689,32 @@
     "detMethod": "genprep",
     "photographer": "Magnus Unger",
     "bildId": "10-7941"
+  },  
+  {
+    "group": [
+      "C"
+    ],
+    "name": "Ringtågsäckmal",
+    "latin": "Coleophora caespititiella",
+    "slug": "coleophora_caespititiella",
+    "image": "/img/coleophora_caespititiella-§2-16-6647.jpg",
+    "date": "2016-05-28",
+    "site": "Mellby, Partille, Vg",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 2,
+    "detYear": 2016,
+    "detBy": "Magnus Unger",
+    "detMethod": "foto",
+    "photographer": "Magnus Unger",
+    "bildId": "16-6647"
   },
   {
     "group": [
       "C"
     ],
-    "name": "Skarpringad tågsäckmal",
+    "name": "Ringtågsäckmal",
     "latin": "Coleophora caespititiella",
     "slug": "coleophora_caespititiella",
     "image": "/img/coleophora_caespititiella-§1-11-7435.jpg",
@@ -854,6 +896,30 @@
     "photographer": "Magnus Unger",
     "bildId": "10-8831"
   },
+  
+  {
+    "group": [
+      "D",
+      "C"
+    ],
+    "name": "Tvillingtågsäckmal",
+    "latin": "Coleophora alticolella",
+    "slug": "coleophora_alticolella",
+    "image": "/img/coleophora_alticolella-§4-23-3726.jpg",
+    "date": "2023-05-02",
+    "hatchedDate": "2023-05-16",
+    "site": "Mellby, Partille, Vg",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 4,
+    "gender": "male",
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "genprep",
+    "photographer": "Magnus Unger",
+    "bildId": "23-3726"
+  },
   {
     "group": [
       "D",
@@ -916,6 +982,28 @@
     "detMethod": "genprep",
     "photographer": "Magnus Unger",
     "bildId": "10-6480"
+  },
+  {
+    "group": [
+      "D",
+      "C"
+    ],
+    "name": "Vattenskräppesäckmal",
+    "latin": "Coleophora hydrolapathella",
+    "slug": "coleophora_hydrolapathella",
+    "image": "/img/coleophora_hydrolapathella-§3-22-1168.jpg",
+    "date": "2022-05-30",
+    "hatchedDate": "2022-06-14",
+    "site": "Nidingen, Hl",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 3,
+    "detYear": 2022,
+    "detBy": "Magnus Unger",
+    "detMethod": "kläckning",
+    "photographer": "Magnus Unger",
+    "bildId": "22-1168"
   },
   {
     "group": [
@@ -1928,6 +2016,27 @@
     "detMethod": "genprep",
     "photographer": "Magnus Unger",
     "bildId": "16-1133"
+  },
+  {
+    "group": [
+      "G"
+    ],
+    "name": "Strimmig stjärnblomssäckmal",
+    "latin": "Coleophora striatipennella",
+    "slug": "coleophora_striatipennella",
+    "image": "/img/coleophora_striatipennella-§3-22-1493.jpg",
+    "date": "2022-06-22",
+    "hatchedDate": "2022-07-07",
+    "site": "Nidingen, Hl",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 3,
+    "detYear": 2022,
+    "detBy": "Magnus Unger",
+    "detMethod": "kläckning",
+    "photographer": "Magnus Unger",
+    "bildId": "22-1493"
   },
   {
     "group": [

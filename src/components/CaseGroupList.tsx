@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import { useCaseGroups } from '../hooks'
+import { useGroups } from '../hooks'
 import PhotoItem from './PhotoItem';
 
 function CaseGroupList() {
 
-  const { isPending, error, data, isFetching } = useCaseGroups();
+  const { isPending, error, data, isFetching } = useGroups('case');
 
   if (isPending) return 'Loading...'
 

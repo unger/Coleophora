@@ -1,28 +1,25 @@
 import { useParams } from 'react-router-dom'
-import { useImagoPhotos } from '../hooks'
+import { usePhotos } from '../hooks'
 import PhotoItem from './PhotoItem';
 import PhotoDescription from './PhotoDescription';
 
 function UnsureDetail() {
   let { slug } = useParams();
 
-  const { isPending, error, data, isFetching } = useImagoPhotos();
+  const { isPending, error, data, isFetching } = usePhotos('imago', undefined, slug, true);
 
   if (isPending) return 'Loading...'
 
   if (error) return 'An error has occurred: ' + error.message
 
-  var filteredData = data.filter((item: TaxonPhoto) => item.slug === slug && item.unsure);
-
-  if (filteredData.length === 0) return 'Inga bilder hittade';
+  if (data.length === 0) return 'Inga bilder hittade';
 
   return (
     <div>
-      <h1>{filteredData[0].name}? <small><em>{filteredData[0].latin}?</em></small></h1>
+      <h1>{data[0].name}? <small><em>{data[0].latin}?</em></small></h1>
       <div className='large-thumbnails'>
         {
-          filteredData
-          .map((item: TaxonPhoto) => {
+          data.map((item: TaxonPhoto) => {
             return <div key={item.bildId}>
               <PhotoItem src={item.image}></PhotoItem>
               <PhotoDescription photo={item}></PhotoDescription>

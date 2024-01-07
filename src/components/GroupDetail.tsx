@@ -1,19 +1,15 @@
 import { ScrollRestoration, useParams } from 'react-router-dom'
-import useGroups from '../hooks/useGroups'
+import { useGroup } from '../hooks'
 import GroupDetailTaxonList from './GroupDetailTaxonList';
 
 function GroupDetail() {
-  let { id } = useParams();
+  let { id } : { id?: ImagoGroupId} = useParams();
 
-  const { isPending, error, data, isFetching } = useGroups();
+  const { isPending, error, data: group, isFetching } = useGroup('imago', id);
 
   if (isPending) return 'Loading...'
 
   if (error) return 'An error has occurred: ' + error.message
-
-  var group = data.find(item => item.id == id);
-
-  if (group === undefined) return "Invalid group";
 
   return (
     <div>

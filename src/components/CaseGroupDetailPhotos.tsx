@@ -1,23 +1,19 @@
 import { Link } from 'react-router-dom';
-import { useCasePhotos } from '../hooks'
+import { usePhotos } from '../hooks'
 import PhotoItem from './PhotoItem';
-import { reduceBy } from '../helpers'
 
-function CaseGroupDetailPhotos({ groupId }: { groupId : string }) {
-  const { isPending, error, data, isFetching } = useCasePhotos();
+function CaseGroupDetailPhotos({ groupId }: { groupId : GroupId }) {
+  const { isPending, error, data, isFetching } = usePhotos('case', groupId, undefined, undefined, (item: TaxonPhoto) => item.slug);
 
   if (isPending) return 'Loading...'
 
   if (error) return 'An error has occurred: ' + error.message
 
-  var filteredData = data.filter((item: TaxonPhoto) => item.group.includes(groupId));
-
   return (
     <div>
       <div className='small-thumbnails'>
         {
-          reduceBy(filteredData, item => item.slug)
-          .map((item: TaxonPhoto) => {
+          data.map((item: TaxonPhoto) => {
             return <div key={item.bildId}>
               <Link to={`/taxon/${item.slug}`}>
                 <PhotoItem src={item.image}></PhotoItem>
