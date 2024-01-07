@@ -1996,18 +1996,39 @@
     "name": "Gulstreckad björksäckmal",
     "latin": "Coleophora betulella",
     "slug": "coleophora_betulella",
-    "image": "/img/coleophora_betulella-§3-19-8709.jpg",
-    "date": "2019-06-29",
-    "site": "Fjärås Bräcka, Hl",
+    "image": "/img/coleophora_betulella-§3-18-8059.jpg",
+    "date": "2018-06-05",
+    "site": "Älje, Porsen, Boh",
     "stage": "imago",
     "wingspan": 0,
-    "unsure": true,
+    "unsure": false,
     "specimen": 3,
-    "detYear": 2019,
+    "detYear": 2018,
     "detBy": "Magnus Unger",
     "detMethod": "foto",
     "photographer": "Magnus Unger",
-    "bildId": "19-8709"
+    "bildId": "18-8059"
+  },
+  {
+    "group": [
+      "E",
+      "G"
+    ],
+    "name": "Gulstreckad björksäckmal",
+    "latin": "Coleophora betulella",
+    "slug": "coleophora_betulella",
+    "image": "/img/coleophora_betulella-§4-23-6299.jpg",
+    "date": "2023-07-08",
+    "site": "Fjärås Bräcka, Hl",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 4,
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "foto",
+    "photographer": "Magnus Unger",
+    "bildId": "23-6299"
   },
   {
     "group": [
@@ -2111,6 +2132,26 @@
     "detMethod": "foto",
     "photographer": "Magnus Unger",
     "bildId": "16-0311"
+  },
+  {
+    "group": [
+      "G"
+    ],
+    "name": "Gulstreckad avenbokssäckmal",
+    "latin": "Coleophora currucipennella",
+    "slug": "coleophora_currucipennella",
+    "image": "/img/coleophora_currucipennella-§3-19-8709.jpg",
+    "date": "2019-06-29",
+    "site": "Fjärås Bräcka, Hl",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": true,
+    "specimen": 3,
+    "detYear": 2019,
+    "detBy": "Magnus Unger",
+    "detMethod": "foto",
+    "photographer": "Magnus Unger",
+    "bildId": "19-8709"
   },
   {
     "group": [
@@ -2844,5 +2885,25 @@
     "detMethod": "foto",
     "photographer": "Magnus Unger",
     "bildId": "23-5684"
+  },
+  {
+    "group": [
+      "E"
+    ],
+    "name": "Kronillsäckmal",
+    "latin": "Coleophora coronillae",
+    "slug": "coleophora_coronillae",
+    "image": "/img/coleophora_coronillae-§1-23-6026.jpg",
+    "date": "2023-07-07",
+    "site": "Rydebäck, Sk",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 1,
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "foto",
+    "photographer": "Magnus Unger",
+    "bildId": "23-6026"
   }
 ]

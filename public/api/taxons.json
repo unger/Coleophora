@@ -5,13 +5,13 @@
       "group": [
          "B"
       ],
-      "name": "Trampörtgallmal",
+      "name": "Trampörtsmal",
       "latin": "Augasma aeratella",
       "auctor": "(Zeller, 1839)",
       "wingSpanMin": 9,
       "wingSpanMax": 10,
       "hasImage": false,
-      "slugSv": "trampörtgallmal",
+      "slugSv": "trampörtsmal",
       "slug": "augasma_aeratella"
    },
    {
@@ -43,7 +43,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "svartvit_säckmal",
-      "slug": "coleophora_albella"
+      "slug": "coleophora_albella",
+      "redlist": "EN"
    },
    {
       "artId": 690,
@@ -120,7 +121,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "ljuskantad_slånsäckmal",
-      "slug": "coleophora_adjectella"
+      "slug": "coleophora_adjectella",
+      "redlist": "EN"
    },
    {
       "artId": 695,
@@ -165,7 +167,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "vitkantad_almsäckmal",
-      "slug": "coleophora_badiipennella"
+      "slug": "coleophora_badiipennella",
+      "redlist": "NT"
    },
    {
       "artId": 698,
@@ -180,7 +183,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "ljuskantad_almsäckmal",
-      "slug": "coleophora_limosipennella"
+      "slug": "coleophora_limosipennella",
+      "redlist": "NT"
    },
    {
       "artId": 699,
@@ -617,7 +621,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "lungörtssäckmal",
-      "slug": "coleophora_pulmonariella"
+      "slug": "coleophora_pulmonariella",
+      "redlist": "CR"
    },
    {
       "artId": 728,
@@ -713,7 +718,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "skarplinjerad_krisslesäckmal",
-      "slug": "coleophora_conyzae"
+      "slug": "coleophora_conyzae",
+      "redlist": "NT"
    },
    {
       "artId": 732,
@@ -728,7 +734,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "stinksyskesäckmal",
-      "slug": "coleophora_lineolea"
+      "slug": "coleophora_lineolea",
+      "redlist": "NT"
    },
    {
       "artId": 733,
@@ -791,17 +798,32 @@
       "group": [
          "E"
       ],
-      "name": "Sötvedelbladsäckmal",
+      "name": "Mindre sötvedelssäckmal",
       "latin": "Coleophora colutella",
       "auctor": "(Fabricius, 1794)",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "sötvedelbladsäckmal",
+      "slugSv": "mindre_sötvedelssäckmal",
       "slug": "coleophora_colutella",
       "redlist": "RE",
       "distribution": "Angiven från Sk och Sm men inga belagda exemplar finns tillgängliga, arten är eftersökt förgäves de senaste decennierna.",
       "imago": "slutet av juni till slutet av juli"
+   },
+   {
+      "artId": 2871,
+      "dyntaxaId": 6010237,
+      "group": [
+         "E"
+      ],
+      "name": "Kronillsäckmal",
+      "latin": "Coleophora coronillae",
+      "auctor": "Zeller, 1849",
+      "wingSpanMin": 0,
+      "wingSpanMax": 0,
+      "hasImage": false,
+      "slugSv": "kronillsäckmal",
+      "slug": "coleophora_coronillae"
    },
    {
       "artId": 737,
@@ -857,7 +879,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "kilstreckad_fjällsäckmal",
-      "slug": "coleophora_svenssoni"
+      "slug": "coleophora_svenssoni",
+      "redlist": "NT"
    },
    {
       "artId": 739,
@@ -945,6 +968,21 @@
       "slug": "coleophora_peri"
    },
    {
+      "artId": 2862,
+      "dyntaxaId": 6053036,
+      "group": [
+         "C"
+      ],
+      "name": "Fingerörtssäckmal",
+      "latin": "Coleophora albicostella",
+      "auctor": "(Duponchel, 1842)",
+      "wingSpanMin": 0,
+      "wingSpanMax": 0,
+      "hasImage": false,
+      "slugSv": "fingerörtssäckmal",
+      "slug": "coleophora_albicostella"
+   },
+   {
       "artId": 742,
       "dyntaxaId": 214478,
       "group": [
@@ -972,7 +1010,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "silverstreckad_säckmal",
-      "slug": "coleophora_chalcogrammella"
+      "slug": "coleophora_chalcogrammella",
+      "redlist": "EN"
    },
    {
       "artId": 744,
@@ -1221,7 +1260,23 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "större_klintsäckmal",
-      "slug": "coleophora_brevipalpella"
+      "slug": "coleophora_brevipalpella",
+      "redlist": "NT"
+   },
+   {
+      "artId": 2870,
+      "dyntaxaId": 6010238,
+      "group": [
+         "E"
+      ],
+      "name": "Bosyskesäckmal",
+      "latin": "Coleophora ballotella",
+      "auctor": "(Fischer von Röslerstam, 1839)",
+      "wingSpanMin": 0,
+      "wingSpanMax": 0,
+      "hasImage": false,
+      "slugSv": "bosyskesäckmal",
+      "slug": "coleophora_ballotella"
    },
    {
       "artId": 755,
@@ -1246,13 +1301,13 @@
       "group": [
          "E"
       ],
-      "name": "Kilstreckad fältmalörtsäckmal",
+      "name": "Kilstreckad malörtssäckmal",
       "latin": "Coleophora vibicigerella",
       "auctor": "Zeller, 1839",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "kilstreckad_fältmalörtsäckmal",
+      "slugSv": "kilstreckad_malörtssäckmal",
       "slug": "coleophora_vibicigerella"
    },
    {
@@ -1283,7 +1338,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "kilstreckad_rölleksäckmal",
-      "slug": "coleophora_partitella"
+      "slug": "coleophora_partitella",
+      "redlist": "VU"
    },
    {
       "artId": 759,
@@ -1313,7 +1369,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "solvändesäckmal",
-      "slug": "coleophora_ochrea"
+      "slug": "coleophora_ochrea",
+      "redlist": "VU"
    },
    {
       "artId": 761,
@@ -1321,14 +1378,15 @@
       "group": [
          "F"
       ],
-      "name": "Sikelspetsad timjesäckmal",
+      "name": "Sikelsäckmal",
       "latin": "Coleophora lixella",
       "auctor": "Zeller, 1849",
       "wingSpanMin": 16,
       "wingSpanMax": 20,
       "hasImage": false,
-      "slugSv": "sikelspetsad_timjesäckmal",
-      "slug": "coleophora_lixella"
+      "slugSv": "sikelsäckmal",
+      "slug": "coleophora_lixella",
+      "redlist": "NT"
    },
    {
       "artId": 762,
@@ -1411,13 +1469,13 @@
       "group": [
          "C"
       ],
-      "name": "Skarpringad tågsäckmal",
+      "name": "Ringtågsäckmal",
       "latin": "Coleophora caespititiella",
       "auctor": "Zeller, 1839",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
-      "slugSv": "skarpringad_tågsäckmal",
+      "slugSv": "ringtågsäckmal",
       "slug": "coleophora_caespititiella"
    },
    {
@@ -1542,7 +1600,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "strandtågsäckmal",
-      "slug": "coleophora_maritimella"
+      "slug": "coleophora_maritimella",
+      "redlist": "NT"
    },
    {
       "artId": 776,
@@ -1559,6 +1618,22 @@
       "hasImage": false,
       "slugSv": "gullrissäckmal",
       "slug": "coleophora_virgaureae"
+   },
+   {
+      "artId": 2836,
+      "dyntaxaId": 233123,
+      "group": [
+         "F",
+         "G"
+      ],
+      "name": "Förväxlad säckmal",
+      "latin": "Coleophora proterella",
+      "auctor": "Wikström & Tabell, 2016",
+      "wingSpanMin": 10,
+      "wingSpanMax": 13,
+      "hasImage": false,
+      "slugSv": "förväxlad_säckmal",
+      "slug": "coleophora_proterella"
    },
    {
       "artId": 777,
@@ -1741,7 +1816,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "kattfotsäckmal",
-      "slug": "coleophora_pappiferella"
+      "slug": "coleophora_pappiferella",
+      "redlist": "NT"
    },
    {
       "artId": 789,
@@ -1765,13 +1841,14 @@
          "E"
       ],
       "name": "Pältsasäckmal",
-      "latin": "Coleophora paeltsaella",
-      "auctor": "Palmqvist \u0026 Hellberg, 1999",
+      "latin": "Coleophora derasofasciella",
+      "auctor": "Klimesch, 1952",
       "wingSpanMin": 0,
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "pältsasäckmal",
-      "slug": "coleophora_paeltsaella"
+      "slug": "coleophora_derasofasciella",
+      "redlist": "EN"
    },
    {
       "artId": 791,
@@ -1802,7 +1879,8 @@
       "wingSpanMax": 15,
       "hasImage": false,
       "slugSv": "hylsnejlikesäckmal",
-      "slug": "coleophora_adelogrammella"
+      "slug": "coleophora_adelogrammella",
+      "redlist": "VU"
    },
    {
       "artId": 793,
@@ -1817,7 +1895,8 @@
       "wingSpanMax": 15,
       "hasImage": false,
       "slugSv": "grovfjällig_malörtssäckmal",
-      "slug": "coleophora_succursella"
+      "slug": "coleophora_succursella",
+      "redlist": "NT"
    },
    {
       "artId": 794,
@@ -1832,7 +1911,8 @@
       "wingSpanMax": 15,
       "hasImage": false,
       "slugSv": "grovfjällig_hedblomstersäckmal",
-      "slug": "coleophora_gnaphalii"
+      "slug": "coleophora_gnaphalii",
+      "redlist": "EN"
    },
    {
       "artId": 795,
@@ -1847,7 +1927,8 @@
       "wingSpanMax": 17,
       "hasImage": false,
       "slugSv": "större_backglimsäckmal",
-      "slug": "coleophora_galbulipennella"
+      "slug": "coleophora_galbulipennella",
+      "redlist": "VU"
    },
    {
       "artId": 796,
@@ -1863,7 +1944,8 @@
       "wingSpanMax": 14,
       "hasImage": false,
       "slugSv": "knytlingsäckmal",
-      "slug": "coleophora_scabrida"
+      "slug": "coleophora_scabrida",
+      "redlist": "VU"
    },
    {
       "artId": 797,
@@ -1893,7 +1975,8 @@
       "wingSpanMax": 10,
       "hasImage": false,
       "slugSv": "såpörtssäckmal",
-      "slug": "coleophora_kyffhusana"
+      "slug": "coleophora_kyffhusana",
+      "redlist": "VU"
    },
    {
       "artId": 799,
@@ -1923,7 +2006,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "linjerad_gullrissäckmal",
-      "slug": "coleophora_amellivora"
+      "slug": "coleophora_amellivora",
+      "redlist": "EN"
    },
    {
       "artId": 801,
@@ -1954,6 +2038,21 @@
       "hasImage": false,
       "slugSv": "gullinjerad_gullrissäckmal",
       "slug": "coleophora_trochilella"
+   },
+   {
+      "artId": 2866,
+      "dyntaxaId": 6010230,
+      "group": [
+         "G"
+      ],
+      "name": "Strandmalörtssäckmal",
+      "latin": "Coleophora gardesanella",
+      "auctor": "Toll, 1953",
+      "wingSpanMin": 0,
+      "wingSpanMax": 0,
+      "hasImage": false,
+      "slugSv": "strandmalörtssäckmal",
+      "slug": "coleophora_gardesanella"
    },
    {
       "artId": 803,
@@ -2014,7 +2113,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "skarpringad_stjärnblomsäckmal",
-      "slug": "coleophora_solitariella"
+      "slug": "coleophora_solitariella",
+      "redlist": "VU"
    },
    {
       "artId": 807,
@@ -2059,7 +2159,8 @@
       "wingSpanMax": 15,
       "hasImage": false,
       "slugSv": "punkterad_backglimsäckmal",
-      "slug": "coleophora_hackmani"
+      "slug": "coleophora_hackmani",
+      "redlist": "VU"
    },
    {
       "artId": 810,
@@ -2090,7 +2191,8 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "hampflockelsäckmal",
-      "slug": "coleophora_follicularis"
+      "slug": "coleophora_follicularis",
+      "redlist": "NT"
    },
    {
       "artId": 812,
@@ -2106,7 +2208,8 @@
       "wingSpanMax": 13,
       "hasImage": false,
       "slugSv": "grå_fältmalörtssäckmal",
-      "slug": "coleophora_granulatella"
+      "slug": "coleophora_granulatella",
+      "redlist": "NT"
    },
    {
       "artId": 813,
@@ -2136,7 +2239,8 @@
       "wingSpanMax": 15,
       "hasImage": false,
       "slugSv": "nejliksäckmal",
-      "slug": "coleophora_dianthi"
+      "slug": "coleophora_dianthi",
+      "redlist": "EN"
    },
    {
       "artId": 815,
@@ -2151,7 +2255,8 @@
       "wingSpanMax": 18,
       "hasImage": false,
       "slugSv": "ljusringad_backglimssäckmal",
-      "slug": "coleophora_nutantella"
+      "slug": "coleophora_nutantella",
+      "redlist": "VU"
    },
    {
       "artId": 816,
@@ -2181,7 +2286,8 @@
       "wingSpanMax": 11,
       "hasImage": false,
       "slugSv": "dvärgsäckmal",
-      "slug": "coleophora_paradrymidis"
+      "slug": "coleophora_paradrymidis",
+      "redlist": "CR"
    },
    {
       "artId": 818,
@@ -2257,6 +2363,7 @@
       "wingSpanMax": 0,
       "hasImage": false,
       "slugSv": "glasörtsäckmal",
-      "slug": "coleophora_salicorniae"
+      "slug": "coleophora_salicorniae",
+      "redlist": "VU"
    }
 ]
