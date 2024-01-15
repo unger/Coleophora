@@ -1055,6 +1055,26 @@
     "name": "Jungfrusäckmal",
     "latin": "Coleophora parthenogenella",
     "slug": "coleophora_parthenogenella",
+    "image": "/img/coleophora_parthenogenella-§8-23-6014.jpg",
+    "date": "2015-07-24",
+    "site": "Nya varvet, Vg",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": false,
+    "specimen": 8,
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "kläckning",
+    "photographer": "Magnus Unger",
+    "bildId": "23-6014"
+  },    
+  {
+    "group": [
+      "E"
+    ],
+    "name": "Jungfrusäckmal",
+    "latin": "Coleophora parthenogenella",
+    "slug": "coleophora_parthenogenella",
     "image": "/img/coleophora_parthenogenella-§7-15-4089.jpg",
     "date": "2015-07-24",
     "site": "Släp, Hl",
@@ -1075,26 +1095,6 @@
     "name": "Jungfrusäckmal",
     "latin": "Coleophora parthenogenella",
     "slug": "coleophora_parthenogenella",
-    "image": "/img/coleophora_parthenogenella-§6-11-9114.jpg",
-    "date": "2011-07-06",
-    "site": "Släp, Hl",
-    "stage": "imago",
-    "wingspan": 0,
-    "unsure": false,
-    "specimen": 6,
-    "detYear": 2011,
-    "detBy": "Magnus Unger",
-    "detMethod": "foto",
-    "photographer": "Magnus Unger",
-    "bildId": "11-9114"
-  },
-  {
-    "group": [
-      "E"
-    ],
-    "name": "Jungfrusäckmal",
-    "latin": "Coleophora parthenogenella",
-    "slug": "coleophora_parthenogenella",
     "image": "/img/coleophora_parthenogenella-§5-11-9035.jpg",
     "date": "2011-07-06",
     "site": "Släp, Hl",
@@ -1107,66 +1107,6 @@
     "detMethod": "genprep",
     "photographer": "Magnus Unger",
     "bildId": "11-9035"
-  },
-  {
-    "group": [
-      "E"
-    ],
-    "name": "Jungfrusäckmal",
-    "latin": "Coleophora parthenogenella",
-    "slug": "coleophora_parthenogenella",
-    "image": "/img/coleophora_parthenogenella-§4-10-1095.jpg",
-    "date": "2010-07-26",
-    "site": "Släp, Hl",
-    "stage": "imago",
-    "wingspan": 0,
-    "unsure": false,
-    "specimen": 4,
-    "detYear": 2011,
-    "detBy": "Jan Å. Jonasson",
-    "detMethod": "genprep",
-    "photographer": "Magnus Unger",
-    "bildId": "10-1095"
-  },
-  {
-    "group": [
-      "E"
-    ],
-    "name": "Jungfrusäckmal",
-    "latin": "Coleophora parthenogenella",
-    "slug": "coleophora_parthenogenella",
-    "image": "/img/coleophora_parthenogenella-§3-10-0751.jpg",
-    "date": "2010-07-21",
-    "site": "Släp, Hl",
-    "stage": "imago",
-    "wingspan": 0,
-    "unsure": false,
-    "specimen": 3,
-    "detYear": 2011,
-    "detBy": "Jan Å. Jonasson",
-    "detMethod": "genprep",
-    "photographer": "Magnus Unger",
-    "bildId": "10-0751"
-  },
-  {
-    "group": [
-      "E"
-    ],
-    "name": "Jungfrusäckmal",
-    "latin": "Coleophora parthenogenella",
-    "slug": "coleophora_parthenogenella",
-    "image": "/img/coleophora_parthenogenella-§2-10-0074.jpg",
-    "date": "2010-07-19",
-    "site": "Släp, Hl",
-    "stage": "imago",
-    "wingspan": 0,
-    "unsure": false,
-    "specimen": 2,
-    "detYear": 2011,
-    "detBy": "Jan Å. Jonasson",
-    "detMethod": "genprep",
-    "photographer": "Magnus Unger",
-    "bildId": "10-0074"
   },
   {
     "group": [
