@@ -2275,13 +2275,13 @@
          "Rör"
       ],
       "name": "Ljus malörtsäckmal",
-      "latin": "Coleophora artemisiella",
-      "auctor": "Scott, 1861",
+      "latin": "Coleophora albicans",
+      "auctor": "Zeller, 1849",
       "wingSpanMin": 11,
       "wingSpanMax": 13,
       "hasImage": false,
       "slugSv": "ljus_malörtsäckmal",
-      "slug": "coleophora_artemisiella"
+      "slug": "coleophora_albicans"
    },
    {
       "artId": 809,

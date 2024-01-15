@@ -12,7 +12,18 @@ function PhotoList({ taxon, stage }: { taxon: Taxon, stage: Stage }) {
 
   return (
     <div>
-      <h2>Imago - <small>({data.length} bild{data.length !== 1 && 'er'})</small></h2>
+      <h2>
+        {
+          stage === "imago"
+            ? "Imago "
+            : stage === "case"
+              ? "Säck "
+              : stage === "egg"
+                ? "Ägg "
+                : "Övrigt "
+        }
+        - <small>({data.length} bild{data.length !== 1 && 'er'})</small>
+      </h2>
       <div className='large-thumbnails'>
         {
           data.length === 0
