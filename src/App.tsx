@@ -1,11 +1,11 @@
 import { Link, createBrowserRouter, RouterProvider, Outlet, ScrollRestoration } from 'react-router-dom';
-import GroupDetail from './components/GroupDetail'
-import GroupList from './components/GroupList'
-import CaseGroupDetail from './components/CaseGroupDetail'
-import TaxonDetail from './components/TaxonDetail'
-import UnsureList from './components/UnsureList';
-import UnsureDetail from './components/UnsureDetail';
-import CaseGroupList from './components/CaseGroupList';
+import GroupDetail from './views/GroupDetail'
+import GroupList from './views/GroupList'
+import CaseGroupDetail from './views/CaseGroupDetail'
+import TaxonDetail from './views/TaxonDetail'
+import UnsureList from './views/UnsureList';
+import UnsureDetail from './views/UnsureDetail';
+import CaseGroupList from './views/CaseGroupList';
 
 const router = createBrowserRouter([
   {

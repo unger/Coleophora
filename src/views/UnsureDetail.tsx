@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import { usePhotos } from '../hooks'
-import PhotoItem from './PhotoItem';
-import PhotoDescription from './PhotoDescription';
+import PhotoItem from '../components/PhotoItem';
+import PhotoDescription from '../components/PhotoDescription';
 
 function UnsureDetail() {
   let { slug } = useParams();

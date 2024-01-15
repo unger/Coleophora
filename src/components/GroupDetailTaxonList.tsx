@@ -15,7 +15,7 @@ function GroupDetailTaxonList({group}: {group: TaxonGroup}) {
       <div className='small-thumbnails'>
         {
           data.map((item: Taxon) => {
-            return <GroupPhoto taxon={item} key={item.artId} groupId={group.id}></GroupPhoto>
+            return <GroupPhoto taxon={item} key={item.artId} group={group}></GroupPhoto>
           })
         }
       </div>

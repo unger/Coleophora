@@ -1,7 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { useTaxon } from '../hooks'
-import ImagoPhotoList from './ImagoPhotoList';
-import CasePhotoList from './CasePhotoList';
+import PhotoList from '../components/PhotoList';
 
 function TaxonDetail() {
   let { slug } = useParams();
@@ -16,8 +15,8 @@ function TaxonDetail() {
     <div>
       <h1>{taxon.name} <small><em>{taxon.latin}</em> {taxon.auctor}</small></h1>
 
-      <ImagoPhotoList taxon={taxon}></ImagoPhotoList>
-      <CasePhotoList taxon={taxon}></CasePhotoList>
+      <PhotoList taxon={taxon} stage={'imago'}></PhotoList>
+      <PhotoList taxon={taxon} stage={'case'}></PhotoList>
 
       {isFetching && <div>Updating...</div>}
     </div>

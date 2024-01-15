@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import { usePhotos } from '../hooks'
 import PhotoItem from './PhotoItem';
 
-function GroupPhoto({ taxon, groupId }: { taxon: Taxon, groupId: GroupId }) {
+function GroupPhoto({ taxon, group }: { taxon: Taxon, group: TaxonGroup }) {
 
-    const { isPending, error, data, isFetching } = usePhotos('imago', groupId, taxon.slug, false);
+    const { isPending, error, data, isFetching } = usePhotos(group.stage, group.id, taxon.slug, false);
 
     if (isPending) return 'Loading...'
 
@@ -17,7 +17,7 @@ function GroupPhoto({ taxon, groupId }: { taxon: Taxon, groupId: GroupId }) {
     return (
         <div>
             <Link to={`/taxon/${taxon.slug}`}>
-                <PhotoItem src={taxon.image || firstImage?.image}></PhotoItem>
+                <PhotoItem src={firstImage?.image}></PhotoItem>
             </Link>
             <p className='text-center'>
                 {taxon.redlist !== undefined && <span className='redlist'>{taxon.redlist}</span>}

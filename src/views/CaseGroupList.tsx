@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useGroups } from '../hooks'
-import PhotoItem from './PhotoItem';
+import PhotoItem from '../components/PhotoItem';
 
-function GroupList() {
+function CaseGroupList() {
 
-  const { isPending, error, data, isFetching } = useGroups('imago');
+  const { isPending, error, data, isFetching } = useGroups('case');
 
   if (isPending) return 'Loading...'
 
@@ -17,7 +17,7 @@ function GroupList() {
         {
           data.map((item: TaxonGroup) => {
             return <div key={item.id}>
-              <Link to={`/group/${item.id}`}>
+              <Link to={`/cases/${item.id}`}>
                 <PhotoItem src={item.image}></PhotoItem>
               </Link>
               <p className='text-center'>
@@ -32,4 +32,4 @@ function GroupList() {
   )
 }
 
-export default GroupList
+export default CaseGroupList

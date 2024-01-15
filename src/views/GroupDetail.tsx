@@ -1,6 +1,6 @@
 import { ScrollRestoration, useParams } from 'react-router-dom'
 import { useGroup } from '../hooks'
-import GroupDetailTaxonList from './GroupDetailTaxonList';
+import GroupDetailTaxonList from '../components/GroupDetailTaxonList';
 
 function GroupDetail() {
   let { id } : { id?: ImagoGroupId} = useParams();

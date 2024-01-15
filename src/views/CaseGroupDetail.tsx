@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useGroup } from '../hooks';
-import CaseGroupDetailPhotos from './CaseGroupDetailPhotos';
+import GroupDetailTaxonList from '../components/GroupDetailTaxonList';
 
 function CaseGroupDetail() {
   let { id }: { id? : CaseGroupId} = useParams();
@@ -14,7 +14,7 @@ function CaseGroupDetail() {
   return (
     <div>
       <h1>{group.name} <small>{group.description}</small></h1>
-      <CaseGroupDetailPhotos groupId={group.id}></CaseGroupDetailPhotos>
+      <GroupDetailTaxonList group={group}></GroupDetailTaxonList>
       {isFetching && <div>Updating...</div>}
     </div>
   )

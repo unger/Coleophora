@@ -9,6 +9,7 @@ interface TaxonGroup {
     name: string;
     description: string;
     image: string | undefined;
+    stage: Stage;
 }
 
 interface Taxon {

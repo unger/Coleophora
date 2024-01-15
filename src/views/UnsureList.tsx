@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { usePhotos } from '../hooks'
-import PhotoItem from './PhotoItem';
+import PhotoItem from '../components/PhotoItem';
 
 function UnsureList() {
 
