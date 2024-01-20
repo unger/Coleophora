@@ -1270,6 +1270,7 @@
       "dyntaxaId": 214487,
       "group": [
          "G",
+         "H",
          "Pistol"
       ],
       "name": "Gulspetsad sälgsäckmal",
@@ -1286,6 +1287,7 @@
       "dyntaxaId": 214488,
       "group": [
          "G",
+         "H",
          "Pistol"
       ],
       "name": "Gulstreckad avenboksäckmal",
@@ -2416,7 +2418,7 @@
       "wingSpanMin": 15,
       "wingSpanMax": 17,
       "hasImage": false,
-      "slugSv": "mörkringad_tjärblomstersäckmal",
+      "slugSv": "tjärblomstersäckmal",
       "slug": "coleophora_graminicolella"
    },
    {
