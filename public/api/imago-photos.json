@@ -1883,8 +1883,8 @@
     "latin": "Coleophora trochilella",
     "slug": "coleophora_trochilella",
     "image": "/img/coleophora_trochilella-§4-22-1663.jpg",
-    "date": "2023-07-12",
-    "hatchedDate": "2023-07-21",
+    "date": "2022-07-12",
+    "hatchedDate": "2022-07-21",
     "site": "Kullaberg, Sk",
     "stage": "imago",
     "wingspan": 0,
@@ -2954,5 +2954,27 @@
     "detMethod": "foto",
     "photographer": "Magnus Unger",
     "bildId": "23-6026"
+  },
+  {
+    "group": [
+      "B"
+    ],
+    "name": "Musgrå lingonsäckmal",
+    "latin": "Coleophora murinella",
+    "slug": "coleophora_murinella",
+    "image": "/img/trol_coleophora_murinella-§1-16-8657.jpg",
+    "date": "2016-06-19",
+    "site": "Grytsjön, Bäckebo, Sm",
+    "stage": "imago",
+    "wingspan": 0,
+    "unsure": true,
+    "specimen": 1,
+    "detYear": 2023,
+    "detBy": "Magnus Unger",
+    "detMethod": "foto",
+    "photographer": "Magnus Unger",
+    "bildId": "16-8657"
   }
+
+  
 ]
