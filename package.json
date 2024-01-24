@@ -1,57 +1,64 @@
 {
-  "name": "coleophora",
-  "private": true,
-  "version": "2.0.0",
-  "type": "module",
-  "scripts": {
-    "deploy": "vite build --base=/Coleophora/ && gh-pages -d dist",
-    "dev": "vite",
-    "devsub": "vite --base=/Coleophora/",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "stylelint": "npx stylelint 'src/**/*.{css,tsx}'",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.11.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.1",
-    "react-zoom-pan-pinch": "^3.3.0"
-  },
-  "devDependencies": {
-    "@emotion/styled": "^11.11.0",
-    "@swc/plugin-emotion": "2.5.68",
-    "@tanstack/react-query": "^5.17.0",
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "axios": "^1.6.3",
-    "eslint": "^8.55.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "gh-pages": "^6.1.1",
-    "postcss-styled-syntax": "^0.6.4",
-    "stylelint": "^16.2.0",
-    "stylelint-config-clean-order": "^5.4.0",
-    "stylelint-config-standard": "^36.0.0",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
-  },
-  "description": "React app for my Coleophora site, coleophora.lepidoptera.se",
-  "main": "main.tsx",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/unger/Coleophora.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/unger/Coleophora/issues"
-  },
-  "homepage": "https://github.com/unger/Coleophora#readme"
+    "name": "coleophora",
+    "private": true,
+    "version": "2.0.0",
+    "type": "module",
+    "scripts": {
+        "deploy": "vite build --base=/Coleophora/ && gh-pages -d dist",
+        "dev": "vite",
+        "devsub": "vite --base=/Coleophora/",
+        "build": "tsc && vite build",
+        "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+        "stylelint": "npx stylelint 'src/**/*.{css,tsx}'",
+        "formatjs": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
+        "formatcss": "npx stylelint 'src/**/*.{css,tsx}' --fix",
+        "format": "pnpm run formatjs && pnpm run formatcss",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.21.1",
+        "react-zoom-pan-pinch": "^3.3.0"
+    },
+    "devDependencies": {
+        "@emotion/styled": "^11.11.0",
+        "@swc/plugin-emotion": "2.5.68",
+        "@tanstack/react-query": "^5.17.0",
+        "@types/react": "^18.2.43",
+        "@types/react-dom": "^18.2.17",
+        "@typescript-eslint/eslint-plugin": "^6.17.0",
+        "@typescript-eslint/parser": "^6.17.0",
+        "@vitejs/plugin-react": "^4.2.1",
+        "@vitejs/plugin-react-swc": "^3.5.0",
+        "axios": "^1.6.3",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.4.5",
+        "gh-pages": "^6.1.1",
+        "postcss-styled-syntax": "^0.6.4",
+        "prettier": "^3.2.4",
+        "stylelint": "^16.2.0",
+        "stylelint-config-clean-order": "^5.4.0",
+        "stylelint-config-standard": "^36.0.0",
+        "typescript": "^5.2.2",
+        "vite": "^5.0.8"
+    },
+    "description": "React app for my Coleophora site, coleophora.lepidoptera.se",
+    "main": "main.tsx",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/unger/Coleophora.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/unger/Coleophora/issues"
+    },
+    "homepage": "https://github.com/unger/Coleophora#readme"
 }
