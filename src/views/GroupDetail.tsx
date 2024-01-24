@@ -1,15 +1,15 @@
-import { ScrollRestoration, useParams } from "react-router-dom";
-import { useGroup } from "../hooks";
-import GroupDetailTaxonList from "../components/GroupDetailTaxonList";
+import { ScrollRestoration, useParams } from 'react-router-dom'
+import { useGroup } from '../hooks'
+import GroupDetailTaxonList from '../components/GroupDetailTaxonList'
 
 function GroupDetail() {
-    const { id }: { id?: ImagoGroupId } = useParams();
+    const { id }: { id?: ImagoGroupId } = useParams()
 
-    const { isPending, error, data: group, isFetching } = useGroup("imago", id);
+    const { isPending, error, data: group, isFetching } = useGroup('imago', id)
 
-    if (isPending) return "Loading...";
+    if (isPending) return 'Loading...'
 
-    if (error) return "An error has occurred: " + error.message;
+    if (error) return 'An error has occurred: ' + error.message
 
     return (
         <div>
@@ -20,7 +20,7 @@ function GroupDetail() {
             {isFetching && <div>Updating...</div>}
             <ScrollRestoration></ScrollRestoration>
         </div>
-    );
+    )
 }
 
-export default GroupDetail;
+export default GroupDetail

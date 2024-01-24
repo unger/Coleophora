@@ -1,14 +1,14 @@
-import { useParams } from "react-router-dom";
-import { useGroup } from "../hooks";
-import GroupDetailTaxonList from "../components/GroupDetailTaxonList";
+import { useParams } from 'react-router-dom'
+import { useGroup } from '../hooks'
+import GroupDetailTaxonList from '../components/GroupDetailTaxonList'
 
 function CaseGroupDetail() {
-    const { id }: { id?: CaseGroupId } = useParams();
-    const { isPending, error, data: group, isFetching } = useGroup("case", id);
+    const { id }: { id?: CaseGroupId } = useParams()
+    const { isPending, error, data: group, isFetching } = useGroup('case', id)
 
-    if (isPending) return "Loading...";
+    if (isPending) return 'Loading...'
 
-    if (error) return "An error has occurred: " + error.message;
+    if (error) return 'An error has occurred: ' + error.message
 
     return (
         <div>
@@ -18,7 +18,7 @@ function CaseGroupDetail() {
             <GroupDetailTaxonList group={group}></GroupDetailTaxonList>
             {isFetching && <div>Updating...</div>}
         </div>
-    );
+    )
 }
 
-export default CaseGroupDetail;
+export default CaseGroupDetail

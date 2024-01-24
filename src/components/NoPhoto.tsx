@@ -1,14 +1,14 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled'
 
 interface Props {
-    className?: string;
+    className?: string
 }
 
 function NoPhoto({ className }: Props) {
-    return <Placeholder className={className}></Placeholder>;
+    return <Placeholder className={className}></Placeholder>
 }
 
-export default NoPhoto;
+export default NoPhoto
 
 const Placeholder = styled.div`
     display: flex;
@@ -31,6 +31,6 @@ const Placeholder = styled.div`
     border: 1px solid black;
 
     &::after {
-        content: "Ingen bild";
+        content: 'Ingen bild';
     }
-`;
+`

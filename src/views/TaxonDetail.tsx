@@ -1,27 +1,27 @@
 //import { useState } from "react";
-import { useParams } from "react-router-dom";
-import styled from "@emotion/styled";
-import { mq } from "../theme";
+import { useParams } from 'react-router-dom'
+import styled from '@emotion/styled'
+import { mq } from '../theme'
 
-import { useTaxon } from "../hooks";
-import PhotoList from "../components/PhotoList";
+import { useTaxon } from '../hooks'
+import PhotoList from '../components/PhotoList'
 //import SimilarTaxonList from "../components/SimilarTaxonList";
 
 function TaxonDetail() {
-    const { slug } = useParams();
+    const { slug } = useParams()
 
     //const [open, setOpen] = useState(false);
-    const { isPending, error, data: taxon, isFetching } = useTaxon(slug);
+    const { isPending, error, data: taxon, isFetching } = useTaxon(slug)
 
-    if (isPending) return "Loading...";
+    if (isPending) return 'Loading...'
 
-    if (error) return "An error has occurred: " + error.message;
+    if (error) return 'An error has occurred: ' + error.message
 
     return (
         <>
             <header>
                 <h1>
-                    {taxon.name}{" "}
+                    {taxon.name}{' '}
                     <small>
                         <em>{taxon.latin}</em> {taxon.auctor}
                     </small>
@@ -29,8 +29,8 @@ function TaxonDetail() {
             </header>
             <Section>
                 <Article>
-                    <PhotoList headline="Imago" slug={taxon.slug} stage={"imago"}></PhotoList>
-                    <PhotoList headline="Larv" slug={taxon.slug} stage={"case"}></PhotoList>
+                    <PhotoList headline="Imago" slug={taxon.slug} stage={'imago'}></PhotoList>
+                    <PhotoList headline="Larv" slug={taxon.slug} stage={'case'}></PhotoList>
 
                     {isFetching && <div>Updating...</div>}
                 </Article>
@@ -53,24 +53,24 @@ function TaxonDetail() {
         */}
             </Section>
         </>
-    );
+    )
 }
 
-export default TaxonDetail;
+export default TaxonDetail
 
 const Section = styled.section({
-    display: "flex",
-    gap: "2rem",
-});
+    display: 'flex',
+    gap: '2rem',
+})
 
 const Article = styled.article`
     gap: 1rem;
     width: 100vw;
 
-    ${mq["sm"]} {
+    ${mq['sm']} {
         /* width: 80vw; */
     }
-`;
+`
 /*
 const Aside = styled.aside<{ open: boolean }>`
     position: fixed;

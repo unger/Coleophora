@@ -1,83 +1,83 @@
-import { useEffect, useRef, useState } from "react";
-import { createPortal } from "react-dom";
-import styled from "@emotion/styled";
-import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
+import { useEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
+import styled from '@emotion/styled'
+import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from 'react-zoom-pan-pinch'
 
-import PhotoItem from "./PhotoItem";
-import PhotoDescription from "./PhotoDescription";
+import PhotoItem from './PhotoItem'
+import PhotoDescription from './PhotoDescription'
 
 interface Props {
-    data: TaxonPhoto[];
-    selectedIndex: number;
-    setSelectedIndex: React.Dispatch<React.SetStateAction<number>>;
+    data: TaxonPhoto[]
+    selectedIndex: number
+    setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
 }
 
 export default function PhotoList({ data, selectedIndex, setSelectedIndex }: Props) {
-    const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
-    const [isFirstLoad, setIsFirstLoad] = useState(true);
+    const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null)
+    const [isFirstLoad, setIsFirstLoad] = useState(true)
 
     useEffect(() => {
-        const rootElement = document.documentElement;
-        rootElement.classList.add("fullscreen-modal");
+        const rootElement = document.documentElement
+        rootElement.classList.add('fullscreen-modal')
 
         return () => {
-            rootElement.classList.remove("fullscreen-modal");
-        };
-    }, [selectedIndex]);
+            rootElement.classList.remove('fullscreen-modal')
+        }
+    }, [selectedIndex])
 
     useEffect(() => {
         function handleKeyDown(e: KeyboardEvent) {
-            if (e.key === "ArrowRight") {
-                nextPhoto();
+            if (e.key === 'ArrowRight') {
+                nextPhoto()
             }
-            if (e.key === "ArrowLeft") {
-                prevPhoto();
+            if (e.key === 'ArrowLeft') {
+                prevPhoto()
             }
-            if (e.key === "ArrowUp") {
-                transformComponentRef.current?.zoomIn();
+            if (e.key === 'ArrowUp') {
+                transformComponentRef.current?.zoomIn()
             }
-            if (e.key === "ArrowDown") {
-                transformComponentRef.current?.zoomOut();
+            if (e.key === 'ArrowDown') {
+                transformComponentRef.current?.zoomOut()
             }
-            if (e.key === "Escape") {
-                closePhoto();
+            if (e.key === 'Escape') {
+                closePhoto()
             }
         }
 
-        window.addEventListener("keydown", handleKeyDown, { passive: true });
+        window.addEventListener('keydown', handleKeyDown, { passive: true })
         return () => {
-            window.removeEventListener("keydown", handleKeyDown);
-        };
-    }, [data, selectedIndex, closePhoto, prevPhoto, nextPhoto]);
+            window.removeEventListener('keydown', handleKeyDown)
+        }
+    }, [data, selectedIndex, closePhoto, prevPhoto, nextPhoto])
 
     function nextPhoto() {
         if (selectedIndex + 1 < data.length) {
-            setSelectedIndex(selectedIndex + 1);
+            setSelectedIndex(selectedIndex + 1)
         }
     }
 
     function prevPhoto() {
         if (selectedIndex - 1 >= 0) {
-            setSelectedIndex(selectedIndex - 1);
+            setSelectedIndex(selectedIndex - 1)
         }
     }
 
     function closePhoto() {
-        setSelectedIndex(-1);
+        setSelectedIndex(-1)
     }
 
     function hasPreviousPhoto() {
-        return selectedIndex - 1 >= 0;
+        return selectedIndex - 1 >= 0
     }
 
     function hasNextPhoto() {
-        return selectedIndex + 1 < data.length;
+        return selectedIndex + 1 < data.length
     }
 
     function firstLoad() {
         if (isFirstLoad) {
-            transformComponentRef.current?.centerView();
-            setIsFirstLoad(false);
+            transformComponentRef.current?.centerView()
+            setIsFirstLoad(false)
         }
     }
 
@@ -92,26 +92,26 @@ export default function PhotoList({ data, selectedIndex, setSelectedIndex }: Pro
                         </ZoomControls>
                         <CloseButton
                             onClick={() => {
-                                closePhoto();
+                                closePhoto()
                             }}
                         ></CloseButton>
                     </Controls>
                     <TransformWrapper ref={transformComponentRef}>
-                        <TransformComponent wrapperStyle={{ width: "100%", height: "100%" }}>
+                        <TransformComponent wrapperStyle={{ width: '100%', height: '100%' }}>
                             <StyledPhotoItem src={data[selectedIndex].image} onLoad={firstLoad}></StyledPhotoItem>
                         </TransformComponent>
                     </TransformWrapper>
                     <StyledPhotoDescription>
                         <PrevButton
                             onClick={() => {
-                                prevPhoto();
+                                prevPhoto()
                             }}
                             disabled={!hasPreviousPhoto()}
                         ></PrevButton>
                         <PhotoDescription photo={data[selectedIndex]}></PhotoDescription>
                         <NextButton
                             onClick={() => {
-                                nextPhoto();
+                                nextPhoto()
                             }}
                             disabled={!hasNextPhoto()}
                         ></NextButton>
@@ -120,7 +120,7 @@ export default function PhotoList({ data, selectedIndex, setSelectedIndex }: Pro
                 document.body,
             )}
         </>
-    );
+    )
 }
 
 const Overlay = styled.div`
@@ -139,11 +139,11 @@ const Overlay = styled.div`
     height: 100%;
 
     background-color: rgba(0 0 0 / 80%);
-`;
+`
 
 const StyledPhotoItem = styled(PhotoItem)({
-    border: "none",
-});
+    border: 'none',
+})
 
 const Controls = styled.div`
     position: fixed;
@@ -156,10 +156,10 @@ const Controls = styled.div`
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
-`;
+`
 
 const Button = styled.div<{ disabled?: boolean }>`
-    cursor: ${(props) => (props.disabled ? "auto" : "pointer")};
+    cursor: ${(props) => (props.disabled ? 'auto' : 'pointer')};
 
     display: flex;
     place-items: center center;
@@ -174,46 +174,46 @@ const Button = styled.div<{ disabled?: boolean }>`
     font-weight: bold;
     color: white;
 
-    opacity: ${(props) => (props.disabled ? "0" : "1")};
+    opacity: ${(props) => (props.disabled ? '0' : '1')};
     background-color: black;
     border: 1px solid white;
-`;
+`
 
 const CloseButton = styled(Button)`
     &::after {
-        content: "X";
+        content: 'X';
     }
-`;
+`
 
 const ZoomControls = styled.div`
     display: flex;
     flex-direction: column;
     place-items: center center;
     justify-content: center;
-`;
+`
 
 const ZoomInButton = styled(Button)`
     &::after {
-        content: "+";
+        content: '+';
     }
-`;
+`
 
 const ZoomOutButton = styled(Button)`
     &::after {
-        content: "-";
+        content: '-';
     }
-`;
+`
 
 const PrevButton = styled(Button)`
     &::after {
-        content: "<";
+        content: '<';
     }
-`;
+`
 const NextButton = styled(Button)`
     &::after {
-        content: ">";
+        content: '>';
     }
-`;
+`
 
 const StyledPhotoDescription = styled.div`
     position: fixed;
@@ -229,4 +229,4 @@ const StyledPhotoDescription = styled.div`
     padding: 10px;
 
     background-color: #fff;
-`;
+`
