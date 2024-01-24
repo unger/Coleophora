@@ -26,7 +26,6 @@ module.exports = {
     },
     rules: {
         "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
-        /*
         "no-unused-vars": [
             "error",
             {
@@ -35,7 +34,7 @@ module.exports = {
                 ignoreRestSiblings: true,
                 argsIgnorePattern: "^_",
             },
-        ],*/
+        ],
         "react/react-in-jsx-scope": "off",
     },
     ignorePatterns: ["dist", ".eslintrc.cjs"],

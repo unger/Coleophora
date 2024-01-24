@@ -1,16 +1,16 @@
-import { useState } from "react";
+//import { useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "@emotion/styled";
 import { mq } from "../theme";
 
 import { useTaxon } from "../hooks";
 import PhotoList from "../components/PhotoList";
-import SimilarTaxonList from "../components/SimilarTaxonList";
+//import SimilarTaxonList from "../components/SimilarTaxonList";
 
 function TaxonDetail() {
     const { slug } = useParams();
 
-    const [open, setOpen] = useState(false);
+    //const [open, setOpen] = useState(false);
     const { isPending, error, data: taxon, isFetching } = useTaxon(slug);
 
     if (isPending) return "Loading...";
@@ -71,7 +71,7 @@ const Article = styled.article`
         /* width: 80vw; */
     }
 `;
-
+/*
 const Aside = styled.aside<{ open: boolean }>`
     position: fixed;
     top: 0;
@@ -137,3 +137,4 @@ const OpenButton = styled(Button)`
         content: "O";
     }
 `;
+*/
