@@ -1,21 +1,21 @@
-import { Link } from 'react-router-dom'
-import { usePhotos } from '../hooks'
-import PhotoItem from './PhotoItem'
+import { Link } from "react-router-dom";
+import { usePhotos } from "../hooks";
+import PhotoItem from "./PhotoItem";
 
 interface Props {
-    taxon: Taxon
-    stage: Stage
-    groupId?: GroupId
+    taxon: Taxon;
+    stage: Stage;
+    groupId?: GroupId;
 }
 
 function TaxonGroupedPhoto({ taxon, stage, groupId }: Props) {
-    const { isPending, error, data, isFetching } = usePhotos(stage, groupId, taxon.slug, false)
+    const { isPending, error, data, isFetching } = usePhotos(stage, groupId, taxon.slug, false);
 
-    if (isPending) return 'Loading...'
+    if (isPending) return "Loading...";
 
-    if (error) return 'An error has occurred: ' + error.message
+    if (error) return "An error has occurred: " + error.message;
 
-    const firstImage = data.length > 0 ? data[0] : undefined
+    const firstImage = data.length > 0 ? data[0] : undefined;
 
     return (
         <div>
@@ -28,7 +28,7 @@ function TaxonGroupedPhoto({ taxon, stage, groupId }: Props) {
             </p>
             {isFetching && <div>Updating...</div>}
         </div>
-    )
+    );
 }
 
-export default TaxonGroupedPhoto
+export default TaxonGroupedPhoto;

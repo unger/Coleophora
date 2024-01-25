@@ -1,4 +1,4 @@
-import { Link, Outlet, ScrollRestoration } from 'react-router-dom'
+import { Link, Outlet, ScrollRestoration } from "react-router-dom";
 
 export default function App() {
     return (
@@ -11,9 +11,9 @@ export default function App() {
             <Outlet />
             <ScrollRestoration
                 getKey={(location) => {
-                    return location.pathname
+                    return location.pathname;
                 }}
             />
         </>
-    )
+    );
 }

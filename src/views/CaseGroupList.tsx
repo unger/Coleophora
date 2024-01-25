@@ -1,18 +1,20 @@
-import { Link } from 'react-router-dom'
-import { useGroups } from '../hooks'
-import PhotoItem from '../components/PhotoItem'
+import { Link } from "react-router-dom";
+//import { useGroups } from '../hooks'
+//import PhotoItem from '../components/PhotoItem'
+import PhotoItem from "@components/PhotoItem";
+import { useGroups } from "@hooks";
 
 function CaseGroupList() {
-    const { isPending, error, data, isFetching } = useGroups('case')
+    const { isPending, error, data, isFetching } = useGroups("case");
 
-    if (isPending) return 'Loading...'
+    if (isPending) return "Loading...";
 
-    if (error) return 'An error has occurred: ' + error.message
+    if (error) return "An error has occurred: " + error.message;
 
     return (
         <div>
             <h1>
-                Säckmalar{' '}
+                Säckmalar{" "}
                 <small>
                     <em>Coleophoridae</em>
                 </small>
@@ -28,12 +30,12 @@ function CaseGroupList() {
                                 <b>{item.name}</b> {item.description}
                             </p>
                         </div>
-                    )
+                    );
                 })}
             </div>
             {isFetching && <div>Updating...</div>}
         </div>
-    )
+    );
 }
 
-export default CaseGroupList
+export default CaseGroupList;

@@ -1,22 +1,24 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
     server: {
         open: true,
     },
     plugins: [
+        tsconfigPaths(),
         react({
-            jsxImportSource: '@emotion/react',
+            jsxImportSource: "@emotion/react",
             plugins: [
                 [
-                    '@swc/plugin-emotion',
+                    "@swc/plugin-emotion",
                     {
                         // default is true. It will be disabled when build type is production.
                         sourceMap: false,
                         // default is 'dev-only'.
                         // autoLabel: "never" | "dev-only" | "always",
-                        autoLabel: 'dev-only',
+                        autoLabel: "dev-only",
 
                         // default is '[local]'.
                         // Allowed values: `[local]` `[filename]` and `[dirname]`
@@ -30,4 +32,4 @@ export default defineConfig({
             ],
         }),
     ],
-})
+});

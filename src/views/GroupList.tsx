@@ -1,18 +1,18 @@
-import { Link } from 'react-router-dom'
-import { useGroups } from '../hooks'
-import PhotoItem from '../components/PhotoItem'
+import { Link } from "react-router-dom";
+import { useGroups } from "../hooks";
+import PhotoItem from "../components/PhotoItem";
 
 function GroupList() {
-    const { isPending, error, data, isFetching } = useGroups('imago')
+    const { isPending, error, data, isFetching } = useGroups("imago");
 
-    if (isPending) return 'Loading...'
+    if (isPending) return "Loading...";
 
-    if (error) return 'An error has occurred: ' + error.message
+    if (error) return "An error has occurred: " + error.message;
 
     return (
         <div>
             <h1>
-                Säckmalar{' '}
+                Säckmalar{" "}
                 <small>
                     <em>Coleophoridae</em>
                 </small>
@@ -28,12 +28,12 @@ function GroupList() {
                                 <b>{item.name}</b> {item.description}
                             </p>
                         </div>
-                    )
+                    );
                 })}
             </div>
             {isFetching && <div>Updating...</div>}
         </div>
-    )
+    );
 }
 
-export default GroupList
+export default GroupList;
