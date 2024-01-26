@@ -14,7 +14,8 @@
         "formatjs": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
         "formatcss": "npx stylelint 'src/**/*.{css,tsx}' --fix",
         "format": "pnpm run formatjs && pnpm run formatcss",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "pretty": "prettier --write ."
     },
     "dependencies": {
         "@emotion/react": "^11.11.3",
@@ -46,6 +47,7 @@
         "stylelint": "^16.2.0",
         "stylelint-config-clean-order": "^5.4.0",
         "stylelint-config-standard": "^36.0.0",
+        "stylelint-prettier": "^5.0.0",
         "typescript": "^5.3.3",
         "vite": "^5.0.12",
         "vite-tsconfig-paths": "^4.3.1"
