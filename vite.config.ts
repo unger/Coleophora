@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
+import react from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
+import styleX from "vite-plugin-stylex";
 
 export default defineConfig({
     server: {
@@ -8,6 +9,11 @@ export default defineConfig({
     },
     plugins: [
         tsconfigPaths(),
+        react({
+            jsxImportSource: "@emotion/react",
+        }),
+        styleX(),
+        /*
         react({
             jsxImportSource: "@emotion/react",
             plugins: [
@@ -30,6 +36,6 @@ export default defineConfig({
                     },
                 ],
             ],
-        }),
+        }),*/
     ],
 });
