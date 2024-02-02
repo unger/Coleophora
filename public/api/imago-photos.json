@@ -1925,7 +1925,7 @@
         "bildId": "16-0276"
     },
     {
-        "group": ["G"],
+        "group": ["G", "H"],
         "name": "Gulstreckad avenbokssäckmal",
         "latin": "Coleophora currucipennella",
         "slug": "coleophora_currucipennella",
