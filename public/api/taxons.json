@@ -10,7 +10,8 @@
         "wingSpanMax": 10,
         "hasImage": false,
         "slugSv": "trampörtsmal",
-        "slug": "augasma_aeratella"
+        "slug": "augasma_aeratella",
+        "redlist": "EN"
     },
     {
         "artId": 688,
@@ -1491,7 +1492,8 @@
         "wingSpanMax": 14,
         "hasImage": false,
         "slugSv": "mindre_mållesäckmal",
-        "slug": "coleophora_jaernaensis"
+        "slug": "coleophora_jaernaensis",
+        "redlist": "DD"
     },
     {
         "artId": 782,
