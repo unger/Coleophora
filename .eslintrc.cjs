@@ -19,9 +19,11 @@ module.exports = {
     rules: {
         "no-unused-vars": "off",
         "@typescript-eslint/no-unused-vars": "error",
+        "@stylexjs/valid-styles": "error",
     },
     ignorePatterns: ["public", "dist", ".eslintrc.cjs"],
     parser: "@typescript-eslint/parser",
+    plugins: ["@stylexjs"],
     parserOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
