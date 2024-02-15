@@ -6,10 +6,15 @@ import * as stylex from "@stylexjs/stylex";
 interface Props {
     src?: string;
     onLoad?: ReactEventHandler<HTMLImageElement>;
+    onClick?: ReactEventHandler<HTMLImageElement>;
 }
 
-function PhotoItem({ src, onLoad }: Props) {
-    return src ? <img alt="test" {...stylex.props(styles.root)} src={import.meta.env.BASE_URL + src.substring(1)} onLoad={onLoad} /> : <NoPhoto />;
+function PhotoItem({ src, onLoad, onClick }: Props) {
+    return src ? (
+        <img alt="test" {...stylex.props(styles.root)} src={import.meta.env.BASE_URL + src.substring(1)} onLoad={onLoad} onClick={onClick} />
+    ) : (
+        <NoPhoto />
+    );
     //return src ? <Image src={import.meta.env.BASE_URL + src.substring(1)} className={className} onLoad={onLoad} /> : <NoPhoto />;
 }
 

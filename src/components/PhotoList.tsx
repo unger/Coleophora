@@ -44,13 +44,13 @@ function PhotoList({ slug, stage, inData }: Props) {
                 ) : (
                     data.map((item: TaxonPhoto, index: number) => {
                         return (
-                            <div
-                                key={item.bildId}
-                                onClick={() => {
-                                    setOpenIndex(index);
-                                }}
-                            >
-                                <PhotoItem src={item.image}></PhotoItem>
+                            <div key={item.bildId}>
+                                <PhotoItem
+                                    src={item.image}
+                                    onClick={() => {
+                                        setOpenIndex(index);
+                                    }}
+                                ></PhotoItem>
                                 <PhotoDescription photo={item}></PhotoDescription>
                             </div>
                         );

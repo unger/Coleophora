@@ -25,6 +25,7 @@ interface Taxon {
     image: string | undefined;
     hasImage: boolean;
     similar: SimilarTaxon[] | undefined;
+    dimorphism: boolean | undefined;
 }
 
 interface SimilarTaxon {

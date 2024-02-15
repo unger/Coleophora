@@ -14,6 +14,7 @@ function PhotoDescription({ photo }: { photo: TaxonPhoto }) {
             </em>{" "}
             - {photo.name}
             {photo.unsure && "?"}
+            {photo.gender === "male" ? <span> &#9794;</span> : photo.gender === "female" ? <span> &#9792;</span> : ""}
             <br />
             {photo.date}, {photo.site} © {photo.photographer}
             <br />

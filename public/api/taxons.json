@@ -314,7 +314,8 @@
         "wingSpanMax": 0,
         "hasImage": false,
         "slugSv": "pyrolasäckmal",
-        "slug": "coleophora_idaeella"
+        "slug": "coleophora_idaeella",
+        "dimorphism": true
     },
     {
         "artId": 711,
@@ -327,7 +328,8 @@
         "wingSpanMax": 0,
         "hasImage": false,
         "slugSv": "blåbärsäckmal",
-        "slug": "coleophora_vacciniella"
+        "slug": "coleophora_vacciniella",
+        "dimorphism": true
     },
     {
         "artId": 712,
@@ -366,7 +368,8 @@
         "wingSpanMax": 0,
         "hasImage": false,
         "slugSv": "ljusbrun_lingonsäckmal",
-        "slug": "coleophora_vitisella"
+        "slug": "coleophora_vitisella",
+        "dimorphism": true
     },
     {
         "artId": 715,
@@ -379,7 +382,8 @@
         "wingSpanMax": 0,
         "hasImage": false,
         "slugSv": "blek_lingonsäckmal",
-        "slug": "coleophora_glitzella"
+        "slug": "coleophora_glitzella",
+        "dimorphism": true
     },
     {
         "artId": 716,
