@@ -10,11 +10,7 @@ interface Props {
 }
 
 function PhotoItem({ src, onLoad, onClick }: Props) {
-    return src ? (
-        <img alt="test" {...stylex.props(styles.root)} src={import.meta.env.BASE_URL + src.substring(1)} onLoad={onLoad} onClick={onClick} />
-    ) : (
-        <NoPhoto />
-    );
+    return src ? <img {...stylex.props(styles.root)} src={import.meta.env.BASE_URL + src.substring(1)} onLoad={onLoad} onClick={onClick} /> : <NoPhoto />;
     //return src ? <Image src={import.meta.env.BASE_URL + src.substring(1)} className={className} onLoad={onLoad} /> : <NoPhoto />;
 }
 
