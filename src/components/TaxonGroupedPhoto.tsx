@@ -23,7 +23,7 @@ function TaxonGroupedPhoto({ taxon, stage, groupId }: Props) {
         return filteredData.length > 0 ? filteredData[0] : undefined;
     }
 
-    return taxon.dimorphism ? (
+    return taxon.dimorphism && stage === "imago" ? (
         <>
             <div>
                 <Link to={`/taxon/${taxon.slug}`}>

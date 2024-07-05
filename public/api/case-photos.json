@@ -1955,5 +1955,24 @@
         "detMethod": "foto",
         "photographer": "Magnus Unger",
         "bildId": "23-8806"
+    },
+    {
+        "group": ["Lapp"],
+        "name": "Mindre ljungsäckmal",
+        "latin": "Coleophora juncicolella",
+        "slug": "coleophora_juncicolella",
+        "image": "/img/case/coleophora_juncicolella-§1-24-1092.jpg",
+        "date": "2024-03-10",
+        "site": "Partille, Vg",
+        "stage": "case",
+        "plant": "Calluna vulgaris",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2024,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "24-1092"
     }
 ]
