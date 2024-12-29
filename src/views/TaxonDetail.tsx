@@ -65,7 +65,7 @@ const Section = styled.section({
 
 const Article = styled.article`
     gap: 1rem;
-    width: 100vw;
+    /*width: 100vw;*/
 
     ${mq["sm"]} {
         /* width: 80vw; */

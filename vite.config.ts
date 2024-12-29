@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
@@ -7,11 +8,15 @@ export default defineConfig({
     server: {
         open: true,
     },
+    build: {
+        assetsInlineLimit: 0,
+    },
     plugins: [
         tsconfigPaths(),
         react({
             jsxImportSource: "@emotion/react",
         }),
+
         styleX(),
         /*
         react({
