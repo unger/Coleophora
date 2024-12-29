@@ -6,7 +6,7 @@ import taxonsUrl from "./api/taxons.txt";
 import imagoPhotosUrl from "./api/imago-photos.txt";
 import casePhotosUrl from "./api/case-photos.txt";
 
-axios.defaults.baseURL = import.meta.env.BASE_URL;
+//axios.defaults.baseURL = import.meta.env.BASE_URL;
 
 export function getGroups(): Promise<TaxonGroup[]> {
     return axios.get(groupsUrl).then((response) => response.data as TaxonGroup[]);

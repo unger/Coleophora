@@ -15,6 +15,7 @@
         "stylelintfix": "npm run stylelint -- --fix",
         "format": "pnpm run lintfix && pnpm run stylelintfix",
         "preview": "vite preview",
+        "previewsub": "vite preview --base=/Coleophora/",
         "pretty": "prettier --write ."
     },
     "dependencies": {
