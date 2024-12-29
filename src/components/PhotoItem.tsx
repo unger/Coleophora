@@ -1,10 +1,29 @@
-function PhotoItem({ src }: { src?: string }) {
+import { ReactEventHandler } from "react";
+//import styled from "@emotion/styled";
+import NoPhoto from "./NoPhoto";
+import * as stylex from "@stylexjs/stylex";
 
-    return (
-        src
-        ? <img src={import.meta.env.BASE_URL + src.substring(1)} className='img img-responsive' />
-        : <div className='placeholder'>Ingen bild</div>
-    )
+interface Props {
+    src?: string;
+    onLoad?: ReactEventHandler<HTMLImageElement>;
+    onClick?: ReactEventHandler<HTMLImageElement>;
 }
 
-export default PhotoItem
+function PhotoItem({ src, onLoad, onClick }: Props) {
+    return src ? <img {...stylex.props(styles.root)} src={import.meta.env.BASE_URL + src.substring(1)} onLoad={onLoad} onClick={onClick} /> : <NoPhoto />;
+    //return src ? <Image src={import.meta.env.BASE_URL + src.substring(1)} className={className} onLoad={onLoad} /> : <NoPhoto />;
+}
+
+export default PhotoItem;
+
+const styles = stylex.create({
+    root: {
+        borderWidth: "1px",
+        borderStyle: "solid",
+        borderColor: "#000",
+        display: "block",
+        boxSizing: "border-box",
+        maxWidth: "100%",
+        height: "auto",
+    },
+});

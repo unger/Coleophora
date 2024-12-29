@@ -1,30 +1,24 @@
-import useTaxons from '../hooks/useTaxons'
-import GroupPhoto from './GroupPhoto'
+import { useTaxons } from "../hooks";
+import TaxonGroupedPhoto from "./TaxonGroupedPhoto";
 
-function GroupDetailTaxonList({group}: {group: TaxonGroup}) {
+function GroupDetailTaxonList({ group }: { group: TaxonGroup }) {
+    const { isPending, error, data, isFetching } = useTaxons(group.id);
 
-  const { isPending, error, data, isFetching } = useTaxons();
+    if (isPending) return "Loading...";
 
-  if (isPending) return 'Loading...'
+    if (error) return "An error has occurred: " + error.message;
 
-  if (error) return 'An error has occurred: ' + error.message
-
-  var filteredData = data.filter((item: Taxon) => item.group.includes(group.id));
-
-  return (
-    <div>
-      <p>{filteredData.length} arter</p>
-      <div className='small-thumbnails'>
-        {
-          filteredData
-          .map((item: Taxon) => {
-            return <GroupPhoto taxon={item} key={item.artId} groupId={group.id}></GroupPhoto>
-          })
-        }
-      </div>
-      {isFetching && <div>Updating...</div>}
-    </div>
-  )
+    return (
+        <div>
+            <p>{data.length} arter</p>
+            <div className="small-thumbnails">
+                {data.map((item: Taxon) => {
+                    return <TaxonGroupedPhoto taxon={item} key={item.artId} stage={group.stage} groupId={group.id}></TaxonGroupedPhoto>;
+                })}
+            </div>
+            {isFetching && <div>Updating...</div>}
+        </div>
+    );
 }
 
-export default GroupDetailTaxonList
+export default GroupDetailTaxonList;

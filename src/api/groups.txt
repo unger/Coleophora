@@ -1,0 +1,58 @@
+[
+    {
+        "id": "A",
+        "name": "Grupp A",
+        "description": "Metallicfärgad",
+        "image": "/img/coleophora_alcyonipennella-§1-10-1842.jpg",
+        "stage": "imago"
+    },
+    {
+        "id": "B",
+        "name": "Grupp B",
+        "description": "Enfärgad",
+        "image": "/img/coleophora_idaeella-§1-23-0642.jpg",
+        "stage": "imago"
+    },
+    {
+        "id": "C",
+        "name": "Grupp C",
+        "description": "Enfärgad med ljus framkant",
+        "image": "/img/coleophora_arctostaphyli-§1-16-2248.jpg",
+        "stage": "imago"
+    },
+    {
+        "id": "D",
+        "name": "Grupp D",
+        "description": "Svagt streckad ofta med ljus framkant",
+        "image": "/img/coleophora_asteris-§1-21-0507.jpg",
+        "stage": "imago"
+    },
+    {
+        "id": "E",
+        "name": "Grupp E",
+        "description": "Streckad utan sneda streck mot spetsen",
+        "image": "/img/coleophora_parthenogenella-§7-15-4089.jpg",
+        "stage": "imago"
+    },
+    {
+        "id": "F",
+        "name": "Grupp F",
+        "description": "Streckad med ljusa sneda streck mot spetsen, med mörka fjäll",
+        "image": "/img/coleophora_versurella-§2-10-9431.jpg",
+        "stage": "imago"
+    },
+    {
+        "id": "G",
+        "name": "Grupp G",
+        "description": "Streckad med ljusa sneda streck mot spetsen, utan mörka fjäll",
+        "image": "/img/coleophora_therinella-§1-10-7992.jpg",
+        "stage": "imago"
+    },
+    {
+        "id": "H",
+        "name": "Grupp H",
+        "description": "Vit grundfärg",
+        "image": "/img/coleophora_anatipennella-§1-23-5684.jpg",
+        "stage": "imago"
+    }
+]

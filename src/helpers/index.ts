@@ -1,10 +1,10 @@
-export function reduceBy<T>(arr: T[], fn: (item: T) => any) {
+export function reduceBy<T, TResult>(arr: T[], fn: (item: T) => TResult) {
     return arr.reduce<T[]>((prev, curr) => {
         const groupKey = fn(curr);
-        var exists = prev.findIndex(item => fn(item) == groupKey) !== -1;
+        const exists = prev.findIndex((item) => fn(item) == groupKey) !== -1;
         if (!exists) {
-          prev.push(curr);
+            prev.push(curr);
         }
         return prev;
     }, []);
-  }
+}
