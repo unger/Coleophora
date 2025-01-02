@@ -1,7 +1,6 @@
 //import { useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "@emotion/styled";
-import { mq } from "../theme";
 
 import { useTaxon } from "../hooks";
 import PhotoList from "../components/PhotoList";
@@ -65,11 +64,7 @@ const Section = styled.section({
 
 const Article = styled.article`
     gap: 1rem;
-    /*width: 100vw;*/
-
-    ${mq["sm"]} {
-        /* width: 80vw; */
-    }
+    width: 100%;
 `;
 /*
 const Aside = styled.aside<{ open: boolean }>`

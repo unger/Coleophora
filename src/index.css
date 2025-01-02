@@ -4,6 +4,8 @@
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-size: 0.8em;
     font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     line-height: 1.5;
     color: #fff;
     text-size-adjust: 100%; /* avoid text-zoom when rotating device */
@@ -12,8 +14,6 @@
     color-scheme: light dark;
     background-color: #242424;
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     font-synthesis: none;
 }
 
@@ -23,6 +23,7 @@ html.fullscreen-modal {
 }
 
 #root {
+    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -100,21 +101,21 @@ p {
 .smaller-thumbnails {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px 5px;
+    gap: 5px;
     width: 100%;
 }
 
 .small-thumbnails {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px 5px;
+    gap: 5px;
     width: 100%;
 }
 
 .large-thumbnails {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 5px 5px;
+    gap: 5px;
     width: 100%;
 }
 
@@ -160,10 +161,9 @@ p {
     font-family: "Glyphicons Halflings";
     font-weight: 400;
     font-style: normal;
-    line-height: 1;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
 }
 
 .glyphicon-question-sign::before {

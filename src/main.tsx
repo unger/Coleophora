@@ -13,6 +13,7 @@ import UnsureDetail from "./views/UnsureDetail";
 import CaseGroupList from "./views/CaseGroupList";
 
 import "./index.css";
+import "./stylex.css";
 
 const queryClient = new QueryClient();
 
