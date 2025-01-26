@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "@emotion/react": "^11.14.0",
-        "@stylexjs/stylex": "^0.9.3",
+        "@stylexjs/stylex": "^0.10.0",
         "eslint-config-prettier": "^9.1.0",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
