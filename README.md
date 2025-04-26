@@ -4,7 +4,7 @@ React app for my Coleophora site, https://www.lepidoptera.se/Coleophora
 
 ## Latest version preview
 
-https://github.com/unger/Coleophora
+https://unger.github.io/Coleophora/
 
 ## License
 
