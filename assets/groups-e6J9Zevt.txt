@@ -17,7 +17,7 @@
         "id": "C",
         "name": "Grupp C",
         "description": "Enfärgad med ljus framkant",
-        "image": "/img/coleophora_arctostaphyli-§1-16-2248.jpg",
+        "image": "/img/coleophora_arctostaphyli-§2-24-2299.jpg",
         "stage": "imago"
     },
     {
