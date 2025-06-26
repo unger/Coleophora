@@ -184,7 +184,8 @@
         "wingSpanMax": 0,
         "hasImage": false,
         "slugSv": "odonsäckmal",
-        "slug": "coleophora_uliginosella"
+        "slug": "coleophora_uliginosella",
+        "dimorphism": true
     },
     {
         "artId": 701,
@@ -301,7 +302,8 @@
         "wingSpanMax": 0,
         "hasImage": false,
         "slugSv": "videsäckmal",
-        "slug": "coleophora_lusciniaepennella"
+        "slug": "coleophora_lusciniaepennella",
+        "dimorphism": true
     },
     {
         "artId": 710,
@@ -1233,13 +1235,13 @@
         "artId": 762,
         "dyntaxaId": 214499,
         "group": ["E", "Frö"],
-        "name": "Getväpplingsäckmal",
+        "name": "Getväpplingssäckmal",
         "latin": "Coleophora vulnerariae",
         "auctor": "Zeller, 1839",
         "wingSpanMin": 0,
         "wingSpanMax": 0,
         "hasImage": false,
-        "slugSv": "getväpplingsäckmal",
+        "slugSv": "getväpplingssäckmal",
         "slug": "coleophora_vulnerariae"
     },
     {
