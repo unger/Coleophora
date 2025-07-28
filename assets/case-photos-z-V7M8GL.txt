@@ -1,6 +1,8 @@
 [
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": " Såpnejlikesäckmal",
         "latin": "Coleophora saponariella",
         "slug": "coleophora_saponariella",
@@ -19,7 +21,9 @@
         "bildId": "23-9319"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": " Såpnejlikesäckmal",
         "latin": "Coleophora saponariella",
         "slug": "coleophora_saponariella",
@@ -38,7 +42,9 @@
         "bildId": "10-3546"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": " Såpnejlikesäckmal",
         "latin": "Coleophora saponariella",
         "slug": "coleophora_saponariella",
@@ -57,7 +63,9 @@
         "bildId": "10-3541"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": " Vattenskräppesäckmal",
         "latin": "Coleophora hydrolapathella",
         "slug": "coleophora_hydrolapathella",
@@ -76,7 +84,30 @@
         "bildId": "16-3730"
     },
     {
-        "group": ["Frö"],
+        "group": [
+            "Rör"
+        ],
+        "name": " Vitkantad rönnsäckmal",
+        "latin": "Coleophora trigeminella",
+        "slug": "coleophora_trigeminella",
+        "image": "/img/case/coleophora_trigeminella-§1-25-3930.jpg",
+        "date": "2025-05-16",
+        "site": "Grytsjön, Sm",
+        "stage": "case",
+        "plant": "Sorbus aucuparia",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-3930"
+    },
+    {
+        "group": [
+            "Frö"
+        ],
         "name": "Parkfrylesäckmal",
         "latin": "Coleophora sylvaticella",
         "slug": "coleophora_sylvaticella",
@@ -95,7 +126,10 @@
         "bildId": "16-3720"
     },
     {
-        "group": ["Frö", "Rör"],
+        "group": [
+            "Frö",
+            "Rör"
+        ],
         "name": "Parkfrylesäckmal",
         "latin": "Coleophora sylvaticella",
         "slug": "coleophora_sylvaticella",
@@ -114,7 +148,30 @@
         "bildId": "22-2367"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Rör"
+        ],
+        "name": "Gullrissäckmal",
+        "latin": "Coleophora virgaureae",
+        "slug": "coleophora_virgaureae",
+        "image": "/img/case/coleophora_virgaureae-§1-24-0017.jpg",
+        "date": "2024-11-16",
+        "site": "Delsjö golfbana, Vg",
+        "stage": "case",
+        "plant": "Solidago virgaurea",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "24-0017"
+    },
+    {
+        "group": [
+            "Blad"
+        ],
         "name": "Linjerad gullrissäckmal",
         "latin": "Coleophora amellivora",
         "slug": "coleophora_amellivora",
@@ -133,7 +190,9 @@
         "bildId": "16-3802"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Linjerad gullrissäckmal",
         "latin": "Coleophora amellivora",
         "slug": "coleophora_amellivora",
@@ -152,7 +211,9 @@
         "bildId": "16-3793"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Linjerad gullrissäckmal",
         "latin": "Coleophora amellivora",
         "slug": "coleophora_amellivora",
@@ -171,7 +232,9 @@
         "bildId": "16_3830"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Spireasäckmal",
         "latin": "Coleophora spiraeella",
         "slug": "coleophora_spiraeella",
@@ -190,7 +253,9 @@
         "bildId": "16-4054"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Spireasäckmal",
         "latin": "Coleophora spiraeella",
         "slug": "coleophora_spiraeella",
@@ -209,7 +274,9 @@
         "bildId": "16-4056"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Spireasäckmal",
         "latin": "Coleophora spiraeella",
         "slug": "coleophora_spiraeella",
@@ -228,7 +295,9 @@
         "bildId": "16-4068"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Käringtandssäckmal",
         "latin": "Coleophora discordella",
         "slug": "coleophora_discordella",
@@ -247,7 +316,9 @@
         "bildId": "16-4083"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Käringtandssäckmal",
         "latin": "Coleophora discordella",
         "slug": "coleophora_discordella",
@@ -266,7 +337,9 @@
         "bildId": "16-4084"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Tvillingtågsäckmal",
         "latin": "Coleophora alticolella",
         "slug": "coleophora_alticolella",
@@ -285,7 +358,9 @@
         "bildId": "16-4894"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Vitsprötad gullrissäckmal",
         "latin": "Coleophora ramosella",
         "slug": "coleophora_ramosella",
@@ -304,7 +379,9 @@
         "bildId": "16-5055"
     },
     {
-        "group": ["Frö"],
+        "group": [
+            "Frö"
+        ],
         "name": "Gråbosäckmal",
         "latin": "Coleophora artemisicolella",
         "slug": "coleophora_artemisicolella",
@@ -323,7 +400,51 @@
         "bildId": "16-5107"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Frö"
+        ],
+        "name": "Grå fältmalörtssäckmal",
+        "latin": "Coleophora granulatella",
+        "slug": "coleophora_granulatella",
+        "image": "/img/case/coleophora_granulatella-§1-24-9328.jpg",
+        "date": "2024-09-14",
+        "site": "Gårdby sandhed, Öl",
+        "stage": "case",
+        "plant": "Artemisia campestris",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2024,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "24-9328"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Grå fältmalörtssäckmal",
+        "latin": "Coleophora granulatella",
+        "slug": "coleophora_granulatella",
+        "image": "/img/case/coleophora_granulatella-§1-24-9764.jpg",
+        "date": "2024-09-14",
+        "site": "Gårdby sandhed, Öl",
+        "stage": "case",
+        "plant": "Artemisia campestris",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2024,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "24-9764"
+    },
+    {
+        "group": [
+            "Lapp"
+        ],
         "name": "Blåbärsäckmal",
         "latin": "Coleophora vacciniella",
         "slug": "coleophora_vacciniella",
@@ -342,7 +463,9 @@
         "bildId": "16-5098"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Videsäckmal",
         "latin": "Coleophora lusciniaepennella",
         "slug": "coleophora_lusciniaepennella",
@@ -361,7 +484,9 @@
         "bildId": "16-5267"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Porssäckmal",
         "latin": "Coleophora cornutella",
         "slug": "coleophora_cornutella",
@@ -380,7 +505,9 @@
         "bildId": "23-6954"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Mindre grönglanssäckmal",
         "latin": "Coleophora fuscocuprella",
         "slug": "coleophora_fuscocuprella",
@@ -399,7 +526,9 @@
         "bildId": "23-9403"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Mindre grönglanssäckmal",
         "latin": "Coleophora fuscocuprella",
         "slug": "coleophora_fuscocuprella",
@@ -418,7 +547,9 @@
         "bildId": "23-9409"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Pyrolasäckmal",
         "latin": "Coleophora idaeella",
         "slug": "coleophora_idaeella",
@@ -437,7 +568,9 @@
         "bildId": "23-0190"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Mindre skvattramsäckmal",
         "latin": "Coleophora ledi",
         "slug": "coleophora_ledi",
@@ -456,7 +589,9 @@
         "bildId": "23-8840"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Ljusbrun lingonsäckmal",
         "latin": "Coleophora vitisella",
         "slug": "coleophora_vitisella",
@@ -475,7 +610,9 @@
         "bildId": "23-9787"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Vägtornssäckmal",
         "latin": "Coleophora violacea",
         "slug": "coleophora_violacea",
@@ -494,7 +631,9 @@
         "bildId": "22-2858"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Brudbrödsäckmal",
         "latin": "Coleophora potentillae",
         "slug": "coleophora_potentillae",
@@ -513,7 +652,9 @@
         "bildId": "23-9703"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Mörk skvattramsäckmal",
         "latin": "Coleophora obscuripalpella",
         "slug": "coleophora_obscuripalpella",
@@ -532,7 +673,9 @@
         "bildId": "24-5551"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Hjortronsäckmal",
         "latin": "Coleophora thulea",
         "slug": "coleophora_thulea",
@@ -551,7 +694,9 @@
         "bildId": "24-5580"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Grå björksäckmal",
         "latin": "Coleophora orbitella",
         "slug": "coleophora_orbitella",
@@ -570,7 +715,9 @@
         "bildId": "22-2934"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Brun alsäckmal",
         "latin": "Coleophora binderella",
         "slug": "coleophora_binderella",
@@ -589,7 +736,9 @@
         "bildId": "23-7067"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Stinksyskesäckmal",
         "latin": "Coleophora lineolea",
         "slug": "coleophora_lineolea",
@@ -608,7 +757,9 @@
         "bildId": "23-3954"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Vattrad rönnsäckmal",
         "latin": "Coleophora hemerobiella",
         "slug": "coleophora_hemerobiella",
@@ -627,7 +778,30 @@
         "bildId": "24-7650"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
+        "name": "Mindre sötvedelssäckmal",
+        "latin": "Coleophora colutella",
+        "slug": "coleophora_colutella",
+        "image": "/img/case/coleophora_colutella-§1-25-6139.jpg",
+        "date": "2025-06-21",
+        "site": "Karlskrona, Bl",
+        "stage": "case",
+        "plant": "Astragalus glycyphyllos",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-6139"
+    },
+    {
+        "group": [
+            "Lapp"
+        ],
         "name": "Ginstsäckmal",
         "latin": "Coleophora genistae",
         "slug": "coleophora_genistae",
@@ -646,7 +820,9 @@
         "bildId": "21-0581"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Ginstsäckmal",
         "latin": "Coleophora genistae",
         "slug": "coleophora_genistae",
@@ -665,7 +841,9 @@
         "bildId": "21-0591"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Ginstsäckmal",
         "latin": "Coleophora genistae",
         "slug": "coleophora_genistae",
@@ -684,7 +862,9 @@
         "bildId": "21-0581"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Jungfrusäckmal",
         "latin": "Coleophora parthenogenella",
         "slug": "coleophora_parthenogenella",
@@ -703,7 +883,10 @@
         "bildId": "23-4039"
     },
     {
-        "group": ["Lapp", "Skid"],
+        "group": [
+            "Lapp",
+            "Skid"
+        ],
         "name": "Bosyskesäckmal",
         "latin": "Coleophora ballotella",
         "slug": "coleophora_ballotella",
@@ -722,7 +905,10 @@
         "bildId": "22-2784"
     },
     {
-        "group": ["Lapp", "Blad"],
+        "group": [
+            "Lapp",
+            "Blad"
+        ],
         "name": "Solvändesäckmal",
         "latin": "Coleophora ochrea",
         "slug": "coleophora_ochrea",
@@ -741,7 +927,9 @@
         "bildId": "24-4649"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Solvändesäckmal",
         "latin": "Coleophora ochrea",
         "slug": "coleophora_ochrea",
@@ -760,7 +948,9 @@
         "bildId": "24-4656"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Strävbladsäckmal",
         "latin": "Coleophora pennella",
         "slug": "coleophora_pennella",
@@ -779,7 +969,9 @@
         "bildId": "23-3168"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Trysäckmal",
         "latin": "Coleophora ahenella",
         "slug": "coleophora_ahenella",
@@ -798,7 +990,9 @@
         "bildId": "23-6650"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
         "name": "Pudrad hasselsäckmal",
         "latin": "Coleophora anatipennella",
         "slug": "coleophora_anatipennella",
@@ -817,7 +1011,9 @@
         "bildId": "23-8382"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
         "name": "Pudrad hasselsäckmal",
         "latin": "Coleophora anatipennella",
         "slug": "coleophora_anatipennella",
@@ -836,7 +1032,30 @@
         "bildId": "22-2598"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
+        "name": "Pudrad sälgsäckmal",
+        "latin": "Coleophora albidella",
+        "slug": "coleophora_albidella",
+        "image": "/img/case/coleophora_albidella-§2-25-5012.jpg",
+        "date": "2025-05-16",
+        "site": "Grytsjön, Sm",
+        "stage": "case",
+        "plant": "Salix caprea",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "kläckning",
+        "photographer": "Magnus Unger",
+        "bildId": "25-5012"
+    },
+    {
+        "group": [
+            "Pistol"
+        ],
         "name": "Pudrad sälgsäckmal",
         "latin": "Coleophora albidella",
         "slug": "coleophora_albidella",
@@ -855,7 +1074,9 @@
         "bildId": "24-9924"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
         "name": "Vit eksäckmal",
         "latin": "Coleophora kuehnella",
         "slug": "coleophora_kuehnella",
@@ -874,7 +1095,9 @@
         "bildId": "22-0783"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
         "name": "Vit eksäckmal",
         "latin": "Coleophora kuehnella",
         "slug": "coleophora_kuehnella",
@@ -893,7 +1116,9 @@
         "bildId": "23-9573"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
         "name": "Brunstreckad eksäckmal",
         "latin": "Coleophora ibipennella",
         "slug": "coleophora_ibipennella",
@@ -912,7 +1137,9 @@
         "bildId": "23-5555"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
         "name": "Brunstreckad eksäckmal",
         "latin": "Coleophora ibipennella",
         "slug": "coleophora_ibipennella",
@@ -931,7 +1158,9 @@
         "bildId": "23-9588"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
         "name": "Gulstreckad björksäckmal",
         "latin": "Coleophora betulella",
         "slug": "coleophora_betulella",
@@ -950,7 +1179,9 @@
         "bildId": "22-2869"
     },
     {
-        "group": ["Pistol"],
+        "group": [
+            "Pistol"
+        ],
         "name": "Gulstreckad avenboksäckmal",
         "latin": "Coleophora currucipennella",
         "slug": "coleophora_currucipennella",
@@ -969,7 +1200,10 @@
         "bildId": "24-4738"
     },
     {
-        "group": ["Skid", "Lapp"],
+        "group": [
+            "Skid",
+            "Lapp"
+        ],
         "name": "Myntesäckmal",
         "latin": "Coleophora albitarsella",
         "slug": "coleophora_albitarsella",
@@ -988,7 +1222,9 @@
         "bildId": "23-9426"
     },
     {
-        "group": ["Skid"],
+        "group": [
+            "Skid"
+        ],
         "name": "Kilstreckad ljungsäckmal",
         "latin": "Coleophora pyrrhulipennella",
         "slug": "coleophora_pyrrhulipennella",
@@ -1007,7 +1243,9 @@
         "bildId": "23-3179"
     },
     {
-        "group": ["Skid"],
+        "group": [
+            "Skid"
+        ],
         "name": "Kilstreckad malörtssäckmal",
         "latin": "Coleophora vibicigerella",
         "slug": "coleophora_vibicigerella",
@@ -1026,7 +1264,9 @@
         "bildId": "22-2791"
     },
     {
-        "group": ["Skid"],
+        "group": [
+            "Skid"
+        ],
         "name": "Kilstreckad hedblomstersäckmal",
         "latin": "Coleophora caelebipennella",
         "slug": "coleophora_caelebipennella",
@@ -1045,7 +1285,9 @@
         "bildId": "23-4064"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Sikelsäckmal",
         "latin": "Coleophora lixella",
         "slug": "coleophora_lixella",
@@ -1064,7 +1306,9 @@
         "bildId": "23-3561"
     },
     {
-        "group": ["Frö"],
+        "group": [
+            "Frö"
+        ],
         "name": "Salttågsäckmal",
         "latin": "Coleophora adjunctella",
         "slug": "coleophora_adjunctella",
@@ -1083,7 +1327,10 @@
         "bildId": "23-8371"
     },
     {
-        "group": ["Frö", "Rör"],
+        "group": [
+            "Frö",
+            "Rör"
+        ],
         "name": "Ljussprötad tågsäckmal",
         "latin": "Coleophora tamesis",
         "slug": "coleophora_tamesis",
@@ -1102,7 +1349,10 @@
         "bildId": "23-8622"
     },
     {
-        "group": ["Frö", "Rör"],
+        "group": [
+            "Frö",
+            "Rör"
+        ],
         "name": "Gullinjerad tågsäckmal",
         "latin": "Coleophora taeniipennella",
         "slug": "coleophora_taeniipennella",
@@ -1121,7 +1371,9 @@
         "bildId": "23-8605"
     },
     {
-        "group": ["Frö"],
+        "group": [
+            "Frö"
+        ],
         "name": "Strandtågsäckmal",
         "latin": "Coleophora maritimella",
         "slug": "coleophora_maritimella",
@@ -1140,7 +1392,9 @@
         "bildId": "23-0267"
     },
     {
-        "group": ["Frö"],
+        "group": [
+            "Frö"
+        ],
         "name": "Absintsäckmal",
         "latin": "Coleophora absinthii",
         "slug": "coleophora_absinthii",
@@ -1159,7 +1413,9 @@
         "bildId": "23-8465"
     },
     {
-        "group": ["Frö"],
+        "group": [
+            "Frö"
+        ],
         "name": "Ribbad mållsäckmal",
         "latin": "Coleophora clypeiferella",
         "slug": "coleophora_clypeiferella",
@@ -1178,7 +1434,9 @@
         "bildId": "23-8504"
     },
     {
-        "group": ["Frö"],
+        "group": [
+            "Frö"
+        ],
         "name": "Glasörtsäckmal",
         "latin": "Coleophora salicorniae",
         "slug": "coleophora_salicorniae",
@@ -1197,7 +1455,9 @@
         "bildId": "23-9540"
     },
     {
-        "group": ["Frö"],
+        "group": [
+            "Frö"
+        ],
         "name": "Sötväpplingsäckmal ",
         "latin": "Coleophora trifolii",
         "slug": "coleophora_trifolii",
@@ -1216,7 +1476,10 @@
         "bildId": "23-7147"
     },
     {
-        "group": ["Rör", "Frö"],
+        "group": [
+            "Rör",
+            "Frö"
+        ],
         "name": "Sötväpplingsäckmal ",
         "latin": "Coleophora trifolii",
         "slug": "coleophora_trifolii",
@@ -1235,7 +1498,9 @@
         "bildId": "23-7707"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Gul eksäckmal",
         "latin": "Coleophora lutipennella",
         "slug": "coleophora_lutipennella",
@@ -1254,7 +1519,9 @@
         "bildId": "23-3957"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Nyponsäckmal",
         "latin": "Coleophora gryphipennella",
         "slug": "coleophora_gryphipennella",
@@ -1273,7 +1540,9 @@
         "bildId": "22-2861"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Ljuskantad eksäckmal",
         "latin": "Coleophora flavipennella",
         "slug": "coleophora_flavipennella",
@@ -1292,7 +1561,9 @@
         "bildId": "23-3553"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Ljuskantad slånsäckmal",
         "latin": "Coleophora adjectella",
         "slug": "coleophora_adjectella",
@@ -1311,7 +1582,9 @@
         "bildId": "22-2567"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Ljuskantad björksäckmal",
         "latin": "Coleophora milvipennis",
         "slug": "coleophora_milvipennis",
@@ -1330,7 +1603,9 @@
         "bildId": "23-6936"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Ljuskantad alsäckmal",
         "latin": "Coleophora alnifoliae",
         "slug": "coleophora_alnifoliae",
@@ -1349,7 +1624,9 @@
         "bildId": "23-5880"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Vitkantad almsäckmal",
         "latin": "Coleophora badiipennella",
         "slug": "coleophora_badiipennella",
@@ -1368,7 +1645,9 @@
         "bildId": "23-7167"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Ljuskantad almsäckmal",
         "latin": "Coleophora limosipennella",
         "slug": "coleophora_limosipennella",
@@ -1387,7 +1666,9 @@
         "bildId": "22-1577"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Gulgrå rönnsäckmal",
         "latin": "Coleophora siccifolia",
         "slug": "coleophora_siccifolia",
@@ -1406,7 +1687,9 @@
         "bildId": "24-7110"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Odonsäckmal",
         "latin": "Coleophora uliginosella",
         "slug": "coleophora_uliginosella",
@@ -1425,7 +1708,9 @@
         "bildId": "23-6905"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Björksäckmal",
         "latin": "Coleophora serratella",
         "slug": "coleophora_serratella",
@@ -1444,7 +1729,9 @@
         "bildId": "23-3703"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Apelsäckmal",
         "latin": "Coleophora spinella",
         "slug": "coleophora_spinella",
@@ -1463,7 +1750,9 @@
         "bildId": "23-3732"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Körsbärssäckmal",
         "latin": "Coleophora prunifoliae",
         "slug": "coleophora_prunifoliae",
@@ -1482,7 +1771,9 @@
         "bildId": "22-0837"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Mjölonsäckmal",
         "latin": "Coleophora arctostaphyli",
         "slug": "coleophora_arctostaphyli",
@@ -1501,7 +1792,9 @@
         "bildId": "23-8280"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Blek lingonsäckmal",
         "latin": "Coleophora glitzella",
         "slug": "coleophora_glitzella",
@@ -1520,7 +1813,9 @@
         "bildId": "23-3060"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Skarplinjerad krisslesäckmal",
         "latin": "Coleophora conyzae",
         "slug": "coleophora_conyzae",
@@ -1539,7 +1834,9 @@
         "bildId": "24-4725"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Vattrad rönnsäckmal",
         "latin": "Coleophora hemerobiella",
         "slug": "coleophora_hemerobiella",
@@ -1558,7 +1855,9 @@
         "bildId": "24-3145"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Kronillsäckmal",
         "latin": "Coleophora coronillae",
         "slug": "coleophora_coronillae",
@@ -1577,7 +1876,9 @@
         "bildId": "23-7104"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Toksäckmal",
         "latin": "Coleophora peri",
         "slug": "coleophora_peri",
@@ -1596,7 +1897,9 @@
         "bildId": "23-8603"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Sydlig lärksäckmal",
         "latin": "Coleophora laricella",
         "slug": "coleophora_laricella",
@@ -1615,7 +1918,9 @@
         "bildId": "21-0679"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Grovfjällig hedblomstersäckmal",
         "latin": "Coleophora gnaphalii",
         "slug": "coleophora_gnaphalii",
@@ -1634,7 +1939,9 @@
         "bildId": "23-3568"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Grovfjällig hedblomstersäckmal",
         "latin": "Coleophora gnaphalii",
         "slug": "coleophora_gnaphalii",
@@ -1653,7 +1960,9 @@
         "bildId": "23-3570"
     },
     {
-        "group": ["Blad"],
+        "group": [
+            "Blad"
+        ],
         "name": "Grovfjällig hedblomstersäckmal",
         "latin": "Coleophora gnaphalii",
         "slug": "coleophora_gnaphalii",
@@ -1672,7 +1981,10 @@
         "bildId": "23-3573"
     },
     {
-        "group": ["Blad", "Rör"],
+        "group": [
+            "Blad",
+            "Rör"
+        ],
         "name": "Såpörtssäckmal",
         "latin": "Coleophora kyffhusana",
         "slug": "coleophora_kyffhusana",
@@ -1691,7 +2003,9 @@
         "bildId": "23-8468"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Olivfärgad stjärnblomsäckmal",
         "latin": "Coleophora lithargyrinella",
         "slug": "coleophora_lithargyrinella",
@@ -1710,7 +2024,9 @@
         "bildId": "23-3991"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Kronillsäckmal",
         "latin": "Coleophora coronillae",
         "slug": "coleophora_coronillae",
@@ -1729,7 +2045,9 @@
         "bildId": "23-7846"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Större sötvedelssäckmal",
         "latin": "Coleophora gallipennella",
         "slug": "coleophora_gallipennella",
@@ -1748,7 +2066,9 @@
         "bildId": "23-5984"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Ringtågsäckmal",
         "latin": "Coleophora caespititiella",
         "slug": "coleophora_caespititiella",
@@ -1767,7 +2087,30 @@
         "bildId": "23-7678"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
+        "name": "Suddig tågsäckmal",
+        "latin": "Coleophora glaucicolella",
+        "slug": "coleophora_glaucicolella",
+        "image": "/img/case/coleophora_glaucicolella-§1-23-9524.jpg",
+        "date": "2023-09-10",
+        "site": "Svinö, Kalmar, Sm",
+        "stage": "case",
+        "plant": "Juncus maritimus",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2023,
+        "detBy": "Magnus Unger",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "23-9524"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
         "name": "Dyster frylesäckmal",
         "latin": "Coleophora otidipennella",
         "slug": "coleophora_otidipennella",
@@ -1786,7 +2129,9 @@
         "bildId": "23-4231"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Dubbellinjerad tistelsäckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
@@ -1805,7 +2150,9 @@
         "bildId": "23-9550"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Dubbellinjerad tistelsäckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
@@ -1824,7 +2171,9 @@
         "bildId": "23-8406"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Strandastersäckmal",
         "latin": "Coleophora asteris",
         "slug": "coleophora_asteris",
@@ -1843,7 +2192,93 @@
         "bildId": "22-2685"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
+        "name": "Gulgrå mållesäckmal",
+        "latin": "Coleophora saxicolella",
+        "slug": "coleophora_saxicolella",
+        "image": "/img/case/coleophora_saxicolella-§1-24-8764.jpg",
+        "date": "2024-08-18",
+        "site": "Gårdby sandhed, Öl",
+        "stage": "case",
+        "plant": "Chenopodium",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2024,
+        "detBy": "Magnus Unger",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "24-8764"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Större mållesäckmal",
+        "latin": "Coleophora sternipennella",
+        "slug": "coleophora_sternipennella",
+        "image": "/img/case/coleophora_sternipennella-§1-24-9057.jpg",
+        "date": "2024-08-18",
+        "site": "Gårdby sandhed, Öl",
+        "stage": "case",
+        "plant": "Chenopodium",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2024,
+        "detBy": "Magnus Unger",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "24-9057"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Gråbinkesäckmal",
+        "latin": "Coleophora squamosella",
+        "slug": "coleophora_squamosella",
+        "image": "/img/case/coleophora_squamosella-§1-25-8956.jpg",
+        "date": "2025-07-19",
+        "site": "Alvastra, Omberg, Ög",
+        "stage": "case",
+        "plant": "Erigeron acris",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-8956"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Hylsnejlikesäckmal",
+        "latin": "Coleophora adelogrammella",
+        "slug": "coleophora_adelogrammella",
+        "image": "/img/case/coleophora_adelogrammella-§1-24-3813.jpg",
+        "date": "2024-06-06",
+        "site": "Vombs vattenverk, Sk",
+        "stage": "case",
+        "plant": "Dianthus deltoides",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "23-3599"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
         "name": "Grovfjällig malörtssäckmal",
         "latin": "Coleophora succursella",
         "slug": "coleophora_succursella",
@@ -1862,7 +2297,72 @@
         "bildId": "23-3599"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
+        "name": "Större backglimssäckmal",
+        "latin": "Coleophora galbulipennella",
+        "slug": "coleophora_galbulipennella",
+        "image": "/img/case/coleophora_galbulipennella-§1-24-4660.jpg",
+        "date": "2024-06-16",
+        "site": "Ölands norra udde, Öl",
+        "stage": "case",
+        "plant": "Silene nutans",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2024,
+        "detBy": "Magnus Unger",
+        "detMethod": "kläckning",
+        "photographer": "Magnus Unger",
+        "bildId": "24-4660"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Grovfjällig röllikesäckmal",
+        "latin": "Coleophora millefolii",
+        "slug": "coleophora_millefolii",
+        "image": "/img/case/coleophora_millefolii-§1-25-4093.jpg",
+        "date": "2025-05-17",
+        "site": "Ölands norra udde, Öl",
+        "stage": "case",
+        "plant": "Achillea millefolium",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-4093"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Hampflockelssäckmal",
+        "latin": "Coleophora follicularis",
+        "slug": "coleophora_follicularis",
+        "image": "/img/case/coleophora_follicularis-§1-24-3740.jpg",
+        "date": "2024-06-05",
+        "site": "Österplana Kyrka, Vg",
+        "stage": "case",
+        "plant": "Pentanema salicinum",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2024,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "24-3740"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
         "name": "Knytlingsäckmal",
         "latin": "Coleophora scabrida",
         "slug": "coleophora_scabrida",
@@ -1881,7 +2381,9 @@
         "bildId": "23-6609"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Linjerad tistelsäckmal",
         "latin": "Coleophora peribenanderi",
         "slug": "coleophora_peribenanderi",
@@ -1900,7 +2402,9 @@
         "bildId": "23-9138"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Gullinjerad gullrissäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
@@ -1919,7 +2423,9 @@
         "bildId": "23-3644"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Större fältmalörtssäckmal",
         "latin": "Coleophora directella",
         "slug": "coleophora_directella",
@@ -1938,7 +2444,9 @@
         "bildId": "23-3598"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Större röllikasäckmal",
         "latin": "Coleophora expressella",
         "slug": "coleophora_expressella",
@@ -1957,7 +2465,9 @@
         "bildId": "23-6618"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Strimmig stjärnblomsäckmal",
         "latin": "Coleophora striatipennella",
         "slug": "coleophora_striatipennella",
@@ -1976,7 +2486,9 @@
         "bildId": "23-6930"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Skarpringad stjärnblomsäckmal",
         "latin": "Coleophora solitariella",
         "slug": "coleophora_solitariella",
@@ -1995,7 +2507,9 @@
         "bildId": "23-3993"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Renfanesäckmal",
         "latin": "Coleophora tanaceti",
         "slug": "coleophora_tanaceti",
@@ -2014,7 +2528,9 @@
         "bildId": "23-6928"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Ljus malörtsäckmal",
         "latin": "Coleophora albicans",
         "slug": "coleophora_albicans",
@@ -2033,7 +2549,9 @@
         "bildId": "23-9356"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Punkterad backglimsäckmal",
         "latin": "Coleophora hackmani",
         "slug": "coleophora_hackmani",
@@ -2052,7 +2570,9 @@
         "bildId": "22-1932"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Mindre röllikasäckmal",
         "latin": "Coleophora argentula",
         "slug": "coleophora_argentula",
@@ -2071,7 +2591,9 @@
         "bildId": "21-0553"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Ljus mållsäckmal",
         "latin": "Coleophora adspersella",
         "slug": "coleophora_adspersella",
@@ -2090,7 +2612,30 @@
         "bildId": "23-8286"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
+        "name": "Ljusringad backglimssäckmal",
+        "latin": "Coleophora nutantella",
+        "slug": "coleophora_nutantella",
+        "image": "/img/case/coleophora_nutantella-§1-24-9992.jpg",
+        "date": "2024-11-14",
+        "site": "Alvastra, Omberg, Ög",
+        "stage": "case",
+        "plant": "Silene vulgaris",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2024,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "24-9992"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
         "name": "Tjärblomstersäckmal",
         "latin": "Coleophora graminicolella",
         "slug": "coleophora_graminicolella",
@@ -2109,7 +2654,9 @@
         "bildId": "22-2654"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Tjärblomstersäckmal",
         "latin": "Coleophora graminicolella",
         "slug": "coleophora_graminicolella",
@@ -2128,7 +2675,9 @@
         "bildId": "23-3427"
     },
     {
-        "group": ["Rör"],
+        "group": [
+            "Rör"
+        ],
         "name": "Klintgrönglanssäckmal",
         "latin": "Coleophora paripennella",
         "slug": "coleophora_paripennella",
@@ -2147,7 +2696,9 @@
         "bildId": "23-8806"
     },
     {
-        "group": ["Lapp"],
+        "group": [
+            "Lapp"
+        ],
         "name": "Mindre ljungsäckmal",
         "latin": "Coleophora juncicolella",
         "slug": "coleophora_juncicolella",
