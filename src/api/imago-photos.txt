@@ -349,6 +349,90 @@
         "group": [
             "B"
         ],
+        "name": "Glasörtssäckmal",
+        "latin": "Coleophora salicorniae",
+        "slug": "coleophora_salicorniae",
+        "image": "/img/coleophora_salicorniae-§1-25-0037.jpg",
+        "date": "2025-07-20",
+        "site": "Vallda Sandö, Hl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "gender": "female",
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-0037"
+    },
+    {
+        "group": [
+            "B"
+        ],
+        "name": "Glasörtssäckmal",
+        "latin": "Coleophora salicorniae",
+        "slug": "coleophora_salicorniae",
+        "image": "/img/coleophora_salicorniae-§2-25-0069.jpg",
+        "date": "2025-07-20",
+        "site": "Vallda Sandö, Hl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "gender": "male",
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-0069"
+    },
+    {
+        "group": [
+            "B"
+        ],
+        "name": "Glasörtssäckmal",
+        "latin": "Coleophora salicorniae",
+        "slug": "coleophora_salicorniae",
+        "image": "/img/coleophora_salicorniae-§3-25-9498.jpg",
+        "date": "2025-07-20",
+        "site": "Vallda Sandö, Hl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 3,
+        "gender": "male",
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-9498"
+    },
+    {
+        "group": [
+            "B"
+        ],
+        "name": "Glasörtssäckmal",
+        "latin": "Coleophora salicorniae",
+        "slug": "coleophora_salicorniae",
+        "image": "/img/coleophora_salicorniae-§4-25-9501.jpg",
+        "date": "2025-07-20",
+        "site": "Vallda Sandö, Hl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 4,
+        "gender": "male",
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-9501"
+    },
+    {
+        "group": [
+            "B"
+        ],
         "name": "Björksäckmal",
         "latin": "Coleophora serratella",
         "slug": "coleophora_serratella",
@@ -1673,6 +1757,26 @@
     },
     {
         "group": [
+            "E"
+        ],
+        "name": "Kilstreckad röllikesäckmal",
+        "latin": "Coleophora partitella",
+        "slug": "coleophora_partitella",
+        "image": "/img/coleophora_partitella-§1-25-7119.jpg",
+        "date": "2025-06-28",
+        "site": "Sala silvergruva, Vstm",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-7119"
+    },
+    {
+        "group": [
             "F"
         ],
         "name": "Sikelspetsad timjesäckmal",
@@ -2147,6 +2251,26 @@
         "detMethod": "kläckning",
         "photographer": "Magnus Unger",
         "bildId": "24-4831"
+    },
+    {
+        "group": [
+            "F"
+        ],
+        "name": "Ljusringad backglimsäckmal",
+        "latin": "Coleophora nutantella",
+        "slug": "coleophora_nutantella",
+        "image": "/img/coleophora_nutantella-§1-25-9444.jpg",
+        "date": "2025-07-19",
+        "site": "Alvastra, Omberg, Ög",
+        "stage": "imago",
+        "wingspan": 17,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "25-9444"
     },
     {
         "group": [

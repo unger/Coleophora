@@ -38,7 +38,7 @@ function PhotoList({ slug, stage, inData }: Props) {
                     ({data.length} bild{data.length !== 1 && "er"})
                 </small>
             </h2>
-            <div className="small-thumbnails">
+            <div className="large-thumbnails">
                 {data.length === 0 ? (
                     <NoPhoto />
                 ) : (
