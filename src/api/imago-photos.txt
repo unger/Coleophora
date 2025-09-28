@@ -1158,6 +1158,28 @@
             "D",
             "F"
         ],
+        "name": "Kustmållesäckmal",
+        "latin": "Coleophora atriplicis",
+        "slug": "coleophora_atriplicis",
+        "image": "/img/coleophora_atriplicis-§2-24-6715.jpg",
+        "date": "2024-07-15",
+        "site": "Bruten NR, Gtl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "gender": "male",
+        "detYear": 2024,
+        "detBy": "Bengt Å. Bengtsson",
+        "detMethod": "genprep",
+        "photographer": "Magnus Unger",
+        "bildId": "24-6715"
+    },    
+    {
+        "group": [
+            "D",
+            "F"
+        ],
         "name": "Större fältmalörtssäckmal",
         "latin": "Coleophora directella",
         "slug": "coleophora_directella",
@@ -1779,7 +1801,7 @@
         "group": [
             "F"
         ],
-        "name": "Sikelspetsad timjesäckmal",
+        "name": "Sikelsäckmal",
         "latin": "Coleophora lixella",
         "slug": "coleophora_lixella",
         "image": "/img/coleophora_lixella-§3-16-1944.jpg",
@@ -1799,7 +1821,7 @@
         "group": [
             "F"
         ],
-        "name": "Sikelspetsad timjesäckmal",
+        "name": "Sikelsäckmal",
         "latin": "Coleophora lixella",
         "slug": "coleophora_lixella",
         "image": "/img/coleophora_lixella-§1-11-1936.jpg",
@@ -1819,7 +1841,7 @@
         "group": [
             "F"
         ],
-        "name": "Sikelspetsad timjesäckmal",
+        "name": "Sikelsäckmal",
         "latin": "Coleophora lixella",
         "slug": "coleophora_lixella",
         "image": "/img/coleophora_lixella-§2-14-9846.jpg",
@@ -1977,6 +1999,27 @@
         "detMethod": "genprep",
         "photographer": "Magnus Unger",
         "bildId": "10-7999"
+    },
+    {
+        "group": [
+            "F"
+        ],
+        "name": "Ljus mållsäckmal",
+        "latin": "Coleophora adspersella",
+        "slug": "coleophora_adspersella",
+        "image": "/img/coleophora_adspersella-§2-24-6594.jpg",
+        "date": "2024-07-15",
+        "site": "Bruten NR, Gtl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "gender": "female",
+        "detYear": 2024,
+        "detBy": "Bengt Å. Bengtsson",
+        "detMethod": "genprep",
+        "photographer": "Magnus Unger",
+        "bildId": "24-6594"
     },
     {
         "group": [

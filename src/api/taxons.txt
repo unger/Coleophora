@@ -1548,6 +1548,19 @@
         "slug": "coleophora_squamosella"
     },
     {
+        "artId": 813,
+        "dyntaxaId": 214548,
+        "group": ["F", "Rör"],
+        "name": "Ljus mållsäckmal",
+        "latin": "Coleophora adspersella",
+        "auctor": "Benander, 1939",
+        "wingSpanMin": 13,
+        "wingSpanMax": 16,
+        "hasImage": false,
+        "slugSv": "ljus_mållsäckmal",
+        "slug": "coleophora_adspersella"
+    },
+    {
         "artId": 785,
         "dyntaxaId": 214520,
         "group": ["F", "Rör"],
@@ -1936,19 +1949,6 @@
         "slugSv": "grå_fältmalörtssäckmal",
         "slug": "coleophora_granulatella",
         "redlist": "NT"
-    },
-    {
-        "artId": 813,
-        "dyntaxaId": 214548,
-        "group": ["F", "Rör"],
-        "name": "Ljus mållsäckmal",
-        "latin": "Coleophora adspersella",
-        "auctor": "Benander, 1939",
-        "wingSpanMin": 13,
-        "wingSpanMax": 16,
-        "hasImage": false,
-        "slugSv": "ljus_mållsäckmal",
-        "slug": "coleophora_adspersella"
     },
     {
         "artId": 814,
