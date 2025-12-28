@@ -3475,31 +3475,12 @@
         "wingspan": 0,
         "unsure": false,
         "specimen": 2,
+        "gender": "male",
         "detYear": 2023,
         "detBy": "Magnus Unger",
-        "detMethod": "foto",
+        "detMethod": "kläckning",
         "photographer": "Magnus Unger",
         "bildId": "24-2402"
-    },
-    {
-        "group": [
-            "B"
-        ],
-        "name": "Mindre ljungsäckmal",
-        "latin": "Coleophora juncicolella",
-        "slug": "coleophora_juncicolella",
-        "image": "/img/coleophora_juncicolella-§1-23-4913.jpg",
-        "date": "2023-06-14",
-        "site": "Slottsskogen, Vg",
-        "stage": "imago",
-        "wingspan": 0,
-        "unsure": false,
-        "specimen": 1,
-        "detYear": 2023,
-        "detBy": "Magnus Unger",
-        "detMethod": "foto",
-        "photographer": "Magnus Unger",
-        "bildId": "23-4913"
     },
     {
         "group": [
@@ -4375,6 +4356,26 @@
         "photographer": "Magnus Unger",
         "bildId": "24-2284"
     },
+    {
+        "group": [
+            "B"
+        ],
+        "name": "Sydlig lärksäckmal",
+        "latin": "Coleophora laricella",
+        "slug": "coleophora_laricella",
+        "image": "/img/coleophora_laricella-§2-23-4913.jpg",
+        "date": "2023-06-14",
+        "site": "Slottsskogen, Vg",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "detYear": 2023,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "23-4913"
+    },    
     {
         "group": [
             "B"
