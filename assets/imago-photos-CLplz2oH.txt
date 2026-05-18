@@ -3445,6 +3445,28 @@
         "name": "Pyrolasäckmal",
         "latin": "Coleophora idaeella",
         "slug": "coleophora_idaeella",
+        "image": "/img/coleophora_idaeella-§2-26-8843.jpg",
+        "date": "2026-04-12",
+        "hatchedDate": "2026-05-05",
+        "site": "Skeppersäng NR, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "gender": "male",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "kläckning",
+        "photographer": "Magnus Unger",
+        "bildId": "26-8843"
+    },
+    {
+        "group": [
+            "B"
+        ],
+        "name": "Pyrolasäckmal",
+        "latin": "Coleophora idaeella",
+        "slug": "coleophora_idaeella",
         "image": "/img/coleophora_idaeella-§1-23-0642.jpg",
         "date": "2023-11-13",
         "hatchedDate": "2023-12-19",
@@ -3844,6 +3866,27 @@
         "detMethod": "kläckning",
         "photographer": "Magnus Unger",
         "bildId": "23-7301"
+    },
+    {
+        "group": [
+            "F"
+        ],
+        "name": "Renfanesäckmal",
+        "latin": "Coleophora tanaceti",
+        "slug": "coleophora_tanaceti",
+        "image": "/img/coleophora_tanaceti-§1_26_0024.jpg",
+        "date": "2025-08-03",
+        "hatchedDate": "2026-05-18",
+        "site": "Torslandaviken, Vg",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "hatched",
+        "photographer": "Magnus Unger",
+        "bildId": "26_0024"
     },
     {
         "group": [
