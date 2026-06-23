@@ -2004,6 +2004,28 @@
         "group": [
             "F"
         ],
+        "name": "Gråbinkesäckmal",
+        "latin": "Coleophora squamosella",
+        "slug": "coleophora_squamosella",
+        "image": "/img/coleophora_squamosella-§1-26-4610.jpg",
+        "date": "2025-08-31",
+        "hatchedDate": "2026-06-07",
+        "site": "Alvastra, Ög",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "female",
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "hatched",
+        "photographer": "Magnus Unger",
+        "bildId": "26-4610"
+    },
+    {
+        "group": [
+            "F"
+        ],
         "name": "Ljus mållsäckmal",
         "latin": "Coleophora adspersella",
         "slug": "coleophora_adspersella",

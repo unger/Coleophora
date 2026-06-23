@@ -1537,7 +1537,7 @@
     {
         "artId": 784,
         "dyntaxaId": 214519,
-        "group": ["G", "Rör"],
+        "group": ["F", "Rör"],
         "name": "Gråbinkesäckmal",
         "latin": "Coleophora squamosella",
         "auctor": "Stainton, 1856",
