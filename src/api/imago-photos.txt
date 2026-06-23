@@ -1219,7 +1219,7 @@
         "detMethod": "genprep",
         "photographer": "Magnus Unger",
         "bildId": "24-7571"
-    },
+    },    
     {
         "group": [
             "D",
@@ -2337,6 +2337,27 @@
         "detMethod": "kläckning",
         "photographer": "Magnus Unger",
         "bildId": "24-4831"
+    },
+    {
+        "group": [
+            "F"
+        ],
+        "name": "Nejliksäckmal",
+        "latin": "Coleophora dianthi",
+        "slug": "coleophora_dianthi",
+        "image": "/img/coleophora_dianthi-§1-26-5488.jpg",
+        "date": "2026-06-13",
+        "site": "Aledal, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "female",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "26-5488"
     },
     {
         "group": [
@@ -3939,7 +3960,7 @@
         "name": "Renfanesäckmal",
         "latin": "Coleophora tanaceti",
         "slug": "coleophora_tanaceti",
-        "image": "/img/coleophora_tanaceti-§1_26_0024.jpg",
+        "image": "/img/coleophora_tanaceti-§1-26-0024.jpg",
         "date": "2025-08-03",
         "hatchedDate": "2026-05-18",
         "site": "Torslandaviken, Vg",
@@ -3951,8 +3972,28 @@
         "detBy": "Magnus Unger",
         "detMethod": "hatched",
         "photographer": "Magnus Unger",
-        "bildId": "26_0024"
+        "bildId": "26-0024"
     },
+    {
+        "group": [
+            "F"
+        ],
+        "name": "Ljus malörtssäckmal",
+        "latin": "Coleophora albicans",
+        "slug": "coleophora_albicans",
+        "image": "/img/coleophora_albicans-§1-26-5459.jpg",
+        "date": "2026-06-13",
+        "site": "Gårdby Sandhed, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "26-5459"
+    },    
     {
         "group": [
             "F"
