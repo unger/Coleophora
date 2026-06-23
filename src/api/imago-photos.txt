@@ -4060,6 +4060,50 @@
         "group": [
             "G"
         ],
+        "name": "Skarplinjerad krisslesäckmal",
+        "latin": "Coleophora conyzae",
+        "slug": "coleophora_conyzae",
+        "image": "/img/coleophora_conyzae-§1-26-5757.jpg",
+        "date": "2026-05-30",
+        "hatchedDate": "2026-06-16",
+        "site": "Lärbo, Gtl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "male",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "kläckning",
+        "photographer": "Magnus Unger",
+        "bildId": "26-5757"
+    },
+    {
+        "group": [
+            "G"
+        ],
+        "name": "Skarplinjerad krisslesäckmal",
+        "latin": "Coleophora conyzae",
+        "slug": "coleophora_conyzae",
+        "image": "/img/coleophora_conyzae-§2-26-6137.jpg",
+        "date": "2026-05-30",
+        "hatchedDate": "2026-06-21",
+        "site": "Bruten NR, Gtl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "gender": "female",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "kläckning",
+        "photographer": "Magnus Unger",
+        "bildId": "26-6137"
+    },
+    {
+        "group": [
+            "G"
+        ],
         "name": "Strävbladssäckmal",
         "latin": "Coleophora pennella",
         "slug": "coleophora_pennella",
