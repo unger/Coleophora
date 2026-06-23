@@ -2132,7 +2132,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/case/coleophora_therinella-§1-23-9550.jpg",
@@ -2153,7 +2153,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/case/coleophora_therinella-§2-23-8406.jpg",
@@ -2405,7 +2405,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/case/coleophora_trochilella-§1-23-3644.jpg",
@@ -2447,7 +2447,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Större röllikasäckmal",
+        "name": "Större röllikesäckmal",
         "latin": "Coleophora expressella",
         "slug": "coleophora_expressella",
         "image": "/img/case/coleophora_expressella-§1-23-6618.jpg",
@@ -2573,7 +2573,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Mindre röllikasäckmal",
+        "name": "Mindre röllikesäckmal",
         "latin": "Coleophora argentula",
         "slug": "coleophora_argentula",
         "image": "/img/case/coleophora_argentula-§1-21-0553.jpg",

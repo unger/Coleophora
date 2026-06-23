@@ -1924,7 +1924,7 @@
             "F",
             "G"
         ],
-        "name": "Mindre röllikasäckmal",
+        "name": "Mindre röllikesäckmal",
         "latin": "Coleophora argentula",
         "slug": "coleophora_argentula",
         "image": "/img/coleophora_argentula-§1-10-8835.jpg",
@@ -2442,7 +2442,7 @@
         "group": [
             "G"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/coleophora_therinella-§1-10-7992.jpg",
@@ -2462,7 +2462,7 @@
         "group": [
             "G"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/coleophora_therinella-§2-10-2431.jpg",
@@ -2482,7 +2482,7 @@
         "group": [
             "G"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/coleophora_therinella-§3-10-2536.jpg",
@@ -2502,7 +2502,7 @@
         "group": [
             "G"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/coleophora_therinella-§4-12-5510.jpg",
@@ -2542,7 +2542,7 @@
         "group": [
             "G"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/coleophora_trochilella-§3-23-6464.jpg",
@@ -2564,7 +2564,7 @@
         "group": [
             "G"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/coleophora_trochilella-§1-11-1196.jpg",
@@ -2584,7 +2584,7 @@
         "group": [
             "G"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/coleophora_trochilella-§2-11-1199.jpg",
@@ -2604,7 +2604,7 @@
         "group": [
             "G"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/coleophora_trochilella-§4-22-1663.jpg",
@@ -3851,6 +3851,28 @@
         "group": [
             "F"
         ],
+        "name": "Grovfjällig röllikesäckmal",
+        "latin": "Coleophora millefolii",
+        "slug": "coleophora_millefolii",
+        "image": "/img/coleophora_millefolii-§1-26-6204.jpg",
+        "date": "2026-06-14",
+        "hatchedDate": "2026-06-22",
+        "site": "Ölands Norra Udde, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "male",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "hatched",
+        "photographer": "Magnus Unger",
+        "bildId": "26-6204"
+    },
+    {
+        "group": [
+            "F"
+        ],
         "name": "Såpörtssäckmal",
         "latin": "Coleophora kyffhusana",
         "slug": "coleophora_kyffhusana",
@@ -3872,7 +3894,7 @@
         "group": [
             "F"
         ],
-        "name": "Större röllikasäckmal",
+        "name": "Större röllikesäckmal",
         "latin": "Coleophora expressella",
         "slug": "coleophora_expressella",
         "image": "/img/coleophora_expressella-§1-23-7237.jpg",
@@ -3893,7 +3915,7 @@
         "group": [
             "F"
         ],
-        "name": "Större röllikasäckmal",
+        "name": "Större röllikesäckmal",
         "latin": "Coleophora expressella",
         "slug": "coleophora_expressella",
         "image": "/img/coleophora_expressella-§2-23-7301.jpg",
