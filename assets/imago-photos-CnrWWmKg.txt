@@ -1219,7 +1219,7 @@
         "detMethod": "genprep",
         "photographer": "Magnus Unger",
         "bildId": "24-7571"
-    },
+    },    
     {
         "group": [
             "D",
@@ -1924,7 +1924,7 @@
             "F",
             "G"
         ],
-        "name": "Mindre röllikasäckmal",
+        "name": "Mindre röllikesäckmal",
         "latin": "Coleophora argentula",
         "slug": "coleophora_argentula",
         "image": "/img/coleophora_argentula-§1-10-8835.jpg",
@@ -1999,6 +1999,28 @@
         "detMethod": "genprep",
         "photographer": "Magnus Unger",
         "bildId": "10-7999"
+    },
+    {
+        "group": [
+            "F"
+        ],
+        "name": "Gråbinkesäckmal",
+        "latin": "Coleophora squamosella",
+        "slug": "coleophora_squamosella",
+        "image": "/img/coleophora_squamosella-§1-26-4610.jpg",
+        "date": "2025-08-31",
+        "hatchedDate": "2026-06-07",
+        "site": "Alvastra, Ög",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "female",
+        "detYear": 2025,
+        "detBy": "Magnus Unger",
+        "detMethod": "hatched",
+        "photographer": "Magnus Unger",
+        "bildId": "26-4610"
     },
     {
         "group": [
@@ -2121,6 +2143,27 @@
         "detMethod": "foto",
         "photographer": "Magnus Unger",
         "bildId": "12-4995"
+    },
+    {
+        "group": [
+            "F"
+        ],
+        "name": "Absintsäckmal",
+        "latin": "Coleophora absinthii",
+        "slug": "coleophora_absinthii",
+        "image": "/img/coleophora_absinthii-1§-25-1026.jpg",
+        "date": "2025-08-08",
+        "site": "Höge ås, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "female",
+        "detYear": 2026,
+        "detBy": "Mårten Klinth",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "25-1026"
     },
     {
         "group": [
@@ -2299,6 +2342,27 @@
         "group": [
             "F"
         ],
+        "name": "Nejliksäckmal",
+        "latin": "Coleophora dianthi",
+        "slug": "coleophora_dianthi",
+        "image": "/img/coleophora_dianthi-§1-26-5488.jpg",
+        "date": "2026-06-13",
+        "site": "Aledal, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "female",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "26-5488"
+    },
+    {
+        "group": [
+            "F"
+        ],
         "name": "Ljusringad backglimsäckmal",
         "latin": "Coleophora nutantella",
         "slug": "coleophora_nutantella",
@@ -2399,7 +2463,7 @@
         "group": [
             "G"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/coleophora_therinella-§1-10-7992.jpg",
@@ -2419,7 +2483,7 @@
         "group": [
             "G"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/coleophora_therinella-§2-10-2431.jpg",
@@ -2439,7 +2503,7 @@
         "group": [
             "G"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/coleophora_therinella-§3-10-2536.jpg",
@@ -2459,7 +2523,7 @@
         "group": [
             "G"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/coleophora_therinella-§4-12-5510.jpg",
@@ -2499,7 +2563,7 @@
         "group": [
             "G"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/coleophora_trochilella-§3-23-6464.jpg",
@@ -2521,7 +2585,7 @@
         "group": [
             "G"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/coleophora_trochilella-§1-11-1196.jpg",
@@ -2541,7 +2605,7 @@
         "group": [
             "G"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/coleophora_trochilella-§2-11-1199.jpg",
@@ -2561,7 +2625,7 @@
         "group": [
             "G"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/coleophora_trochilella-§4-22-1663.jpg",
@@ -3808,6 +3872,28 @@
         "group": [
             "F"
         ],
+        "name": "Grovfjällig röllikesäckmal",
+        "latin": "Coleophora millefolii",
+        "slug": "coleophora_millefolii",
+        "image": "/img/coleophora_millefolii-§1-26-6204.jpg",
+        "date": "2026-06-14",
+        "hatchedDate": "2026-06-22",
+        "site": "Ölands Norra Udde, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "male",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "hatched",
+        "photographer": "Magnus Unger",
+        "bildId": "26-6204"
+    },
+    {
+        "group": [
+            "F"
+        ],
         "name": "Såpörtssäckmal",
         "latin": "Coleophora kyffhusana",
         "slug": "coleophora_kyffhusana",
@@ -3829,7 +3915,7 @@
         "group": [
             "F"
         ],
-        "name": "Större röllikasäckmal",
+        "name": "Större röllikesäckmal",
         "latin": "Coleophora expressella",
         "slug": "coleophora_expressella",
         "image": "/img/coleophora_expressella-§1-23-7237.jpg",
@@ -3850,7 +3936,7 @@
         "group": [
             "F"
         ],
-        "name": "Större röllikasäckmal",
+        "name": "Större röllikesäckmal",
         "latin": "Coleophora expressella",
         "slug": "coleophora_expressella",
         "image": "/img/coleophora_expressella-§2-23-7301.jpg",
@@ -3874,7 +3960,7 @@
         "name": "Renfanesäckmal",
         "latin": "Coleophora tanaceti",
         "slug": "coleophora_tanaceti",
-        "image": "/img/coleophora_tanaceti-§1_26_0024.jpg",
+        "image": "/img/coleophora_tanaceti-§1-26-0024.jpg",
         "date": "2025-08-03",
         "hatchedDate": "2026-05-18",
         "site": "Torslandaviken, Vg",
@@ -3886,8 +3972,28 @@
         "detBy": "Magnus Unger",
         "detMethod": "hatched",
         "photographer": "Magnus Unger",
-        "bildId": "26_0024"
+        "bildId": "26-0024"
     },
+    {
+        "group": [
+            "F"
+        ],
+        "name": "Ljus malörtssäckmal",
+        "latin": "Coleophora albicans",
+        "slug": "coleophora_albicans",
+        "image": "/img/coleophora_albicans-§1-26-5459.jpg",
+        "date": "2026-06-13",
+        "site": "Gårdby Sandhed, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "26-5459"
+    },    
     {
         "group": [
             "F"
@@ -3949,6 +4055,50 @@
         "detMethod": "kläckning",
         "photographer": "Magnus Unger",
         "bildId": "23-5594"
+    },
+    {
+        "group": [
+            "G"
+        ],
+        "name": "Skarplinjerad krisslesäckmal",
+        "latin": "Coleophora conyzae",
+        "slug": "coleophora_conyzae",
+        "image": "/img/coleophora_conyzae-§1-26-5757.jpg",
+        "date": "2026-05-30",
+        "hatchedDate": "2026-06-16",
+        "site": "Lärbo, Gtl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "male",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "kläckning",
+        "photographer": "Magnus Unger",
+        "bildId": "26-5757"
+    },
+    {
+        "group": [
+            "G"
+        ],
+        "name": "Skarplinjerad krisslesäckmal",
+        "latin": "Coleophora conyzae",
+        "slug": "coleophora_conyzae",
+        "image": "/img/coleophora_conyzae-§2-26-6137.jpg",
+        "date": "2026-05-30",
+        "hatchedDate": "2026-06-21",
+        "site": "Bruten NR, Gtl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "gender": "female",
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "kläckning",
+        "photographer": "Magnus Unger",
+        "bildId": "26-6137"
     },
     {
         "group": [

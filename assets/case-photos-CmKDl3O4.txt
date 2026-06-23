@@ -170,6 +170,27 @@
     },
     {
         "group": [
+            "Rör"
+        ],
+        "name": "Förväxlad säckmal",
+        "latin": "Coleophora proterella",
+        "slug": "coleophora_proterella",
+        "image": "/img/case/coleophora_proterella-§1-25-4507.jpg",
+        "date": "2025-09-27",
+        "site": "Hönö, Boh",
+        "stage": "case",
+        "plant": "Solidago virgaurea",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "25-4507"
+    },    
+    {
+        "group": [
             "Blad"
         ],
         "name": "Linjerad gullrissäckmal",
@@ -903,6 +924,27 @@
         "detMethod": "foto",
         "photographer": "Magnus Unger",
         "bildId": "22-2784"
+    },    
+    {
+        "group": [
+            "Blad"
+        ],
+        "name": "Större klintsäckmal",
+        "latin": "Coleophora brevipalpella",
+        "slug": "coleophora_brevipalpella",
+        "image": "/img/case/coleophora_brevipalpella-§1-26-3500.jpg",
+        "date": "2026-05-30",
+        "site": "Bruten NR, Gtl",
+        "stage": "case",
+        "plant": "Centaurea jacea",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "26-3500"
     },
     {
         "group": [
@@ -1262,6 +1304,27 @@
         "detMethod": "foto",
         "photographer": "Magnus Unger",
         "bildId": "22-2791"
+    },
+    {
+        "group": [
+            "Skid"
+        ],
+        "name": "Kilstreckad klintsäckmal",
+        "latin": "Coleophora conspicuella",
+        "slug": "coleophora_conspicuella",
+        "image": "/img/case/coleophora_conspicuella-§1-26-2146.jpg",
+        "date": "2026-05-30",
+        "site": "Bruten NR, Gtl",
+        "stage": "case",
+        "plant": "Centaurea jacea",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2026,
+        "detBy": "Magnus Unger",
+        "detMethod": "foto",
+        "photographer": "Magnus Unger",
+        "bildId": "26-2146"
     },
     {
         "group": [
@@ -2132,7 +2195,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/case/coleophora_therinella-§1-23-9550.jpg",
@@ -2153,7 +2216,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Dubbellinjerad tistelsäckmal",
+        "name": "Dubbellinjerad säckmal",
         "latin": "Coleophora therinella",
         "slug": "coleophora_therinella",
         "image": "/img/case/coleophora_therinella-§2-23-8406.jpg",
@@ -2405,7 +2468,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Gullinjerad gullrissäckmal",
+        "name": "Linjerad röllikesäckmal",
         "latin": "Coleophora trochilella",
         "slug": "coleophora_trochilella",
         "image": "/img/case/coleophora_trochilella-§1-23-3644.jpg",
@@ -2447,7 +2510,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Större röllikasäckmal",
+        "name": "Större röllikesäckmal",
         "latin": "Coleophora expressella",
         "slug": "coleophora_expressella",
         "image": "/img/case/coleophora_expressella-§1-23-6618.jpg",
@@ -2573,7 +2636,7 @@
         "group": [
             "Rör"
         ],
-        "name": "Mindre röllikasäckmal",
+        "name": "Mindre röllikesäckmal",
         "latin": "Coleophora argentula",
         "slug": "coleophora_argentula",
         "image": "/img/case/coleophora_argentula-§1-21-0553.jpg",
@@ -2610,6 +2673,90 @@
         "detMethod": "foto",
         "photographer": "Magnus Unger",
         "bildId": "23-8286"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Smalvingad mållesäckmal",
+        "latin": "Coleophora vestianella",
+        "slug": "coleophora_vestianella",
+        "image": "/img/case/coleophora_vestianella-§1-25-3189.jpg",
+        "date": "2025-09-13",
+        "site": "Ölands Norra Udde, Öl",
+        "stage": "case",
+        "plant": "Atriplex glabriuscula",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2026,
+        "detBy": "Mårten Klinth",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "25-3189"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Smalvingad mållesäckmal",
+        "latin": "Coleophora vestianella",
+        "slug": "coleophora_vestianella",
+        "image": "/img/case/coleophora_vestianella-§2-25-5082.jpg",
+        "date": "2025-09-13",
+        "site": "Höge Ås, Öl",
+        "stage": "case",
+        "plant": "Chenopodium album",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 2,
+        "detYear": 2026,
+        "detBy": "Mårten Klinth",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "25-5082"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Kustmållesäckmal",
+        "latin": "Coleophora atriplicis",
+        "slug": "coleophora_atriplicis",
+        "image": "/img/case/coleophora_atriplicis-§1-25-2467.jpg",
+        "date": "2025-09-13",
+        "site": "Ölands Norra Udde, Öl",
+        "stage": "case",
+        "plant": "Atriplex littoralis",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2026,
+        "detBy": "Mårten Klinth",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "25-2467"
+    },
+    {
+        "group": [
+            "Rör"
+        ],
+        "name": "Kustmållesäckmal",
+        "latin": "Coleophora atriplicis",
+        "slug": "coleophora_atriplicis",
+        "image": "/img/case/coleophora_atriplicis-§1-25-3255.jpg",
+        "date": "2025-09-13",
+        "site": "Ölands Norra Udde, Öl",
+        "stage": "case",
+        "plant": "Atriplex littoralis",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "detYear": 2026,
+        "detBy": "Mårten Klinth",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "25-3255"
     },
     {
         "group": [
