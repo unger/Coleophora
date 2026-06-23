@@ -644,8 +644,7 @@
         "wingSpanMax": 0,
         "hasImage": false,
         "slugSv": "stinksyskesäckmal",
-        "slug": "coleophora_lineolea",
-        "redlist": "NT"
+        "slug": "coleophora_lineolea"
     },
     {
         "artId": 733,
