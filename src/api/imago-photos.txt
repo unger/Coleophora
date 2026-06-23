@@ -2124,6 +2124,27 @@
     },
     {
         "group": [
+            "F"
+        ],
+        "name": "Absintsäckmal",
+        "latin": "Coleophora absinthii",
+        "slug": "coleophora_absinthii",
+        "image": "/img/coleophora_absinthii-1§-25-1026.jpg",
+        "date": "2025-08-08",
+        "site": "Höge ås, Öl",
+        "stage": "imago",
+        "wingspan": 0,
+        "unsure": false,
+        "specimen": 1,
+        "gender": "female",
+        "detYear": 2026,
+        "detBy": "Mårten Klinth",
+        "detMethod": "barcode",
+        "photographer": "Magnus Unger",
+        "bildId": "25-1026"
+    },
+    {
+        "group": [
             "F",
             "G"
         ],
